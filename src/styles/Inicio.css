@@ -1,16 +1,69 @@
 .portada {
     height: 500px;
     width: 100%;
-    background-color: brown;
+    background-image: url("https://fnsi.com.mx/wp-content/uploads/2020/06/GYM-17-1024x731.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .descripcion {
     width: 800px;
     height: 200px;
-    background-color: aqua;
+    background-color: white;
     position: relative;
     bottom: 100px;
     left: 280px;
+    border-radius: 10px;
+}
+
+
+
+/* estilos de las cajas de categorias */
+.divCategorias1 {
+    height: 300px;
+    width: 100%;
+    background-image: url("https://www.ericfavre.com/lifestyle/es/wp-content/uploads/sites/8/2021/09/meilleurs-exercice-pecs-1024x683-1.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+
+.divCategorias1 div{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.571);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divCategorias2 {
+    height: 300px;
+    width: 100%;
+    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/body-building-workout-royalty-free-image-1578389334.jpg?crop=1.00xw:0.752xh;0,0.109xh&resize=1200:*");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.divCategorias2 div{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.571);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divCategorias3 {
+    height: 300px;
+    width: 100%;
+    background-color: brown;
     border-radius: 10px;
 }
 

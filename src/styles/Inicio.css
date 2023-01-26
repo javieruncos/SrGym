@@ -1,7 +1,7 @@
 .portada {
-    height: 500px;
+    height: 660px;
     width: 100%;
-    background-image: url("https://fnsi.com.mx/wp-content/uploads/2020/06/GYM-17-1024x731.jpg");
+    background-image: url("https://as01.epimg.net/deporteyvida/imagenes/2017/08/16/portada/1502884201_675397_1502884464_noticia_normal.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,16 +10,30 @@
 .descripcion {
     width: 800px;
     height: 200px;
-    background-color: white;
+    background-color:#FFFB12;
     position: relative;
     bottom: 100px;
     left: 280px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
 }
 
-
-
 /* estilos de las cajas de categorias */
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.card:hover{
+    scale: 1.1 ;
+}
+
 .divCategorias1 {
     height: 300px;
     width: 100%;
@@ -27,17 +41,6 @@
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-}
-
-
-.divCategorias1 div{
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.571);
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .divCategorias2 {
@@ -50,25 +53,60 @@
     border-radius: 10px;
 }
 
-.divCategorias2 div{
+.divCategorias3 {
+    height: 300px;
+    width: 100%;
+   background-image:url("https://i.blogs.es/880511/istock-1291082333/450_1000.webp") ;
+    border-radius: 10px;
+}
+
+
+.divCategorias4 {
+    height: 300px;
+    width: 100%;
+    background-image:url("https://www.dir.cat/blog/wp-content/uploads/2017/05/entrenament_biceps_exercici1.jpg") ;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.divCategorias5 {
+    height: 300px;
+    width: 100%;
+    background-image:url("https://www.cambiatufisico.com/wp-content/uploads/triceps-1-696x392.jpg") ;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.divCategorias6 {
+    height: 300px;
+    width: 100%;
+    background-image:url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/man-exercising-with-dumbbells-royalty-free-image-1617095570.?crop=0.669xw:1.00xh;0.277xw,0&resize=1200:*") ;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.tituloCategorias{
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.571);
+    background-color: rgba(0, 0, 0, 0.688);
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.divCategorias3 {
-    height: 300px;
-    width: 100%;
-    background-color: brown;
-    border-radius: 10px;
-}
-
 
 @media all and (max-width:570px) {
+
+    .portada{
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+
     .descripcion {
         display: none;
     }

@@ -10,3 +10,12 @@
 .mainSection{
   flex-grow: 1;
 }
+
+.LinkMenu{
+  color:#FFFB12 ;
+  text-decoration: none;
+}
+
+.titulos{
+  color:#FFFB12 ;
+}

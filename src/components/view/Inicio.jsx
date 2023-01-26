@@ -9,24 +9,9 @@ const Inicio = () => {
         <article>
           <div>
             <div className="portada"></div>
-            <div className="descripcion row">
-              <div className="col-12 col-md-6">
-                <div className=" mt-4  w-100">
-                  <h1>titulo mas otra cosa</h1>
-                </div>
-              </div>
-              <div className="col-12 col-md-6">
-                <div
-                  className="d-flex justify-content-center align-items-center w-100"
-                  style={{ height: 200 }}
-                >
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
-                    veniam corporis sint quibusdam assumenda nobis cupiditate,
-                    aspernatur natus voluptatum sequi odit culpa non impedit
-                    totam labore reprehenderit cum hic doloribus!
-                  </p>
-                </div>
+            <div className="descripcion ">
+              <div className="text-center">
+               <h1 className="display-1">SR GYM</h1>
               </div>
             </div>
           </div>
@@ -37,28 +22,51 @@ const Inicio = () => {
           <div>
             <div>
               <div className="text-center">
-                <h4 className="display-4">categorias tren superior</h4>
+                <h4 className="display-4 titulos"> Tren superior</h4>
               </div>
             </div>
           </div>
-          <div className="row text-warning mt-5">
-             <div className="col-12 col-md-4 col-lg-4">
+          <div className=" cards text-light mt-5">
+             <div className="card">
                <div className="divCategorias1">
-                <div>
+                <div className="tituloCategorias">
                 <h3>PECTORALES</h3>
                 </div>
                </div>
              </div>
-             <div className="col-12 col-md-4 col-lg-4">
+             <div className="card">
               <div className="divCategorias2 ">
-                <div>
+                <div className="tituloCategorias">
                  <h3>ESPALDA</h3>
                 </div>
               </div>
              </div>
-             <div className="col-12 col-md-4 col-lg-4">
+             <div className="card">
               <div className="divCategorias3">
-              <h3>HOMBROS</h3>
+                <div className="tituloCategorias">
+                <h3>HOMBROS</h3>
+                </div>
+              </div>
+             </div>
+             <div className="card">
+              <div className="divCategorias4">
+                <div className="tituloCategorias">
+                <h3>BICEPS</h3>
+                </div>
+              </div>
+             </div>
+             <div className="card">
+              <div className="divCategorias5">
+                <div className="tituloCategorias">
+                <h3>TRICEPS</h3>
+                </div>
+              </div>
+             </div>
+             <div className="card">
+              <div className="divCategorias6">
+                <div className="tituloCategorias">
+                <h3>ANTEBRAZOS</h3>
+                </div>
               </div>
              </div>
           </div>

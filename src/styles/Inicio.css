@@ -98,7 +98,86 @@
     align-items: center;
 }
 
+/* estilos del plan de entrenamiento */
+.divPlanes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    
+}
 
+
+
+.planes{
+    height: 300px;
+    width: 500px;
+    background-color: aqua;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+}
+
+.planes div{
+    height: 100%;
+    width: 75%;
+    background-color: blue;
+}
+
+
+div .planBlack{
+    height: 100px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+
+div .precio{
+    background-color: chartreuse;
+    height: 100px;
+    width: 75%;
+    position: relative;
+    bottom: 50px;
+    left: 40px;
+}
+
+/* estilos de la seccion de la aplicacion movil */
+.divApp{
+    width: 100%;
+    height: 600px;
+    /* background-color: white; */
+    margin-top: 50px;
+}
+
+.colApp{
+    height: 600px;
+    width: 100%;
+    /* background-color: #0f0e0c; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+.colApp2{
+    height: 600px;
+    width: 100%;
+    /* background-color: #0f0e0c; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.colApp2 img{
+    height: 500px;
+    width: 100%;
+}
+
+/* medias queries */
 @media all and (max-width:570px) {
 
     .portada{
@@ -110,4 +189,22 @@
     .descripcion {
         display: none;
     }
+
+    /* plan */
+    .planes{
+        height: 300px;
+        width: 350px;
+        background-color: aqua;
+       margin-top: 20px;
+    }
+    
+    div .precio{
+        background-color: chartreuse;
+        height: 100px;
+        width: 75%;
+        position: relative;
+        bottom: 50px;
+        left: 35px;
+    }
+    
 }

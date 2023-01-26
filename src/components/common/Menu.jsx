@@ -7,7 +7,7 @@ const Menu = () => {
     <div>
       <Navbar bg="dark" expand="lg" className="">
         <Container>
-          <Navbar.Brand href="#home" className="text-warning">React-Bootstrap</Navbar.Brand>
+          <Navbar.Brand href="#home" className="text-yellow">SR GYM</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">

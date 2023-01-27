@@ -1,13 +1,14 @@
 import React from 'react';
+import "../../styles/Inferior.css";
 
-const Categorias = () => {
+const CategoriaInferior = () => {
     return (
         <section className="container text-light mt-5">
         <article>
           <div>
             <div>
               <div className="text-center">
-                <h4 className="display-4 titulos"> Tren superior</h4>
+                <h4 className="display-4 titulos"> Tren Inferior</h4>
               </div>
             </div>
           </div>
@@ -15,42 +16,42 @@ const Categorias = () => {
              <div className="card">
                <div className="divCategorias1">
                 <div className="tituloCategorias">
-                <h3>PECTORALES</h3>
+                <h3>CUADRICEPS</h3>
                 </div>
                </div>
              </div>
              <div className="card">
               <div className="divCategorias2 ">
                 <div className="tituloCategorias">
-                 <h3>ESPALDA</h3>
+                 <h3>FEMORALES</h3>
                 </div>
               </div>
              </div>
              <div className="card">
               <div className="divCategorias3">
                 <div className="tituloCategorias">
-                <h3>HOMBROS</h3>
+                <h3>GLUTEOS</h3>
                 </div>
               </div>
              </div>
              <div className="card">
               <div className="divCategorias4">
                 <div className="tituloCategorias">
-                <h3>BICEPS</h3>
+                <h3>PANTORRILLAS</h3>
                 </div>
               </div>
              </div>
              <div className="card">
               <div className="divCategorias5">
                 <div className="tituloCategorias">
-                <h3>TRICEPS</h3>
+                <h3>ADUPTORES</h3>
                 </div>
               </div>
              </div>
              <div className="card">
               <div className="divCategorias6">
                 <div className="tituloCategorias">
-                <h3>ANTEBRAZOS</h3>
+                <h3>HIIT</h3>
                 </div>
               </div>
              </div>
@@ -60,4 +61,4 @@ const Categorias = () => {
     );
 };
 
-export default Categorias;
+export default CategoriaInferior;

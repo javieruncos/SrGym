@@ -1,6 +1,8 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import "../../styles/Cliente.css";
+import CategoriaInferior from "../ejercicios/CategoriaInferior";
+import Categorias from "../ejercicios/Categorias"
 
 const EspacioCliente = () => {
   return (
@@ -20,6 +22,17 @@ const EspacioCliente = () => {
           </div>
         </div>
       </div>
+      {/* seccion donde mostraremos las categorias de ejercicios */}
+      <section className="container mt-4">
+        <article>
+            <div>
+                <h2 className="text-center display-4 titulos">Rutinas</h2>
+                <p className="text-center text-light fs-4">Entrena de la mejor manera con nuestra guia completa de ejercicios</p>
+            </div>
+            <Categorias></Categorias>
+            <CategoriaInferior></CategoriaInferior>
+        </article>
+      </section>
     </div>
   );
 };

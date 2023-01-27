@@ -197,6 +197,20 @@
     width: 100%;
 }
 
+/*ESPACIO FIT SECCIOM 3  */
+.espacioFit{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+
+.espacioFit div{
+    width: 300px;
+    height: 300px;
+    background-color: #FFFB12;
+    margin-top: 30px
+}
+
+
 /* medias queries */
 @media all and (max-width:570px) {
 

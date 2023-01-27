@@ -33,6 +33,7 @@ const Inicio = () => {
             </div>
           </div>
           <div>
+            {/* seccion planes de entrenamiento */}
             <div className="divPlanes container mt-5">
               <div className="planes">
                 <div className="descripcionPlan">
@@ -94,7 +95,8 @@ const Inicio = () => {
           </div>
         </article>
       </section>
-      <article className="container">
+      {/* seccion de aplicacion movil */}
+      <div className="container">
         <div className="divApp container">
           <div className="container">
             <h2 className="display-6">
@@ -117,7 +119,36 @@ const Inicio = () => {
             />
           </div>
         </div>
-      </article>
+      </div>
+      {/* seccion de espacio fitness */}
+      <section className="container mt-5">
+        <article className="text-light">
+           <div className="text-center">
+            <h4 className="display-4">Todo lo que <span className="text-yellow">necesitas</span></h4>
+           <p className="fs-4"> Un ecosistema de fitness que ofrece más libertad a la hora de entrenar.</p>
+           </div>
+           <div className="espacioFit">
+             <div>
+              <img src={require("../../img/salon.jpg")} alt="salon" className="w-100"/>
+             </div>
+             <div>
+             <img src={require("../../img/salon2.jpg")} alt="salon" className="w-100"/>
+             </div>
+             <div>
+             <img src={require("../../img/salon3.webp")} alt="salon" className="w-100"/>
+             </div>
+             <div>
+             <img src="https://cdn.smartfit.com.br/nossa-smart/img_cover_academia_cardio.jpg" alt="salon" className="w-100"/>
+             </div>
+             <div>
+             <img src="https://cdn.smartfit.com.br/nossa-smart/img_cover_academia_fitness-app-cl.jpg" alt="salon" className="w-100"/>
+             </div>
+             <div>
+             <img src="https://cdn.smartfit.com.br/nossa-smart/img_cover_academia_fitness-remote-cl.jpg" alt="salon" className="w-100"/>
+             </div>
+           </div>
+        </article>
+      </section>
     </div>
   );
 };

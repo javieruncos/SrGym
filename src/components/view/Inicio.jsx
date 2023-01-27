@@ -67,11 +67,11 @@ const Inicio = () => {
                 <div className="descripcionPlan">
                   <div className="planBlack bg-Plan">
                     <span className="text-light">PLAN</span>
-                    <h3 className=" display-6">BLACK</h3>
+                    <h3 className=" display-6">SMART</h3>
                   </div>
                   <div className="precio bg-Plan2">
                     <span className="text-light">DESDE</span>
-                    <h3 className="fs-1 fw-bold textoPlan">$ 5199</h3>
+                    <h3 className="fs-1 fw-bold textoPlan">$ 4499</h3>
                   </div>
                   <div className="text-center">
                     <p>
@@ -81,12 +81,12 @@ const Inicio = () => {
                     <p>Acceso a todas las áreas del gimnasio</p>
                     <hr />
                     <span className="fw-bold">SMART GO</span>
-                    <p>Invitar un amigo a entrenar</p>
+                    <p>Sin cargo de cancelación</p>
                     <p>
                       Área de peso libre, peso integrado, cardio y clases
                       grupales
                     </p>
-                    <p>Acceso a otras sedes de la cadena</p>
+                    <p>Acceso a una sede de la cadena</p>
                     <button className="btn btn-dark">INSCRIBITE YA</button>
                   </div>
                 </div>
@@ -99,6 +99,7 @@ const Inicio = () => {
       <div className="container">
         <div className="divApp container">
           <div className="container">
+            <div className="mt-5">
             <h2 className="display-6">
               Proximamente Smart fit App una experiencia de entrenamiento
               completa dentro y fuera del gimnasio
@@ -109,7 +110,17 @@ const Inicio = () => {
               gratis la aplicación Smart Fit , obtienes el mejor aliado para tu
               rutina de entrenamiento! Exclusivo para clientes.
             </p>
+            </div>
+            <div className=" d-flex justify-content-center gap-5 my-4">
+            <div>
+                <img src="https://assets.smartfit.com.br/production/newHome/google-play-badge-es.png" alt="" />
+               </div>
+               <div>
+                <img src="https://assets.smartfit.com.br/production/newHome/google-play-badge-es.png" alt="" />
+               </div>
+            </div>
           </div>
+          
           <div className="container">
             <img
               src="https://assets.smartfit.com.br/production/newHome/img-smartphone-es.png"

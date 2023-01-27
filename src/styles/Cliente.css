@@ -1,0 +1,53 @@
+.portadaCliente{
+    height: 500px;
+    width: 100%;
+    background-image: url("https://mercadofitness.com/ar/wp-content/uploads/2021/03/Cadena-Gimnasios-SmartFit-Brasil.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tituloPortadaCliente{
+    height: 500px;
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.62);
+    display:flex ;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tituloPortadaCliente div{
+   
+    width: 50%;
+    margin-left: 50px;
+    
+   
+}
+
+
+@media screen and (max-width:776px){
+    .portadaCliente{
+        height: 206px;
+        width: 100%;
+      
+    }
+
+    .tituloPortadaCliente{
+        height: 206px;
+        width: 100%;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.62);
+        display:flex ;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tituloPortadaCliente div{
+        height: 76%;
+        width: 334px;
+        font-size: 10px;
+        
+       
+    }
+}

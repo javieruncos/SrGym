@@ -11,9 +11,6 @@
     color: #FFFB12;
 }
 
-
-
-
 .descripcion {
     width: 750px;
     height: 200px;
@@ -175,21 +172,14 @@
 }
 /* estilos de la seccion de la aplicacion movil */
 .divApp{
-   
+    color: white;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     gap: 20px;
     margin-top: 100px;
 }
 
-.divApp div{
-    height: 500px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+
 
 
 .colImg{
@@ -211,8 +201,20 @@
 }
 
 
+
+               
+.divApp .appStore{
+    background-color: brown;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 /* medias queries */
-@media all and (max-width:570px) {
+@media screen and (max-width:767px) {
 
     .portada{
         height: 300px;
@@ -220,16 +222,22 @@
         margin-bottom: 20px;
     }
 
-
     .descripcion {
-        display: none;
+        width: 230px;
+        height: 84px;
+        background-color: #FFFB12;
+        position: relative;
+        bottom: 53px;
+        left: 85px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-
     /* plan */
     .planes{
         height: 650px;
         width: 100%;
-        background-color: aqua;
        margin-top: 20px;
     }
     
@@ -242,6 +250,73 @@
         margin-left: 0px;
     }
 
+    .divApp {
+        margin-top: 83px;
+        margin-bottom: 103px;
+    }
+
+    .espacioFit div {
+        width: 383px;
+        height: 300px;
+        margin-top: 122px;
+    }
     
+}
+
+
+@media screen and (min-width:767px) and (max-width:991px){
+
+    .portada {
+        height: 443px;
+        width: 100%;
+       
+    }
+
+    .divApp {
+        margin-top: 96px;
+        margin-bottom: 73px;
+    }
+
+    .descripcion {
+        width: 472px;
+        height: 117px;
+        position: relative;
+        bottom: 59px;
+        left: 180px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .planes {
+        height: 619px;
+        width: 299px;
+      
+    }
+
+    .descripcionPlan {
+        height: 100%;
+        width: 100%;
+        
+    }
+
+    .precio {
+       
+        left: 32px;
+        
+    }
+
+    .espacioFit div {
+        width: 325px;
+        height: 300px;
+        background-color: #FFFB12;
+        margin-top: 31px;
     
+    }
+
+    .espacioFit{
+        gap: 35px;
+        height: 110%;
+    }
 }

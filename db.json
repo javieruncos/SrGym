@@ -1,0 +1,11 @@
+{
+    "Ejercicios":[
+        {
+           "categoria":"inferior",
+           "ejercicio":"sentadilla",
+           "series": "5",
+           "repeticiones":"12,10,8,6,6",
+           "id":1
+        }
+    ]
+}

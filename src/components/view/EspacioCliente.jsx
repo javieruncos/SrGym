@@ -1,5 +1,4 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import "../../styles/Cliente.css";
 import CategoriaInferior from "../ejercicios/CategoriaInferior";
 import Categorias from "../ejercicios/Categorias"

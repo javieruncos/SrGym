@@ -10,7 +10,7 @@
     transition: 1s ease;
 }
 
-.divCategorias1 {
+.divCategorias-inferior1 {
     height: 300px;
     width: 100%;
     background-image: url("https://i.ytimg.com/vi/Xv4qExTKxbU/maxresdefault.jpg");
@@ -19,7 +19,7 @@
     border-radius: 10px;
 }
 
-.divCategorias2 {
+.divCategorias-inferior2 {
     height: 300px;
     width: 100%;
     background-image: url("https://blogscdn.thehut.net/app/uploads/sites/450/2021/12/shutterstock_1471492208-1-ftt-min_1639666672-700x392_1640697637.jpg");
@@ -29,7 +29,7 @@
     border-radius: 10px;
 }
 
-.divCategorias3 {
+.divCategorias-inferior3 {
     height: 300px;
     width: 100%;
    background-image:url("https://www.semana.com/resizer/pdY3stwBq_cl0rdJbZIZ6rDPLKY=/480x270/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/NLWHF3DRGNEWLE5OEUW3GBT43Q.jpg") ;
@@ -40,7 +40,7 @@
 }
 
 
-.divCategorias4 {
+.divCategorias-inferior4 {
     height: 300px;
     width: 100%;
     background-image:url("https://www.dir.cat/blog/wp-content/uploads/2017/05/entrenament_biceps_exercici1.jpg") ;
@@ -49,7 +49,7 @@
     border-radius: 10px;
 }
 
-.divCategorias5 {
+.divCategorias-inferior5 {
     height: 300px;
     width: 100%;
     background-image:url("https://www.objetivobienestar.com/uploads/s1/19/01/19/8/como-estirar-los-abductores-correctamente.jpeg") ;
@@ -58,7 +58,7 @@
     border-radius: 10px;
 }
 
-.divCategorias6 {
+.divCategorias-inferior6 {
     height: 300px;
     width: 100%;
     background-image:url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/man-exercising-with-dumbbells-royalty-free-image-1617095570.?crop=0.669xw:1.00xh;0.277xw,0&resize=1200:*") ;

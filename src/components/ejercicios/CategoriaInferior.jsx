@@ -13,43 +13,43 @@ const CategoriaInferior = () => {
             </div>
           </div>
           <div className=" cards text-light mt-5">
-             <div className="card">
-               <div className="divCategorias1">
+             <a href='/cuadriceps' className="card">
+               <div className="divCategorias-inferior1">
                 <div className="tituloCategorias">
                 <h3>CUADRICEPS</h3>
                 </div>
                </div>
-             </div>
+             </a>
              <div className="card">
-              <div className="divCategorias2 ">
+              <div className="divCategorias-inferior2 ">
                 <div className="tituloCategorias">
                  <h3>FEMORALES</h3>
                 </div>
               </div>
              </div>
              <div className="card">
-              <div className="divCategorias3">
+              <div className="divCategorias-inferior3">
                 <div className="tituloCategorias">
                 <h3>GLUTEOS</h3>
                 </div>
               </div>
              </div>
              <div className="card">
-              <div className="divCategorias4">
+              <div className="divCategorias-inferior4">
                 <div className="tituloCategorias">
                 <h3>PANTORRILLAS</h3>
                 </div>
               </div>
              </div>
              <div className="card">
-              <div className="divCategorias5">
+              <div className="divCategorias-inferior5">
                 <div className="tituloCategorias">
                 <h3>ADUPTORES</h3>
                 </div>
               </div>
              </div>
              <div className="card">
-              <div className="divCategorias6">
+              <div className="divCategorias-inferior6">
                 <div className="tituloCategorias">
                 <h3>HIIT</h3>
                 </div>

@@ -14,9 +14,9 @@ const Categorias = () => {
           <div className=" cards text-light mt-5">
              <div className="card">
                <div className="divCategorias1">
-                <div className="tituloCategorias">
+                <a href='/pectorales' className="tituloCategorias">
                 <h3>PECTORALES</h3>
-                </div>
+                </a>
                </div>
              </div>
              <div className="card">

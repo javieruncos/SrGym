@@ -1,11 +1,31 @@
 {
     "Ejercicios":[
         {
-           "categoria":"inferior",
-           "ejercicio":"sentadilla",
+           "categoria":"pectorales",
+           "ejercicio":"Pecho plano ",
+           "image":"https://nutricion360.es/wp-content/uploads/2019/08/cropped-press-de-pecho-en-banca-tecnica-1200x900.jpg",
            "series": "5",
            "repeticiones":"12,10,8,6,6",
+           "tecnica":"Para iniciar la realización del ejercicio es necesario acostarse en un banco plano con los glúteos, caderas y hombros sobre el banco. Los pies deben apoyarse en suelo, separados un poco más allá del ancho de lo hombros. Con las manos debemos tomar la barra de manera que las palmas miren hacia adelante, es decir, en pronación, y separadas ligeramente más allá de la anchura de los hombros.El brazo y el antebrazo deben formar un ángulo de 90º, por lo que debemos flexionar el codo de manera que la barra tomada con las manos quede exactamente encima del pecho.Desde allí debemos inspirar y descender lentamente la barra hacia el pecho, sin despegar la espalda del banco. Una vez la barra esté sobre el pecho debemos empujar hacia arriba mientras espiramos y subimos lentamente los brazos.",
            "id":1
+        },
+        {
+            "categoria":"pectorales",
+            "ejercicio":"Pecho declinado con mancuernas",
+            "image":"https://atopedegym.com/wp-content/uploads/2020/03/press-con-mancuernas-inclinado-min.jpg",
+            "series": "5",
+            "repeticiones":"12,10,8,6,6",
+            "tecnica":"Press de banca inclinado con mancuernas Túmbate en un banco inclinado, con la espalda bien apoyada. Coge un par de mancuernas y llévalas por encima de tu cabeza hasta que los brazos estén totalmente extendidos. Vuelve a bajarla hasta que rocen tus hombros. Haz una pausa y levántalas de nuevo. ",
+            "id":2
+        },
+        {
+            "categoria":"pectorales",
+            "ejercicio":"Pecho inclinado con barra",
+            "image":"https://mundoentrenamiento.com/wp-content/uploads/2022/12/press-banca-inclinado.jpg",
+            "series": "5",
+            "repeticiones":"12,10,8,6,6",
+            "tecnica":"Nos aseguramos que nuestras piernas están enganchadas en los tornos de seguridad del banco. Utilizaremos un agarre un poco más ancho  que los hombros con las palmas de las manos mirando hacia delante.Levantamos la barra y  mantenemos extendidos los brazos anclandolos.(si tenemos a un compañero que nos ayude a sacar la barra mejor, debido a que sacándola nosotros mismos  sufrirá bastante los manguitos rotadores). Inspiramos, y descendemos lentamente la barra hasta que roce  la parte inferior de nuestro pecho.Levantamos la barra de nuevo hasta la posición inicial y  expiramos en la parte más díficil de la subida .Aguantamos 1 segundo con los brazos extendidos para posteriormente volver a bajar y repetir el movimiento",
+            "id":3
         }
     ]
 }

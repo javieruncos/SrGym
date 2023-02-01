@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import Menu from './components/common/Menu';
 import Inicio from './components/view/Inicio';
 import EspacioCliente from './components/view/EspacioCliente';
-import Cuadriceps from './components/pages/Cuadriceps';
+import Pectorales from './components/pages/Pectorales';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Inicio></Inicio>}></Route>
         <Route exact path='/cliente' element={<EspacioCliente></EspacioCliente>}></Route>
-        <Route exact path='/cuadriceps' element={<Cuadriceps></Cuadriceps>}></Route>
+        <Route exact path='/pectorales' element={<Pectorales></Pectorales>}></Route>
       </Routes>
       </BrowserRouter>
     </div>

@@ -1,0 +1,25 @@
+.rutina{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.rutina div{
+    border: 1px solid grey;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFB12;
+}
+
+Table{
+    border: 1px solid grey;
+}
+
+td ,th{
+    border: 1px solid grey;
+}

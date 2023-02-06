@@ -1,17 +1,20 @@
 import React from "react";
-import { usePectorales } from "../../hooks/usePectorales";
+import { useEffect,useState } from "react";
 import CardEjercicio from "../ejercicios/CardEjercicio";
+import {useEspaldaHook} from "../../hooks/rutinas"
 
-const Pectorales = () => {
-  const { pectorales } = usePectorales();
 
+const Espalda = () => {
+  
+   const {ejerciciosEspalda} = useEspaldaHook()
+  
   return (
     <div className="container">
       <div className=" mt-5 text-light">
-        <h2 className="text-center">Ejercicios para Pectorales</h2>
+        <h2 className="text-center">Ejercicios para Espalda</h2>
       </div>
       <div className="row">
-        {pectorales.map((item) => (
+        {ejerciciosEspalda.map((item) => (
           <CardEjercicio ejercicios={item} key={item.id}></CardEjercicio>
         ))}
       </div>
@@ -19,4 +22,4 @@ const Pectorales = () => {
   );
 };
 
-export default Pectorales;
+export default Espalda;

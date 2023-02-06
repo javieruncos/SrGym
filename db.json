@@ -26,6 +26,51 @@
             "repeticiones":"12,10,8,6,6",
             "tecnica":"Nos aseguramos que nuestras piernas están enganchadas en los tornos de seguridad del banco. Utilizaremos un agarre un poco más ancho  que los hombros con las palmas de las manos mirando hacia delante.Levantamos la barra y  mantenemos extendidos los brazos anclandolos.(si tenemos a un compañero que nos ayude a sacar la barra mejor, debido a que sacándola nosotros mismos  sufrirá bastante los manguitos rotadores). Inspiramos, y descendemos lentamente la barra hasta que roce  la parte inferior de nuestro pecho.Levantamos la barra de nuevo hasta la posición inicial y  expiramos en la parte más díficil de la subida .Aguantamos 1 segundo con los brazos extendidos para posteriormente volver a bajar y repetir el movimiento",
             "id":3
+        },
+        {
+            "categoria":"pectorales",
+            "ejercicio":"Aperturas inclinada con mancuernas ",
+            "image":"https://www.onlinepersonaltrainer.es/wp-content/uploads/imagenesejercicios/50_1_2.jpg",
+            "series": "4",
+            "repeticiones":"12,10,8,6",
+            "tecnica":"Sujeta las mancuernas con las palmas mirando hacia el centro. Lo ideal sería estar recostado en un banco, puede ser plano, inclinado o declinado.Mantén la espalda erguida durante todo el entrenamiento y evitarás dolor en los hombros.Estira los brazos hacia arriba y luego flexiona los codos hasta que se encuentren al nivel de tus hombros y los codos pasen de estosPosteriormente, debes volver a extender los brazos hasta la posición inicial con una ligera flexión en los codos. De este modo, se pueden evitar las lesiones en las articulaciones. Al mismo tiempo, cuentan con la oportunidad de sacar el mayor provecho al trabajo realizado.",
+            "id":4
+        },
+        {
+            "categoria":"espalda",
+            "ejercicio":"Remo con mancuernas ",
+            "image":"https://i0.wp.com/deportesaludable.com/wp-content/uploads/2020/01/remo-e1578826136547.jpg?fit=999%2C599&ssl=1",
+            "series": "4",
+            "repeticiones":"12,10,8,6",
+            "tecnica":"Para realizar este ejercicio debemos comenzar tomando una mancuerna con una mano y apoyando la rodilla y la palma de la mano del lado opuesto sobre un banco plano.  La espalda estará fija y el brazo que posee el peso debe quedar extendido por el lateral del cuerpo. Desde esta posición inicial y conservando la espalda fija, debemos inspirar y tirar de la mancuerna para elevarla hacia la espalda mientras el brazo permanece paralelo al cuerpo, llevando el codo bien atrás para imitar el gesto de remo. Espiramos al final del movimiento mientras descendemos nuevamente el peso, de manera lenta.",
+            "id":5
+        },
+        {
+            "categoria":"espalda",
+            "ejercicio":"Remo en polea baja ",
+            "image":"https://www.mundofitness.com/wp-content/uploads/Seated-cable-row.png?x53934",
+            "series": "4",
+            "repeticiones":"12,10,8,6",
+            "tecnica":"Apoyamos los pies en al plataforma y con las rodillas flexionadas y la espalda bien recta tomamos el maneral con ambas manos para dar inicio al ejercicio.Los brazos en la posición inicial deben quedar extendidos, sujetados a la polea baja mediante el maneral y el torso debe permanecer erguido. Sin movilizar el torso, jalamos del maneral llevando hacia atrás los codos mientras inspiramos, hasta que el maneral queda justo frente al esternón.Después espiramos el aire mientras regresamos las manos a la posición inicial mediante la extensión lenta de los brazos. Nunca debemos curvar la espalda sino que el torso debe movilizarse lo menos posible.",
+            "id":6
+        },
+        {
+            "categoria":"espalda",
+            "ejercicio":"Remo con barra",
+            "image":"https://www.soypowerlifter.com/wp-content/uploads/2020/12/remo-barra_750.jpg",
+            "series": "4",
+            "repeticiones":"12,10,8,6",
+            "tecnica":"Para iniciar el movimiento debemos colocarnos de pie con las rodillas ligeramente flexionadas y el tronco inclinado formando con las piernas un ángulo de 45º. Con la espalda recta y la barra tomada en pronación, con las palmas hacia abajo, separamos las manos de la anchura de los hombros, y dejamos caer los brazos frente al torso.Des de allí inspiramos y efectuamos una contracción abdominal mientras tiramos la barra hacia el pecho para luego espirar y regresar lentamente hacia la posición inicial.",
+            "id":7
+        },
+        {
+            "categoria":"espalda",
+            "ejercicio":"Remo con polea alta",
+            "image":"https://cdn.static.aptavs.com/imagenes/como-hacer-polea-al-pecho-con-agarre-abierto-y-cerrado.png",
+            "series": "4",
+            "repeticiones":"12,10,8,6",
+            "tecnica":"Con la espalda recta inspiramos y tiramos de la barra mientras flexionamos los codos y los descendemos por los lados del cuerpo hasta que la barra llegue a la altura del esternón. Es decir, llevamos la polea hacia el pecho y regresamos lentamente a la posición inicial sin dejar caer el peso de manera brusca.",
+            "id":7
         }
     ]
 }

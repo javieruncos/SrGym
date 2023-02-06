@@ -103,6 +103,10 @@
     align-items: center;
 }
 
+.tituloCategorias:hover{
+  color: #FFFB12;
+}
+
 /* estilos del plan de entrenamiento */
 .divPlanes{
     display: grid;

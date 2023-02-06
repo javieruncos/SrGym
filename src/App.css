@@ -16,6 +16,15 @@
   text-decoration: none;
 }
 
+.LinkCategorias{
+  color:white;
+  text-decoration: none;
+}
+
+LinkCategorias:hover a{
+  color:#FFFB12
+}
+
 .titulos{
   color:#FFFB12 ;
 }

@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/ComponentePectoral.css";
 import { Table } from "react-bootstrap";
 
-const CardEjercicio = ({ ejercicios }) => {
+const CardEjercicio = ({ ejercicios}) => {
   return (
     <>
       <div className="col-12 col-md-6 col-lg-6">
@@ -30,7 +30,7 @@ const CardEjercicio = ({ ejercicios }) => {
                   </tr>
                 </tbody>
               </Table>
-              <div className="text-light">
+              <div className="text-light container">
                 <h5>Como realizar el ejercicio</h5>
                 <p>{ejercicios.tecnica}</p>
               </div>

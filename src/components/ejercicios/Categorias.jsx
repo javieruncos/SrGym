@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Categorias = () => {
     return (
@@ -14,16 +15,16 @@ const Categorias = () => {
           <div className=" cards text-light mt-5">
              <div className="card">
                <div className="divCategorias1">
-                <a href='/pectorales' className="tituloCategorias">
+                <Link to="/pectorales" className="tituloCategorias LinkCategorias">
                 <h3>PECTORALES</h3>
-                </a>
+                </Link>
                </div>
              </div>
              <div className="card">
               <div className="divCategorias2 ">
-                <div className="tituloCategorias">
+                <Link to="/espalda" className="tituloCategorias LinkCategorias">
                  <h3>ESPALDA</h3>
-                </div>
+                </Link>
               </div>
              </div>
              <div className="card">

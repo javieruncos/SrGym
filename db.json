@@ -64,13 +64,31 @@
             "id":7
         },
         {
-            "categoria":"espalda",
+            "categoria":"hombros",
+            "ejercicio":"Vuelo lateral",
+            "image":"https://www.musculaciontotal.com/wp-content/uploads/2015/10/elevacion-laterlar-de-hombros-con-mancuerna.jpg",
+            "series": "4",
+            "repeticiones":"12,10,8,6",
+            "tecnica":"Para comenzar el ejercicio debemos colocarnos de pie, con las piernas ligeramente flexionadas y separadas del ancho de la cadera. La espalda debe permanecer recta y en cada mano debemos sujetar una mancuerna, mientras los brazos permanecen a los lados del cuerpo o delante de los muslos, levemente flexionados.    Tomando aire elevamos las mancuernas hasta que los brazos queden alineados con los hombros y desde allí bajamos lentamente mientras exhalamos.        ",
+            "id":8
+        },
+        {
+            "categoria":"hombros",
+            "ejercicio":"Frontal con mancuernas",
+            "image":"https://blogscdn.thehut.net/wp-content/uploads/sites/450/2019/03/05110352/creatina-alcalina_1200x672_acf_cropped.jpg",
+            "series": "4",
+            "repeticiones":"12,10,8,6",
+            "tecnica":"Las mancuernas deben apoyarse junto a las manos sobre los muslos, ligeramente hacia los costados. Inspiramos y comenzamos a contraer los músculos para elevar un brazo hacia adelante mientras espiramos el aire.Descendemos mientras inhalamos nuevamente y elevamos el brazo contrario. Los brazos deben elevarse hasta formar con el torso un ángulo de 90 grados o hasta la altura de los ojos, no más de allí, y siempre el codo debe estar ligeramente flexionado. Puede realizarse con ambas manos juntas o como en este caso, alternando las elevaciones.",
+            "id":9
+        },
+        {
+            "categoria":"hombros",
             "ejercicio":"Remo con polea alta",
             "image":"https://cdn.static.aptavs.com/imagenes/como-hacer-polea-al-pecho-con-agarre-abierto-y-cerrado.png",
             "series": "4",
             "repeticiones":"12,10,8,6",
             "tecnica":"Con la espalda recta inspiramos y tiramos de la barra mientras flexionamos los codos y los descendemos por los lados del cuerpo hasta que la barra llegue a la altura del esternón. Es decir, llevamos la polea hacia el pecho y regresamos lentamente a la posición inicial sin dejar caer el peso de manera brusca.",
-            "id":7
+            "id":10
         }
     ]
 }

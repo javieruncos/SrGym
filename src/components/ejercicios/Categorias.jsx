@@ -29,9 +29,9 @@ const Categorias = () => {
              </div>
              <div className="card">
               <div className="divCategorias3">
-                <div className="tituloCategorias">
+                <Link to="/hombros" className="tituloCategorias LinkCategorias">
                 <h3>HOMBROS</h3>
-                </div>
+                </Link>
               </div>
              </div>
              <div className="card">

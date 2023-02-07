@@ -89,6 +89,15 @@
             "repeticiones":"12,10,8,6",
             "tecnica":"Con la espalda recta inspiramos y tiramos de la barra mientras flexionamos los codos y los descendemos por los lados del cuerpo hasta que la barra llegue a la altura del esternón. Es decir, llevamos la polea hacia el pecho y regresamos lentamente a la posición inicial sin dejar caer el peso de manera brusca.",
             "id":10
+        },
+        {
+            "categoria":"hombros",
+            "ejercicio":"Posteriores con mancuernas",
+            "image":"https://www.cambiatufisico.com/wp-content/uploads/2009/12/Elevaciones-posteriores-con-Mancuerna.jpg",
+            "series": "4",
+            "repeticiones":"12,10,8,6",
+            "tecnica":"Con los codos ligeramente flexionados, sube ambos brazos hasta que tus antebrazos se ubiquen paralelos al piso. En este momento, haz una breve pausa de uno o dos segundos, para, finalmente, volver a la posición inicial. Repita el movimiento de acuerdo a su rutina.",
+            "id":11
         }
     ]
 }

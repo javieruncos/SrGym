@@ -7,6 +7,7 @@ import EspacioCliente from './components/view/EspacioCliente';
 import Pectorales from './components/pages/Pectorales';
 import Espalda from './components/pages/Espalda';
 import Hombros from './components/pages/Hombros';
+import Biceps from './components/pages/Biceps';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route exact path='/pectorales' element={<Pectorales></Pectorales>}></Route>
         <Route exact path='/espalda' element={<Espalda></Espalda>}></Route>
         <Route exact path='/hombros' element={<Hombros></Hombros>}></Route>
+        <Route exact path='/biceps' element={<Biceps></Biceps>}></Route>
       </Routes>
       </BrowserRouter>
     </div>

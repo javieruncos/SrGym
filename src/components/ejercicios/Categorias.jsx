@@ -36,9 +36,9 @@ const Categorias = () => {
              </div>
              <div className="card">
               <div className="divCategorias4">
-                <div className="tituloCategorias">
+                <Link to="/biceps" className="tituloCategorias LinkCategorias">
                 <h3>BICEPS</h3>
-                </div>
+                </Link>
               </div>
              </div>
              <div className="card">

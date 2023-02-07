@@ -97,7 +97,43 @@
             "series": "4",
             "repeticiones":"12,10,8,6",
             "tecnica":"Con los codos ligeramente flexionados, sube ambos brazos hasta que tus antebrazos se ubiquen paralelos al piso. En este momento, haz una breve pausa de uno o dos segundos, para, finalmente, volver a la posición inicial. Repita el movimiento de acuerdo a su rutina.",
-            "id":11
+            "id":12
+        },
+        {
+            "categoria":"biceps",
+            "ejercicio":"Biceps con barra",
+            "image":"https://mejorconsalud.as.com/fitness/wp-content/uploads/2021/09/postura-curl-barra-z-1024x683.jpg",
+            "series": "4",
+            "repeticiones":"12,10,8,6",
+            "tecnica":"Técnica de ejecución del curl de bíceps con barra Desde esta posición, sin movilizar el tronco y manteniendo los codos a los lados del cuerpo, debemos inspirar y flexionar los codos mientras acercamos la barra al pecho y contraemos glúteos, abdominales y espinales para no mover el tronco.",
+            "id":13
+        },
+        {
+            "categoria":"biceps",
+            "ejercicio":"Biceps con barra",
+            "image":"https://i0.wp.com/dicasdemusculacao.org/wp-content/uploads/2021/12/rosca_banco_scott-1.jpg",
+            "series": "4",
+            "repeticiones":"12,10,8,6",
+            "tecnica":"Sentados sobre la máquina, apoyamos la totalidad de los brazos sobre el pupitre del banco scott y cogemos una barra Z o dos mancuernas con las manos, de manera que las palmas miren hacia arriba. Sin movilizar los brazos y con los mismos estirados mientras sostenemos el peso, comenzamos el ejercicio.Inspiramos y comenzamos flexionando los codos para llevar las manos hacia el pecho junto al peso, espiramos al final del movimiento y regresamos a la posición inicial lentamente, sin extender completamente los brazos.",
+            "id":14
+        },
+        {
+            "categoria":"biceps",
+            "ejercicio":"Biceps sentado con mancuernas",
+            "image":"https://www.onlinepersonaltrainer.es/wp-content/uploads/imagenesejercicios/245_1_2.jpg",
+            "series": "4",
+            "repeticiones":"12,10,8,6",
+            "tecnica":"Contrayendo los bíceps, doble los codos totalmente supinando las manos mientras exhala. Vuelva a la posición inicial con un suave movimiento mientras inhala. CONSEJOS: Mientras hace el ejercicio, mueva solo la articulación del codo, asegúrese de no mover ninguna otra parte de su cuerpo.",
+            "id":15
+        },
+        {
+            "categoria":"biceps",
+            "ejercicio":"Biceps martillo",
+            "image":"https://www.musculaciontotal.com/wp-content/uploads/2015/11/curl-tipo-martillo.jpg",
+            "series": "4",
+            "repeticiones":"12,10,8,6",
+            "tecnica":"Para comenzar el ejercicio nos colocaremos de pie con las rodillas levemente flexionadas y una mancuerna en cada mano, tomadas de manera tal que las palmas se miren entre ellas. Con la espalda recta e intentando no movilizar el brazo y codo sino únicamente el antebrazo, inspiramos y realizamos una flexión de codo con uno de los brazos, conservando la posición de las manos.Las palmas de las manos deben mirar hacia el cuerpo durante todo el recorrido para simular un martillo que sube y baja con la flexión del codo.",
+            "id":16
         }
     ]
 }

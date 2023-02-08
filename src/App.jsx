@@ -10,6 +10,8 @@ import Hombros from './components/pages/Hombros';
 import Biceps from './components/pages/Biceps';
 import Triceps from './components/pages/Triceps';
 import Cuadriceps from './components/pages/Cuadriceps';
+import Femoral from './components/pages/Femoral';
+import Gluteos from './components/pages/Gluteos';
 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
         <Route exact path='/biceps' element={<Biceps></Biceps>}></Route>
         <Route exact path='/triceps' element={<Triceps></Triceps>}></Route>
         <Route exact path='/cuadriceps' element={<Cuadriceps></Cuadriceps>}></Route>
+        <Route exact path='/femoral' element={<Femoral></Femoral>}></Route>
+        <Route exact path='/gluteos' element={<Gluteos></Gluteos>}></Route>
       </Routes>
       </BrowserRouter>
     </div>

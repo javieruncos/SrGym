@@ -183,7 +183,7 @@
         {
             "categoria":"cuadriceps",
             "ejercicio":"Sentadillas con  barra",
-            "image":"https://eresfitness.com/wp-content/uploads/2019/09/Sentadilla-frontal-con-barra.jpg",
+            "image":"https://eresfitness.com/wp-content/uploads/2019/09/Sentadilla-sumo-con-barra.jpg",
             "series": "4",
             "repeticiones":"12,10,8,8",
             "tecnica":"Separa los pies al ancho de los hombros, apoya la barra en tus trapecios (parte alta de la espalda) y desengancha la barra. Da un paso adelante y baja hasta que tus muslos queden paralelos al suelo, aguanta esa posición durante un segundo y vuelve a subir de forma controlada, con los talones pegados al suelo.",
@@ -192,7 +192,7 @@
         {
             "categoria":"cuadriceps",
             "ejercicio":"Extension de cuadriceps",
-            "image":"https://eresfitness.com/wp-content/uploads/2019/09/Sentadilla-frontal-con-barra.jpg",
+            "image":"https://eresfitness.com/wp-content/uploads/2019/09/Extensi%C3%B3n-de-piernas-en-m%C3%A1quina.jpg",
             "series": "4",
             "repeticiones":"12,10,8,8",
             "tecnica":"Siéntate en una silla y apoya los pies en el suelo separados el ancho de las caderas. Mantén la espalda recta.Extiende la rodilla izquierda hacia delante y contrae los músculos del cuádriceps.Vuelve a la posición inicial y repite las veces indicadas.Repite el mismo proceso con la pierna derecha.",
@@ -206,6 +206,78 @@
             "repeticiones":"12,10,8,8",
             "tecnica":"Se debe apoyar planta de los pies sobre la plataforma teniendo las piernas estiradas y separadas a altura de la cadera con los pies paralelos.Contraer abdomen, músculos pélvicos y glúteos para estabilizar zona media.Inspirar al flexionar las piernas y exhalar al extenderlas. Mantener el tronco recto.",
             "id":25
+        },
+        {
+            "categoria":"cuadriceps",
+            "ejercicio":"Estocadas con mancuernas",
+            "image":"https://thumbs.dreamstime.com/b/exercising-estocadas-con-pesas-de-gimnasia-43639121.jpg",
+            "series": "4",
+            "repeticiones":"12,10,8,8",
+            "tecnica":"Con una mancuerna en cada mano, de pie y con la espalda recta adelantar una pierna y descender hacia abajo apoyando la rodilla de la otra pierna. La pierna que se adelanta debe quedar en ángulo de 90 grados cuando se produce el descenso. Volver a la posición inicial y repetir con la pierna contraria.",
+            "id":26
+        },
+        {
+            "categoria":"femorales",
+            "ejercicio":"Femoral acostado",
+            "image":"https://doriangym.es/wp-content/uploads/2022/10/curl-femoral-tumbado.jpg",
+            "series": "4",
+            "repeticiones":"12,10,8,8",
+            "tecnica":"Túmbate en la máquina y sujeta las asas con las manos para mejorar la estabilidad de la parte superior del cuerpo. Flexiona las rodillas para llevar los talones hacia los glúteos. Vuelve a bajar de forma lenta y controlada las piernas hacia la posición inicial y repite.",
+            "id":27
+        },
+        {
+            "categoria":"femorales",
+            "ejercicio":"Peso muerto con mancuernas",
+            "image":"https://ginasiovirtual.com/wp-content/uploads/2021/04/peso-morto-com-pernas-esticadas.jpg",
+            "series": "4",
+            "repeticiones":"12,10,8,8",
+            "tecnica":"Pon la espalda recta y mira hacia adelante en todo momento. La cabeza tiene que estar completamente alineada con la espalda. Para ascender, levanta los hombros y la cadera al mismo tiempo manteniendo la espalda erguida. Una vez has llegado a la posición inicial, vuelve a repetir el movimiento.",
+            "id":28
+        },
+        {
+            "categoria":"femorales",
+            "ejercicio":"Peso muerto con barra",
+            "image":"https://i.pinimg.com/736x/42/b3/75/42b3754c790a3da9778f484001dd5257.jpg",
+            "series": "4",
+            "repeticiones":"12,10,8,8",
+            "tecnica":"Pon la espalda recta y mira hacia adelante en todo momento. La cabeza tiene que estar completamente alineada con la espalda. Para ascender, levanta los hombros y la cadera al mismo tiempo manteniendo la espalda erguida. Una vez has llegado a la posición inicial, vuelve a repetir el movimiento.",
+            "id":29
+        },
+        {
+            "categoria":"femorales",
+            "ejercicio":"Peso muerto con barra",
+            "image":"https://i.pinimg.com/736x/42/b3/75/42b3754c790a3da9778f484001dd5257.jpg",
+            "series": "4",
+            "repeticiones":"12,10,8,8",
+            "tecnica":"Colócate con las piernas más separadas de anchura de caderas y puntas de los pies abiertas con la mancuerna entre tus piernas. Activa la musculatura de la espalda y abdominales y comienza a bajar lentamente haciendo la sentadilla sumo a coger la mancuerna..",
+            "id":30
+        },
+        {
+            "categoria":"gluteos",
+            "ejercicio":"sentadillas sumo con barra",
+            "image":"https://eresfitness.com/wp-content/uploads/2019/09/Sentadilla-sumo-con-barra.jpg",
+            "series": "4",
+            "repeticiones":"12,10,8,8",
+            "tecnica":"Separa los pies al ancho de los hombros, apoya la barra en tus trapecios (parte alta de la espalda) y desengancha la barra. Da un paso adelante y baja hasta que tus muslos queden paralelos al suelo, aguanta esa posición durante un segundo y vuelve a subir de forma controlada, con los talones pegados al suelo.",
+            "id":31
+        },
+        {
+            "categoria":"gluteos",
+            "ejercicio":"sentadillas sumo con barra",
+            "image":"https://eresfitness.com/wp-content/uploads/2019/09/Hip-thrust-740x418.jpg",
+            "series": "4",
+            "repeticiones":"12,10,8,8",
+            "tecnica":"Colocaremos la barra a la altura de nuestra cadera, con las pesas a ambos lados. Para no perder estabilidad, colocaremos la manos a ambos lados de la barra. Subiremos la cadera repitiendo el movimiento inicial y activando el core para proteger los músculos de la espalda.",
+            "id":32
+        },
+        {
+            "categoria":"gluteos",
+            "ejercicio":"Lunges con barra",
+            "image":"https://bulevip.com/blog/wp-content/uploads/2016/07/lunges.jpg",
+            "series": "4",
+            "repeticiones":"12,10,8,8",
+            "tecnica":"Lleva una pierna hacia atrás haciendo una zancada con una flexión de rodilla. Baja la parte superior del cuerpo manteniendo el equilibrio. Utilizando principalmente el talón del pie, empuje hacia arriba y regresa a la posición inicial. Repite el ejercicio con la pierna contraria",
+            "id":33
         }
     ]
 }

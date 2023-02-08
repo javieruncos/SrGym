@@ -93,19 +93,7 @@
     border-radius: 10px;
 }
 
-.tituloCategorias{
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.688);
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.tituloCategorias:hover{
-  color: #FFFB12;
-}
 
 /* estilos del plan de entrenamiento */
 .divPlanes{

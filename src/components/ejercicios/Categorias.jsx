@@ -43,9 +43,9 @@ const Categorias = () => {
              </div>
              <div className="card">
               <div className="divCategorias5">
-                <div className="tituloCategorias">
+                <Link  to="/triceps" className="tituloCategorias LinkCategorias">
                 <h3>TRICEPS</h3>
-                </div>
+                </Link>
               </div>
              </div>
              <div className="card">

@@ -7,7 +7,7 @@ const CardEjercicio = ({ ejercicios}) => {
     <>
       <div className="col-12 col-md-6 col-lg-6">
         <div className=" mt-5">
-          <img src={ejercicios.image} alt="ejercicio" className="w-100" />
+          <img src={ejercicios.image} alt="ejercicio" className="w-100 imgCardEjer" />
         </div>
       </div>
       <div className="col-12 col-md-6 col-lg-6">

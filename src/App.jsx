@@ -8,6 +8,8 @@ import Pectorales from './components/pages/Pectorales';
 import Espalda from './components/pages/Espalda';
 import Hombros from './components/pages/Hombros';
 import Biceps from './components/pages/Biceps';
+import Triceps from './components/pages/Triceps';
+import Cuadriceps from './components/pages/Cuadriceps';
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
         <Route exact path='/espalda' element={<Espalda></Espalda>}></Route>
         <Route exact path='/hombros' element={<Hombros></Hombros>}></Route>
         <Route exact path='/biceps' element={<Biceps></Biceps>}></Route>
+        <Route exact path='/triceps' element={<Triceps></Triceps>}></Route>
+        <Route exact path='/cuadriceps' element={<Cuadriceps></Cuadriceps>}></Route>
       </Routes>
       </BrowserRouter>
     </div>

@@ -32,3 +32,24 @@ LinkCategorias:hover a{
 .ColorYellow{
   color:#FFFB12 ;
 }
+
+
+.tituloCategorias{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.688);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tituloCategorias:hover{
+color: #FFFB12;
+}
+
+/* ***********estilos de las imagenes de la card de ejercicio******************** */
+
+.imgCardEjer{
+  height: 400px;
+}

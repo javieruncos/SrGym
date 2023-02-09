@@ -14,6 +14,7 @@ import Femoral from './components/pages/Femoral';
 import Gluteos from './components/pages/Gluteos';
 import Pantorrillas from './components/pages/Pantorrila';
 import Aduptores from './components/pages/Aduptores';
+import Footer from './components/common/Footer';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Route exact path='/pantorrillas' element={<Pantorrillas></Pantorrillas>}></Route>
         <Route exact path='/aduptores' element={<Aduptores></Aduptores>}></Route>
       </Routes>
+      <Footer></Footer>
       </BrowserRouter>
     </div>
   );

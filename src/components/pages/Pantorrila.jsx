@@ -1,9 +1,9 @@
 import React from "react";
-import { useFemoral } from "../../hooks/useFemoral";
+import { usePantorrilla } from "../../hooks/usePantorrila";
 import CardEjercicio from "../ejercicios/CardEjercicio";
 
-const Femoral = () => {
-  const { ejerciciosFemoral } = useFemoral();
+const Pantorrila = () => {
+  const { ejercicioPantorrilla } = usePantorrilla();
 
   return (
     <div className="container">
@@ -11,7 +11,7 @@ const Femoral = () => {
         <h2 className="text-center">Ejercicios para Femorales</h2>
       </div>
       <div className="row">
-        {ejerciciosFemoral.map((item) => (
+        {ejercicioPantorrilla.map((item) => (
           <CardEjercicio ejercicios={item} key={item.id}></CardEjercicio>
         ))}
       </div>
@@ -19,4 +19,4 @@ const Femoral = () => {
   );
 };
 
-export default Femoral;
+export default Pantorrila;

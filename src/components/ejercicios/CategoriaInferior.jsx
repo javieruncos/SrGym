@@ -37,16 +37,16 @@ const CategoriaInferior = () => {
           </div>
           <div className="card">
             <div className="divCategorias-inferior4">
-              <div className="tituloCategorias">
+              <Link to="/pantorrillas" className="tituloCategorias LinkCategorias">
                 <h3>PANTORRILLAS</h3>
-              </div>
+              </Link>
             </div>
           </div>
           <div className="card">
             <div className="divCategorias-inferior5">
-              <div className="tituloCategorias">
+              <Link to="/aduptores" className="tituloCategorias LinkCategorias">
                 <h3>ADUPTORES</h3>
-              </div>
+              </Link>
             </div>
           </div>
           <div className="card">

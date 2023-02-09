@@ -12,6 +12,8 @@ import Triceps from './components/pages/Triceps';
 import Cuadriceps from './components/pages/Cuadriceps';
 import Femoral from './components/pages/Femoral';
 import Gluteos from './components/pages/Gluteos';
+import Pantorrillas from './components/pages/Pantorrila';
+import Aduptores from './components/pages/Aduptores';
 
 
 function App() {
@@ -30,6 +32,8 @@ function App() {
         <Route exact path='/cuadriceps' element={<Cuadriceps></Cuadriceps>}></Route>
         <Route exact path='/femoral' element={<Femoral></Femoral>}></Route>
         <Route exact path='/gluteos' element={<Gluteos></Gluteos>}></Route>
+        <Route exact path='/pantorrillas' element={<Pantorrillas></Pantorrillas>}></Route>
+        <Route exact path='/aduptores' element={<Aduptores></Aduptores>}></Route>
       </Routes>
       </BrowserRouter>
     </div>

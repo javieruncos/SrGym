@@ -278,6 +278,51 @@
             "repeticiones":"12,10,8,8",
             "tecnica":"Lleva una pierna hacia atrás haciendo una zancada con una flexión de rodilla. Baja la parte superior del cuerpo manteniendo el equilibrio. Utilizando principalmente el talón del pie, empuje hacia arriba y regresa a la posición inicial. Repite el ejercicio con la pierna contraria",
             "id":33
+        },
+        {
+            "categoria":"pantorrilla",
+            "ejercicio":"Pantoriilas parado con mancuernas",
+            "image":"https://i.pinimg.com/474x/c9/08/1c/c9081c86883c9fe247f36603f696bb00--gym-leggings-leggings-fitness.jpg",
+            "series": "4",
+            "repeticiones":"12,10,8,8",
+            "tecnica":"La posición inicial es de pie y en posición bien erguida. Coloca los brazos por delante del pecho y comienza a subir sobre los dedos de los pies, poniéndote de puntillas, para  luego volver a cargar el peso sobre los talones y subir ligeramente las puntas. Las repeticiones deben ser rápidas",
+            "id":34
+        },
+        {
+            "categoria":"pantorrilla",
+            "ejercicio":"Pantorrila sentado en maquina",
+            "image":"https://eresfitness.com/wp-content/uploads/2019/05/Elevaci%C3%B3n-de-talones-sentado-con-m%C3%A1quina.jpg",
+            "series": "4",
+            "repeticiones":"12,10,8,8",
+            "tecnica":"Levante ligeramente la palanca empujando los talones hacia arriba y suelte la barra de seguridad. Contraiga el suelo pelvico y el core mientras mantiene su pecho levantado.Empuje los talones hacia arriba tanto como pueda mientras exhala. Vuelva a la posición inicial con un movimiento suave mientras inhala, evitando que los pesos en movimiento toquen el resto de la placas.",
+            "id":35
+        },
+        {
+            "categoria":"pantorrilla",
+            "ejercicio":"Pantorrilla parado en maquina",
+            "image":"https://eresfitness.com/wp-content/uploads/2019/09/Elevaci%C3%B3n-de-talones-de-pie-en-m%C3%A1quina.jpg",
+            "series": "4",
+            "repeticiones":"12,10,8,8",
+            "tecnica":"Coloca tus hombros en la maquina, posiciona las puntas de los pies en la base y sube los talones contrayendo el gemelo y baja lentamente repite este motodo las veces q sean necesarias.",
+            "id":36
+        },
+        {
+            "categoria":"aduptores",
+            "ejercicio":"Aduptores en polea baja",
+            "image":"https://eresfitness.com/wp-content/uploads/2019/06/Aductores-en-polea-baja-MUSCULOS-INVOLUCRADOS-1.jpg",
+            "series": "4",
+            "repeticiones":"12,10,8,8",
+            "tecnica":"La pierna es llevada desde la máquina, hacia el centro del cuerpo y por delante de la otra pierna que se encuentra apoyada en el suelo. Posteriormente, se regresa a la posición inicial sin dejar que caiga el peso de forma brusca para evitar lesión.",
+            "id":37
+        },
+        {
+            "categoria":"aduptores",
+            "ejercicio":"Aduptores sentado en maquina",
+            "image":"https://www.masmusculo.com/blog/wp-content/uploads/2019/05/aductores.jpg",
+            "series": "4",
+            "repeticiones":"12,10,8,8",
+            "tecnica":" nos sentamos y nos sujetamos con las manos al asiento, apoyamos la zona lumbar en el respaldo y colocamos la cara interna de las rodillas por detrás de los cojines con los cuales debemos movilizar el peso y desde allí comenzamos el movimiento. Juntamos los muslos de manera que las rodillas o los cojines que están delante de ellas se unan en el centro, delante nuestro. Sostenemos la posición unos segundos y lentamente regresamos a la posición inicial, sin movimientos bruscos y conservando durante todo el recorrido la espalda bien apoyada en la máquina.",
+            "id":38
         }
     ]
 }

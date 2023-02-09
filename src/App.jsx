@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap-icons/font/bootstrap-icons.css"
 import Menu from './components/common/Menu';
 import Inicio from './components/view/Inicio';
 import EspacioCliente from './components/view/EspacioCliente';
@@ -15,6 +16,7 @@ import Gluteos from './components/pages/Gluteos';
 import Pantorrillas from './components/pages/Pantorrila';
 import Aduptores from './components/pages/Aduptores';
 import Footer from './components/common/Footer';
+import Gimnasio from './components/view/Gimnasio';
 
 
 function App() {
@@ -35,6 +37,7 @@ function App() {
         <Route exact path='/gluteos' element={<Gluteos></Gluteos>}></Route>
         <Route exact path='/pantorrillas' element={<Pantorrillas></Pantorrillas>}></Route>
         <Route exact path='/aduptores' element={<Aduptores></Aduptores>}></Route>
+        <Route exact path='/gym' element={<Gimnasio></Gimnasio>}></Route>
       </Routes>
       <Footer></Footer>
       </BrowserRouter>

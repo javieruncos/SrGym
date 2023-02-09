@@ -6,7 +6,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
 .mainSection{
   flex-grow: 1;
 }
@@ -16,12 +15,17 @@
   text-decoration: none;
 }
 
+.LinkMenu:hover{
+  color:white ;
+
+}
+
 .LinkCategorias{
   color:white;
   text-decoration: none;
 }
 
-LinkCategorias:hover a{
+.LinkCategorias:hover {
   color:#FFFB12
 }
 
@@ -52,4 +56,15 @@ color: #FFFB12;
 
 .imgCardEjer{
   height: 350px;
+}
+
+/* *********footer********* */
+
+.LinksFooter{
+  text-decoration: none;
+  color: white;
+}
+
+.LinksFooter:hover {
+  color: #FFFB12;
 }

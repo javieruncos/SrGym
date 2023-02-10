@@ -7,26 +7,49 @@
 .cardGym{
     height: 300px;
     width: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
+    overflow: hidden;
+    margin-top: 10px;
     
 }
 
-.img-gym{
-    height: 100%;
-    background-image: url("https://pictures.smartfit.com.br/9871/big/WhatsApp_Image_2021-09-25_at_11.47.31.jpeg?1635797572");
-    background-size: cover;
-    display: flex;
-    align-items: end;
+.cardGym :hover img{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    overflow: hidden;
 }
-        
+
+
 .planesCard{
  width: 100%;
  height: 80px;
  background-color: rgba(0, 0, 0, 0.781);
  color: white;
+ position: relative;
+ bottom: 80px;
 }
-
 
 .divUbicacion{
     position: absolute;
+    z-index: 1;
+    margin-top: 10px;
+    width: 320px;
+    
+}
+
+
+@media screen and (min-width:767px) and (max-width:991px){
+
+    .cardGym{
+        height: 190px;
+    }
+
+    .divUbicacion{
+        position: absolute;
+        z-index: 1;
+        margin-top: 10px;
+        width: 200px;
+        
+    }
+
 }

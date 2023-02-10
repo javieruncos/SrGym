@@ -17,6 +17,7 @@ import Pantorrillas from './components/pages/Pantorrila';
 import Aduptores from './components/pages/Aduptores';
 import Footer from './components/common/Footer';
 import Gimnasio from './components/view/Gimnasio';
+import Planes from './components/view/Planes';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <Route exact path='/pantorrillas' element={<Pantorrillas></Pantorrillas>}></Route>
         <Route exact path='/aduptores' element={<Aduptores></Aduptores>}></Route>
         <Route exact path='/gym' element={<Gimnasio></Gimnasio>}></Route>
+        <Route exact path='/planes' element={<Planes></Planes>}></Route>
       </Routes>
       <Footer></Footer>
       </BrowserRouter>

@@ -1,0 +1,22 @@
+.portadaPlanes{
+    height: 400px;
+    width: 100%;
+    background-color:#FFFF12;
+}
+
+.planSmart{
+    height: 540px;
+    width: 350px;
+    background-color: #f7f7f3;
+}
+
+.Black{
+    height: 540px;
+    width: 350px;
+    background-color: #020202;
+    color: white;
+}
+
+.lista{
+    list-style: none;
+}

@@ -206,6 +206,17 @@
     
 }
 
+.registro{
+    height: 200px;
+    /* background-color: #FFFB12; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
 /* medias queries */
 @media screen and (max-width:767px) {
 
@@ -249,9 +260,12 @@
     }
 
     .espacioFit div {
-        width: 334px;
-        height: 300px;
-        margin-top: 88px;
+        width: 368px;
+        height: 400px;
+        margin-top: 30px;
+    }
+    .espacioFit div img {
+      height: 100%;
     }
     
 }

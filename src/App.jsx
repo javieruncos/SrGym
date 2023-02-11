@@ -18,6 +18,7 @@ import Aduptores from './components/pages/Aduptores';
 import Footer from './components/common/Footer';
 import Gimnasio from './components/view/Gimnasio';
 import Planes from './components/view/Planes';
+import PlanSmart from './components/view/PlanSmart';
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
         <Route exact path='/aduptores' element={<Aduptores></Aduptores>}></Route>
         <Route exact path='/gym' element={<Gimnasio></Gimnasio>}></Route>
         <Route exact path='/planes' element={<Planes></Planes>}></Route>
+        <Route exact path='/smart' element={<PlanSmart></PlanSmart>}></Route>
       </Routes>
       <Footer></Footer>
       </BrowserRouter>

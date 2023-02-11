@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/Inicio.css";
+import {Link} from "react-router-dom"
 
 const Inicio = () => {
   return (
@@ -59,7 +60,7 @@ const Inicio = () => {
                       grupales
                     </p>
                     <p>Acceso a otras sedes de la cadena</p>
-                    <button className="btn btn-dark">INSCRIBITE YA</button>
+                    <Link to="/smart" className="btn btn-dark">INSCRIBITE YA</Link>
                   </div>
                 </div>
               </div>
@@ -87,7 +88,7 @@ const Inicio = () => {
                       grupales
                     </p>
                     <p>Acceso a una sede de la cadena</p>
-                    <button className="btn btn-dark">INSCRIBITE YA</button>
+                    <Link to="/smart" className="btn btn-dark">INSCRIBITE YA</Link>
                   </div>
                 </div>
               </div>
@@ -100,27 +101,33 @@ const Inicio = () => {
         <div className="divApp container">
           <div className="container">
             <div className="mt-5">
-            <h2 className="display-6">
-              Proximamente Smart fit App una experiencia de entrenamiento
-              completa dentro y fuera del gimnasio
-            </h2>
-            <p>
-              No importa si ya tienes experiencia o si recién estás comenzando a
-              practicar actividad física, una cosa es segura: ¡al descargar
-              gratis la aplicación Smart Fit , obtienes el mejor aliado para tu
-              rutina de entrenamiento! Exclusivo para clientes.
-            </p>
+              <h2 className="display-6">
+                Proximamente Smart fit App una experiencia de entrenamiento
+                completa dentro y fuera del gimnasio
+              </h2>
+              <p>
+                No importa si ya tienes experiencia o si recién estás comenzando
+                a practicar actividad física, una cosa es segura: ¡al descargar
+                gratis la aplicación Smart Fit , obtienes el mejor aliado para
+                tu rutina de entrenamiento! Exclusivo para clientes.
+              </p>
             </div>
             <div className=" d-flex justify-content-center gap-5 my-4">
-            <div>
-                <img src="https://assets.smartfit.com.br/production/newHome/google-play-badge-es.png" alt="" />
-               </div>
-               <div>
-                <img src="https://assets.smartfit.com.br/production/newHome/google-play-badge-es.png" alt="" />
-               </div>
+              <div>
+                <img
+                  src="https://assets.smartfit.com.br/production/newHome/google-play-badge-es.png"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  src="https://assets.smartfit.com.br/production/newHome/google-play-badge-es.png"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
-          
+
           <div className="container">
             <img
               src="https://assets.smartfit.com.br/production/newHome/img-smartphone-es.png"
@@ -132,33 +139,90 @@ const Inicio = () => {
         </div>
       </div>
       {/* seccion de espacio fitness */}
-      <section className="container mt-5">
+      <section className="container my-5">
         <article className="text-light">
-           <div className="text-center">
-            <h4 className="display-4">Todo lo que <span className="text-yellow">necesitas</span></h4>
-           <p className="fs-4"> Un ecosistema de fitness que ofrece más libertad a la hora de entrenar.</p>
-           </div>
-           <div className="espacioFit">
-             <div>
-              <img src={require("../../img/salon.jpg")} alt="salon" className="w-100"/>
-             </div>
-             <div>
-             <img src={require("../../img/salon2.jpg")} alt="salon" className="w-100"/>
-             </div>
-             <div>
-             <img src={require("../../img/salon3.webp")} alt="salon" className="w-100"/>
-             </div>
-             <div>
-             <img src="https://cdn.smartfit.com.br/nossa-smart/img_cover_academia_cardio.jpg" alt="salon" className="w-100"/>
-             </div>
-             <div>
-             <img src="https://cdn.smartfit.com.br/nossa-smart/img_cover_academia_fitness-app-cl.jpg" alt="salon" className="w-100"/>
-             </div>
-             <div>
-             <img src="https://cdn.smartfit.com.br/nossa-smart/img_cover_academia_fitness-remote-cl.jpg" alt="salon" className="w-100"/>
-             </div>
-           </div>
+          <div className="text-center">
+            <h4 className="display-4">
+              Todo lo que <span className="text-yellow">necesitas</span>
+            </h4>
+            <p className="fs-4">
+              {" "}
+              Un ecosistema de fitness que ofrece más libertad a la hora de
+              entrenar.
+            </p>
+          </div>
+          <div className="espacioFit">
+            <div>
+              <img
+                src={require("../../img/salon.jpg")}
+                alt="salon"
+                className="w-100"
+              />
+            </div>
+            <div>
+              <img
+                src={require("../../img/salon2.jpg")}
+                alt="salon"
+                className="w-100"
+              />
+            </div>
+            <div>
+              <img
+                src={require("../../img/salon3.webp")}
+                alt="salon"
+                className="w-100"
+              />
+            </div>
+            <div>
+              <img
+                src="https://cdn.smartfit.com.br/nossa-smart/img_cover_academia_cardio.jpg"
+                alt="salon"
+                className="w-100"
+              />
+            </div>
+            <div>
+              <img
+                src="https://cdn.smartfit.com.br/nossa-smart/img_cover_academia_fitness-app-cl.jpg"
+                alt="salon"
+                className="w-100"
+              />
+            </div>
+            <div>
+              <img
+                src="https://cdn.smartfit.com.br/nossa-smart/img_cover_academia_fitness-remote-cl.jpg"
+                alt="salon"
+                className="w-100"
+              />
+            </div>
+          </div>
         </article>
+      </section>
+      <section className="container my-5">
+        <div className="text-center text-light mt-5">
+          <h4 className="display-5 ColorYellow mt-5">INSCRIBETE AHORA</h4>
+          <p className="fs-4">
+            Realizá tu inscripción en tan sólo 2 minutos y podrás comenzar tu
+            entrenamiento.
+          </p>
+          <hr />
+        </div>
+        <div className="row gap-2 d-flex justify-content-center mt-3">
+          <div className="col-12 col-md-4 col-lg-3 registro">
+            <i className="bi bi-geo-alt text-light display-1 "></i>
+            <span className="fw-bold text-light">Elegí tu sede</span>
+          </div>
+          <div className="col-12 col-md-4 col-lg-3 registro">
+            <i class="bi bi-card-list text-light display-1"></i>
+            <span className="fw-bold text-light">Escogé un plan</span>
+          </div>
+          <div className="col-12 col-md-4 col-lg-3 registro">
+            <i class="bi bi-person-check-fill text-light display-1"></i>
+            <span className="fw-bold text-light">Registrate y ¡Listo!</span>
+          </div>
+        </div>
+        <div className="text-center">
+          <a href="/planes" className="btn btn-outline-secondary">INSCRIBIRME AHORA</a>
+        </div>
       </section>
     </div>
   );

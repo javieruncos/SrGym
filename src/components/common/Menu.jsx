@@ -26,7 +26,7 @@ const Menu = () => {
                 Planes
               </Link>
             </Nav>
-            <Button as={Link} variant={"warning"} className=" mx-2">
+            <Button as={Link} to="/login" variant={"warning"} className=" mx-2">
               Login
             </Button>
             <Button as={Link} variant={"warning"}>

@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap-icons/font/bootstrap-icons.css"
+import { useState } from 'react';
 import Menu from './components/common/Menu';
 import Inicio from './components/view/Inicio';
 import EspacioCliente from './components/view/EspacioCliente';
@@ -21,13 +22,20 @@ import Planes from './components/view/Planes';
 import PlanSmart from './components/view/PlanSmart';
 import PlanBlack from './components/view/PlanBlack';
 import Login from './components/view/Login';
+import Regristro from './components/view/Regristro';
 
 
 function App() {
+
+  const usuario = JSON.parse(localStorage.getItem("usuarioGym")) || {};
+  const [usuarioLogueado, setUsuarioLogueado] = useState(usuario)
+
+
+
   return (
     <div className="App">
       <BrowserRouter>
-      <Menu></Menu>
+      <Menu usuarioLogueado={usuarioLogueado} setUsuarioLogueado={setUsuarioLogueado}></Menu>
       <Routes>
         <Route exact path='/' element={<Inicio></Inicio>}></Route>
         <Route exact path='/cliente' element={<EspacioCliente></EspacioCliente>}></Route>
@@ -46,6 +54,7 @@ function App() {
         <Route exact path='/smart' element={<PlanSmart></PlanSmart>}></Route>
         <Route exact path='/black' element={<PlanBlack></PlanBlack>}></Route>
         <Route exact path='/login' element={<Login></Login>}></Route>
+        <Route exact path='/registro' element={<Regristro setUsuarioLogueado={setUsuarioLogueado}></Regristro>}></Route>
       </Routes>
       <Footer></Footer>
       </BrowserRouter>

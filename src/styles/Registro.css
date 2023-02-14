@@ -1,0 +1,47 @@
+.contenedorRegistro{
+    height: 700px;
+    width: 100%;
+}
+
+
+
+
+.formularioRegistro {
+    width: 350px;
+    height: 450px;
+    background-color: rgba(250, 221, 58, 0.973);
+    transform: rotate(10deg);
+    position: relative;
+    top: 65px;
+}
+
+
+.formularioRegistro2{
+    width: 370px;
+    height: 430px;
+    position: relative;
+    bottom: 380px;
+    margin-left: 0px;
+   background-color: rgb(53, 53, 51);
+   color: white;
+
+
+}
+
+
+@media screen and (max-width:767px){
+    .formularioRegistro2{
+        width: 270px;
+        height: 440px;
+       
+    }
+
+    .formularioRegistro {
+        width: 250px;
+        height: 450px;
+        background-color: rgba(250, 221, 58, 0.973);
+        transform: rotate(10deg);
+        position: relative;
+        top: 65px;
+    }
+}

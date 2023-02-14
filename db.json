@@ -1,328 +1,343 @@
 {
-    "Ejercicios":[
-        {
-           "categoria":"pectorales",
-           "ejercicio":"Pecho plano ",
-           "image":"https://i.pinimg.com/originals/84/bd/f4/84bdf4030eb6aa44bc4d60ec9551259e.jpg",
-           "series": "5",
-           "repeticiones":"12,10,8,6,6",
-           "tecnica":"Para iniciar la realización del ejercicio es necesario acostarse en un banco plano con los glúteos, caderas y hombros sobre el banco. Los pies deben apoyarse en suelo, separados un poco más allá del ancho de lo hombros. Con las manos debemos tomar la barra de manera que las palmas miren hacia adelante, es decir, en pronación, y separadas ligeramente más allá de la anchura de los hombros.El brazo y el antebrazo deben formar un ángulo de 90º, por lo que debemos flexionar el codo de manera que la barra tomada con las manos quede exactamente encima del pecho.Desde allí debemos inspirar y descender lentamente la barra hacia el pecho, sin despegar la espalda del banco. Una vez la barra esté sobre el pecho debemos empujar hacia arriba mientras espiramos y subimos lentamente los brazos.",
-           "id":1
-        },
-        {
-            "categoria":"pectorales",
-            "ejercicio":"Pecho declinado con mancuernas",
-            "image":"https://doriangym.es/wp-content/uploads/2022/10/press-inclinado-con-mancuernas-1.jpg",
-            "series": "5",
-            "repeticiones":"12,10,8,6,6",
-            "tecnica":"Press de banca inclinado con mancuernas Túmbate en un banco inclinado, con la espalda bien apoyada. Coge un par de mancuernas y llévalas por encima de tu cabeza hasta que los brazos estén totalmente extendidos. Vuelve a bajarla hasta que rocen tus hombros. Haz una pausa y levántalas de nuevo. ",
-            "id":2
-        },
-        {
-            "categoria":"pectorales",
-            "ejercicio":"Pecho inclinado con barra",
-            "image":"https://www.getpersonalgrowth.com/images/posts/9d8a1c914f42a913e55e2542b7650474-0.jpg",
-            "series": "5",
-            "repeticiones":"12,10,8,6,6",
-            "tecnica":"Nos aseguramos que nuestras piernas están enganchadas en los tornos de seguridad del banco. Utilizaremos un agarre un poco más ancho  que los hombros con las palmas de las manos mirando hacia delante.Levantamos la barra y  mantenemos extendidos los brazos anclandolos.(si tenemos a un compañero que nos ayude a sacar la barra mejor, debido a que sacándola nosotros mismos  sufrirá bastante los manguitos rotadores). Inspiramos, y descendemos lentamente la barra hasta que roce  la parte inferior de nuestro pecho.Levantamos la barra de nuevo hasta la posición inicial y  expiramos en la parte más díficil de la subida .Aguantamos 1 segundo con los brazos extendidos para posteriormente volver a bajar y repetir el movimiento",
-            "id":3
-        },
-        {
-            "categoria":"pectorales",
-            "ejercicio":"Aperturas inclinada con mancuernas ",
-            "image":"https://eresfitness.com/wp-content/uploads/2019/05/Aperturas-con-mancuerna-en-banco-inclinado.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,6",
-            "tecnica":"Sujeta las mancuernas con las palmas mirando hacia el centro. Lo ideal sería estar recostado en un banco, puede ser plano, inclinado o declinado.Mantén la espalda erguida durante todo el entrenamiento y evitarás dolor en los hombros.Estira los brazos hacia arriba y luego flexiona los codos hasta que se encuentren al nivel de tus hombros y los codos pasen de estosPosteriormente, debes volver a extender los brazos hasta la posición inicial con una ligera flexión en los codos. De este modo, se pueden evitar las lesiones en las articulaciones. Al mismo tiempo, cuentan con la oportunidad de sacar el mayor provecho al trabajo realizado.",
-            "id":4
-        },
-        {
-            "categoria":"espalda",
-            "ejercicio":"Remo en polea baja ",
-            "image":"https://doriangym.es/wp-content/uploads/2022/10/remo-en-polea-baja.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,6",
-            "tecnica":"Apoyamos los pies en al plataforma y con las rodillas flexionadas y la espalda bien recta tomamos el maneral con ambas manos para dar inicio al ejercicio.Los brazos en la posición inicial deben quedar extendidos, sujetados a la polea baja mediante el maneral y el torso debe permanecer erguido. Sin movilizar el torso, jalamos del maneral llevando hacia atrás los codos mientras inspiramos, hasta que el maneral queda justo frente al esternón.Después espiramos el aire mientras regresamos las manos a la posición inicial mediante la extensión lenta de los brazos. Nunca debemos curvar la espalda sino que el torso debe movilizarse lo menos posible.",
-            "id":6
-        },
-        {
-            "categoria":"espalda",
-            "ejercicio":"Remo con barra",
-            "image":"https://ginasiovirtual.com/wp-content/uploads/2021/06/Remada-com-barra.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,6",
-            "tecnica":"Para iniciar el movimiento debemos colocarnos de pie con las rodillas ligeramente flexionadas y el tronco inclinado formando con las piernas un ángulo de 45º. Con la espalda recta y la barra tomada en pronación, con las palmas hacia abajo, separamos las manos de la anchura de los hombros, y dejamos caer los brazos frente al torso.Des de allí inspiramos y efectuamos una contracción abdominal mientras tiramos la barra hacia el pecho para luego espirar y regresar lentamente hacia la posición inicial.",
-            "id":7
-        },
-        {
-            "categoria":"espalda",
-            "ejercicio":"Remo con mancuernas ",
-            "image":"https://mundoentrenamiento.com/wp-content/uploads/2021/08/remo-con-mancuerna.jpeg",
-            "series": "4",
-            "repeticiones":"12,10,8,6",
-            "tecnica":"Para realizar este ejercicio debemos comenzar tomando una mancuerna con una mano y apoyando la rodilla y la palma de la mano del lado opuesto sobre un banco plano.  La espalda estará fija y el brazo que posee el peso debe quedar extendido por el lateral del cuerpo. Desde esta posición inicial y conservando la espalda fija, debemos inspirar y tirar de la mancuerna para elevarla hacia la espalda mientras el brazo permanece paralelo al cuerpo, llevando el codo bien atrás para imitar el gesto de remo. Espiramos al final del movimiento mientras descendemos nuevamente el peso, de manera lenta.",
-            "id":5
-        },
-        {
-            "categoria":"hombros",
-            "ejercicio":"Frontal con mancuernas",
-            "image":"https://eresfitness.com/wp-content/uploads/2019/09/Elevaci%C3%B3n-frontal-con-mancuernas.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,6",
-            "tecnica":"Las mancuernas deben apoyarse junto a las manos sobre los muslos, ligeramente hacia los costados. Inspiramos y comenzamos a contraer los músculos para elevar un brazo hacia adelante mientras espiramos el aire.Descendemos mientras inhalamos nuevamente y elevamos el brazo contrario. Los brazos deben elevarse hasta formar con el torso un ángulo de 90 grados o hasta la altura de los ojos, no más de allí, y siempre el codo debe estar ligeramente flexionado. Puede realizarse con ambas manos juntas o como en este caso, alternando las elevaciones.",
-            "id":9
-        },
-        {
-            "categoria":"hombros",
-            "ejercicio":"Press militar con barra",
-            "image":"https://fisiomorfosis.net/wp-content/uploads/2020/12/barbell-military-press-2.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,6",
-            "tecnica":"Las manos deben situarse a una anchura algo superior a la de los hombros. Sacamos la barra de su soporte y la colocamos sobre la parte alta de nuestro pecho, a la altura de nuestras clavículas. Esta será la posición de inicio del movimiento. Mantenemos la espalda recta y bien apoyada en el respaldo del banco.",
-            "id":10
-        },
-        {
-            "categoria":"hombros",
-            "ejercicio":"Posteriores con mancuernas",
-            "image":"https://eresfitness.com/wp-content/uploads/2019/09/Elevaciones-posteriores-con-mancuernas.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,6",
-            "tecnica":"Con los codos ligeramente flexionados, sube ambos brazos hasta que tus antebrazos se ubiquen paralelos al piso. En este momento, haz una breve pausa de uno o dos segundos, para, finalmente, volver a la posición inicial. Repita el movimiento de acuerdo a su rutina.",
-            "id":12
-        },
-        {
-            "categoria":"hombros",
-            "ejercicio":"Vuelo lateral",
-            "image":"https://eresfitness.com/wp-content/uploads/2019/09/Elevaciones-laterales-con-mancuernas.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,6",
-            "tecnica":"Para comenzar el ejercicio debemos colocarnos de pie, con las piernas ligeramente flexionadas y separadas del ancho de la cadera. La espalda debe permanecer recta y en cada mano debemos sujetar una mancuerna, mientras los brazos permanecen a los lados del cuerpo o delante de los muslos, levemente flexionados.    Tomando aire elevamos las mancuernas hasta que los brazos queden alineados con los hombros y desde allí bajamos lentamente mientras exhalamos.        ",
-            "id":8
-        },
-        {
-            "categoria":"biceps",
-            "ejercicio":"Biceps con barra",
-            "image":"https://mejorconsalud.as.com/fitness/wp-content/uploads/2021/09/postura-curl-barra-z-1024x683.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,6",
-            "tecnica":"Técnica de ejecución del curl de bíceps con barra Desde esta posición, sin movilizar el tronco y manteniendo los codos a los lados del cuerpo, debemos inspirar y flexionar los codos mientras acercamos la barra al pecho y contraemos glúteos, abdominales y espinales para no mover el tronco.",
-            "id":13
-        },
-        {
-            "categoria":"biceps",
-            "ejercicio":"Biceps con barra",
-            "image":"https://i0.wp.com/dicasdemusculacao.org/wp-content/uploads/2021/12/rosca_banco_scott-1.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,6",
-            "tecnica":"Sentados sobre la máquina, apoyamos la totalidad de los brazos sobre el pupitre del banco scott y cogemos una barra Z o dos mancuernas con las manos, de manera que las palmas miren hacia arriba. Sin movilizar los brazos y con los mismos estirados mientras sostenemos el peso, comenzamos el ejercicio.Inspiramos y comenzamos flexionando los codos para llevar las manos hacia el pecho junto al peso, espiramos al final del movimiento y regresamos a la posición inicial lentamente, sin extender completamente los brazos.",
-            "id":14
-        },
-        {
-            "categoria":"biceps",
-            "ejercicio":"Biceps sentado con mancuernas",
-            "image":"https://www.onlinepersonaltrainer.es/wp-content/uploads/imagenesejercicios/245_1_2.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,6",
-            "tecnica":"Contrayendo los bíceps, doble los codos totalmente supinando las manos mientras exhala. Vuelva a la posición inicial con un suave movimiento mientras inhala. CONSEJOS: Mientras hace el ejercicio, mueva solo la articulación del codo, asegúrese de no mover ninguna otra parte de su cuerpo.",
-            "id":15
-        },
-        {
-            "categoria":"biceps",
-            "ejercicio":"Biceps martillo",
-            "image":"https://www.musculaciontotal.com/wp-content/uploads/2015/11/curl-tipo-martillo.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,6",
-            "tecnica":"Para comenzar el ejercicio nos colocaremos de pie con las rodillas levemente flexionadas y una mancuerna en cada mano, tomadas de manera tal que las palmas se miren entre ellas. Con la espalda recta e intentando no movilizar el brazo y codo sino únicamente el antebrazo, inspiramos y realizamos una flexión de codo con uno de los brazos, conservando la posición de las manos.Las palmas de las manos deben mirar hacia el cuerpo durante todo el recorrido para simular un martillo que sube y baja con la flexión del codo.",
-            "id":17
-        },
-        {
-            "categoria":"triceps",
-            "ejercicio":"Extension de triceps en polea ",
-            "image":"https://eresfitness.com/wp-content/uploads/2019/06/Extensi%C3%B3n-de-tr%C3%ADceps-en-polea-alta-MUSCULOS-INVOLUCRADOS.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,6",
-            "tecnica":"Realizamos una extensión de los codos, llevando el mango de la polea hacia abajo, sin despegar los codos de los lados del cuerpo y únicamente movilizando el antebrazo. Espiramos al final del movimiento y regresamos lentamente a la posición inicial.",
-            "id":18
-        },
-        {
-            "categoria":"triceps",
-            "ejercicio":"Press francés con barra",
-            "image":"https://eresfitness.com/wp-content/uploads/2019/05/Press-franc%C3%A9s.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,6",
-            "tecnica":"Para comenzar con el ejercicio debemos recostarnos con la espalda apoyada sobre un banco plano y tomar con las manos una barra, las palmas de la mano deben mirar hacia arriba mientras los brazos están flexionados y la barra queda detrás del cuerpo. Desde allí inspiramos y extendemos los brazos de manera de formar con ellos una perpendicular respecto al cuerpo, cuidando de no separar los codos del cuerpo durante el recorrido.",
-            "id":19
-        },
-        {
-            "categoria":"triceps",
-            "ejercicio":"Frances en polea alta",
-            "image":"https://ginasiovirtual.com/wp-content/uploads/2021/06/Extensao-de-triceps-com-cabos-superior.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,6",
-            "tecnica":"Realizamos una extensión de los codos, llevando el mango de la polea hacia abajo, sin despegar los codos de los lados del cuerpo y únicamente movilizando el antebrazo. Espiramos al final del movimiento y regresamos lentamente a la posición inicial.",
-            "id":20
-        },
-        {
-            "categoria":"triceps",
-            "ejercicio":"Frances con mancuerna",
-            "image":"https://mundoentrenamiento.com/wp-content/uploads/2021/09/extension-codo-sentado.jpg",
-            "series": "3",
-            "repeticiones":"10,10,10",
-            "tecnica":"Sujeta una mancuerna con la mano contraria y ponla detrás de la cabeza con el codo doblado en ángulo recto. Contrae el tríceps y levanta la mancuerna hasta extender completamente el brazo y regresa a la posición inicial. Repite el movimiento unas 10-12 veces en 3 series alternando cada brazo",
-            "id":21
-        },
-        {
-            "categoria":"antebrazo",
-            "ejercicio":"Antebrazo con mancuernas",
-            "image":"https://mundoentrenamiento.com/wp-content/uploads/2021/09/extension-codo-sentado.jpg",
-            "series": "3",
-            "repeticiones":"10,10,10",
-            "tecnica":"Sujeta una mancuerna con la mano contraria y ponla detrás de la cabeza con el codo doblado en ángulo recto. Contrae el tríceps y levanta la mancuerna hasta extender completamente el brazo y regresa a la posición inicial. Repite el movimiento unas 10-12 veces en 3 series alternando cada brazo",
-            "id":22
-        },
-        {
-            "categoria":"cuadriceps",
-            "ejercicio":"Sentadillas con  barra",
-            "image":"https://eresfitness.com/wp-content/uploads/2019/09/Sentadilla-sumo-con-barra.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,8",
-            "tecnica":"Separa los pies al ancho de los hombros, apoya la barra en tus trapecios (parte alta de la espalda) y desengancha la barra. Da un paso adelante y baja hasta que tus muslos queden paralelos al suelo, aguanta esa posición durante un segundo y vuelve a subir de forma controlada, con los talones pegados al suelo.",
-            "id":23
-        },
-        {
-            "categoria":"cuadriceps",
-            "ejercicio":"Extension de cuadriceps",
-            "image":"https://eresfitness.com/wp-content/uploads/2019/09/Extensi%C3%B3n-de-piernas-en-m%C3%A1quina.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,8",
-            "tecnica":"Siéntate en una silla y apoya los pies en el suelo separados el ancho de las caderas. Mantén la espalda recta.Extiende la rodilla izquierda hacia delante y contrae los músculos del cuádriceps.Vuelve a la posición inicial y repite las veces indicadas.Repite el mismo proceso con la pierna derecha.",
-            "id":24
-        },
-        {
-            "categoria":"cuadriceps",
-            "ejercicio":"Press en prensa 45°",
-            "image":"https://eresfitness.com/wp-content/uploads/2020/12/07401105-Sled-45%C2%B0-Leg-Wide-Press_Thighs_max-740x416.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,8",
-            "tecnica":"Se debe apoyar planta de los pies sobre la plataforma teniendo las piernas estiradas y separadas a altura de la cadera con los pies paralelos.Contraer abdomen, músculos pélvicos y glúteos para estabilizar zona media.Inspirar al flexionar las piernas y exhalar al extenderlas. Mantener el tronco recto.",
-            "id":25
-        },
-        {
-            "categoria":"cuadriceps",
-            "ejercicio":"Estocadas con mancuernas",
-            "image":"https://thumbs.dreamstime.com/b/exercising-estocadas-con-pesas-de-gimnasia-43639121.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,8",
-            "tecnica":"Con una mancuerna en cada mano, de pie y con la espalda recta adelantar una pierna y descender hacia abajo apoyando la rodilla de la otra pierna. La pierna que se adelanta debe quedar en ángulo de 90 grados cuando se produce el descenso. Volver a la posición inicial y repetir con la pierna contraria.",
-            "id":26
-        },
-        {
-            "categoria":"femorales",
-            "ejercicio":"Femoral acostado",
-            "image":"https://doriangym.es/wp-content/uploads/2022/10/curl-femoral-tumbado.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,8",
-            "tecnica":"Túmbate en la máquina y sujeta las asas con las manos para mejorar la estabilidad de la parte superior del cuerpo. Flexiona las rodillas para llevar los talones hacia los glúteos. Vuelve a bajar de forma lenta y controlada las piernas hacia la posición inicial y repite.",
-            "id":27
-        },
-        {
-            "categoria":"femorales",
-            "ejercicio":"Peso muerto con mancuernas",
-            "image":"https://ginasiovirtual.com/wp-content/uploads/2021/04/peso-morto-com-pernas-esticadas.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,8",
-            "tecnica":"Pon la espalda recta y mira hacia adelante en todo momento. La cabeza tiene que estar completamente alineada con la espalda. Para ascender, levanta los hombros y la cadera al mismo tiempo manteniendo la espalda erguida. Una vez has llegado a la posición inicial, vuelve a repetir el movimiento.",
-            "id":28
-        },
-        {
-            "categoria":"femorales",
-            "ejercicio":"Peso muerto con barra",
-            "image":"https://i.pinimg.com/736x/42/b3/75/42b3754c790a3da9778f484001dd5257.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,8",
-            "tecnica":"Pon la espalda recta y mira hacia adelante en todo momento. La cabeza tiene que estar completamente alineada con la espalda. Para ascender, levanta los hombros y la cadera al mismo tiempo manteniendo la espalda erguida. Una vez has llegado a la posición inicial, vuelve a repetir el movimiento.",
-            "id":29
-        },
-        {
-            "categoria":"femorales",
-            "ejercicio":"Peso muerto con barra",
-            "image":"https://i.pinimg.com/736x/42/b3/75/42b3754c790a3da9778f484001dd5257.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,8",
-            "tecnica":"Colócate con las piernas más separadas de anchura de caderas y puntas de los pies abiertas con la mancuerna entre tus piernas. Activa la musculatura de la espalda y abdominales y comienza a bajar lentamente haciendo la sentadilla sumo a coger la mancuerna..",
-            "id":30
-        },
-        {
-            "categoria":"gluteos",
-            "ejercicio":"sentadillas sumo con barra",
-            "image":"https://eresfitness.com/wp-content/uploads/2019/09/Sentadilla-sumo-con-barra.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,8",
-            "tecnica":"Separa los pies al ancho de los hombros, apoya la barra en tus trapecios (parte alta de la espalda) y desengancha la barra. Da un paso adelante y baja hasta que tus muslos queden paralelos al suelo, aguanta esa posición durante un segundo y vuelve a subir de forma controlada, con los talones pegados al suelo.",
-            "id":31
-        },
-        {
-            "categoria":"gluteos",
-            "ejercicio":"sentadillas sumo con barra",
-            "image":"https://eresfitness.com/wp-content/uploads/2019/09/Hip-thrust-740x418.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,8",
-            "tecnica":"Colocaremos la barra a la altura de nuestra cadera, con las pesas a ambos lados. Para no perder estabilidad, colocaremos la manos a ambos lados de la barra. Subiremos la cadera repitiendo el movimiento inicial y activando el core para proteger los músculos de la espalda.",
-            "id":32
-        },
-        {
-            "categoria":"gluteos",
-            "ejercicio":"Lunges con barra",
-            "image":"https://bulevip.com/blog/wp-content/uploads/2016/07/lunges.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,8",
-            "tecnica":"Lleva una pierna hacia atrás haciendo una zancada con una flexión de rodilla. Baja la parte superior del cuerpo manteniendo el equilibrio. Utilizando principalmente el talón del pie, empuje hacia arriba y regresa a la posición inicial. Repite el ejercicio con la pierna contraria",
-            "id":33
-        },
-        {
-            "categoria":"pantorrilla",
-            "ejercicio":"Pantoriilas parado con mancuernas",
-            "image":"https://i.pinimg.com/474x/c9/08/1c/c9081c86883c9fe247f36603f696bb00--gym-leggings-leggings-fitness.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,8",
-            "tecnica":"La posición inicial es de pie y en posición bien erguida. Coloca los brazos por delante del pecho y comienza a subir sobre los dedos de los pies, poniéndote de puntillas, para  luego volver a cargar el peso sobre los talones y subir ligeramente las puntas. Las repeticiones deben ser rápidas",
-            "id":34
-        },
-        {
-            "categoria":"pantorrilla",
-            "ejercicio":"Pantorrila sentado en maquina",
-            "image":"https://eresfitness.com/wp-content/uploads/2019/05/Elevaci%C3%B3n-de-talones-sentado-con-m%C3%A1quina.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,8",
-            "tecnica":"Levante ligeramente la palanca empujando los talones hacia arriba y suelte la barra de seguridad. Contraiga el suelo pelvico y el core mientras mantiene su pecho levantado.Empuje los talones hacia arriba tanto como pueda mientras exhala. Vuelva a la posición inicial con un movimiento suave mientras inhala, evitando que los pesos en movimiento toquen el resto de la placas.",
-            "id":35
-        },
-        {
-            "categoria":"pantorrilla",
-            "ejercicio":"Pantorrilla parado en maquina",
-            "image":"https://eresfitness.com/wp-content/uploads/2019/09/Elevaci%C3%B3n-de-talones-de-pie-en-m%C3%A1quina.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,8",
-            "tecnica":"Coloca tus hombros en la maquina, posiciona las puntas de los pies en la base y sube los talones contrayendo el gemelo y baja lentamente repite este motodo las veces q sean necesarias.",
-            "id":36
-        },
-        {
-            "categoria":"aduptores",
-            "ejercicio":"Aduptores en polea baja",
-            "image":"https://eresfitness.com/wp-content/uploads/2019/06/Aductores-en-polea-baja-MUSCULOS-INVOLUCRADOS-1.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,8",
-            "tecnica":"La pierna es llevada desde la máquina, hacia el centro del cuerpo y por delante de la otra pierna que se encuentra apoyada en el suelo. Posteriormente, se regresa a la posición inicial sin dejar que caiga el peso de forma brusca para evitar lesión.",
-            "id":37
-        },
-        {
-            "categoria":"aduptores",
-            "ejercicio":"Aduptores sentado en maquina",
-            "image":"https://www.masmusculo.com/blog/wp-content/uploads/2019/05/aductores.jpg",
-            "series": "4",
-            "repeticiones":"12,10,8,8",
-            "tecnica":" nos sentamos y nos sujetamos con las manos al asiento, apoyamos la zona lumbar en el respaldo y colocamos la cara interna de las rodillas por detrás de los cojines con los cuales debemos movilizar el peso y desde allí comenzamos el movimiento. Juntamos los muslos de manera que las rodillas o los cojines que están delante de ellas se unan en el centro, delante nuestro. Sostenemos la posición unos segundos y lentamente regresamos a la posición inicial, sin movimientos bruscos y conservando durante todo el recorrido la espalda bien apoyada en la máquina.",
-            "id":38
-        }
-    ]
+  "Ejercicios": [
+    {
+      "categoria": "pectorales",
+      "ejercicio": "Pecho plano ",
+      "image": "https://i.pinimg.com/originals/84/bd/f4/84bdf4030eb6aa44bc4d60ec9551259e.jpg",
+      "series": "5",
+      "repeticiones": "12,10,8,6,6",
+      "tecnica": "Para iniciar la realización del ejercicio es necesario acostarse en un banco plano con los glúteos, caderas y hombros sobre el banco. Los pies deben apoyarse en suelo, separados un poco más allá del ancho de lo hombros. Con las manos debemos tomar la barra de manera que las palmas miren hacia adelante, es decir, en pronación, y separadas ligeramente más allá de la anchura de los hombros.El brazo y el antebrazo deben formar un ángulo de 90º, por lo que debemos flexionar el codo de manera que la barra tomada con las manos quede exactamente encima del pecho.Desde allí debemos inspirar y descender lentamente la barra hacia el pecho, sin despegar la espalda del banco. Una vez la barra esté sobre el pecho debemos empujar hacia arriba mientras espiramos y subimos lentamente los brazos.",
+      "id": 1
+    },
+    {
+      "categoria": "pectorales",
+      "ejercicio": "Pecho declinado con mancuernas",
+      "image": "https://doriangym.es/wp-content/uploads/2022/10/press-inclinado-con-mancuernas-1.jpg",
+      "series": "5",
+      "repeticiones": "12,10,8,6,6",
+      "tecnica": "Press de banca inclinado con mancuernas Túmbate en un banco inclinado, con la espalda bien apoyada. Coge un par de mancuernas y llévalas por encima de tu cabeza hasta que los brazos estén totalmente extendidos. Vuelve a bajarla hasta que rocen tus hombros. Haz una pausa y levántalas de nuevo. ",
+      "id": 2
+    },
+    {
+      "categoria": "pectorales",
+      "ejercicio": "Pecho inclinado con barra",
+      "image": "https://www.getpersonalgrowth.com/images/posts/9d8a1c914f42a913e55e2542b7650474-0.jpg",
+      "series": "5",
+      "repeticiones": "12,10,8,6,6",
+      "tecnica": "Nos aseguramos que nuestras piernas están enganchadas en los tornos de seguridad del banco. Utilizaremos un agarre un poco más ancho  que los hombros con las palmas de las manos mirando hacia delante.Levantamos la barra y  mantenemos extendidos los brazos anclandolos.(si tenemos a un compañero que nos ayude a sacar la barra mejor, debido a que sacándola nosotros mismos  sufrirá bastante los manguitos rotadores). Inspiramos, y descendemos lentamente la barra hasta que roce  la parte inferior de nuestro pecho.Levantamos la barra de nuevo hasta la posición inicial y  expiramos en la parte más díficil de la subida .Aguantamos 1 segundo con los brazos extendidos para posteriormente volver a bajar y repetir el movimiento",
+      "id": 3
+    },
+    {
+      "categoria": "pectorales",
+      "ejercicio": "Aperturas inclinada con mancuernas ",
+      "image": "https://eresfitness.com/wp-content/uploads/2019/05/Aperturas-con-mancuerna-en-banco-inclinado.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,6",
+      "tecnica": "Sujeta las mancuernas con las palmas mirando hacia el centro. Lo ideal sería estar recostado en un banco, puede ser plano, inclinado o declinado.Mantén la espalda erguida durante todo el entrenamiento y evitarás dolor en los hombros.Estira los brazos hacia arriba y luego flexiona los codos hasta que se encuentren al nivel de tus hombros y los codos pasen de estosPosteriormente, debes volver a extender los brazos hasta la posición inicial con una ligera flexión en los codos. De este modo, se pueden evitar las lesiones en las articulaciones. Al mismo tiempo, cuentan con la oportunidad de sacar el mayor provecho al trabajo realizado.",
+      "id": 4
+    },
+    {
+      "categoria": "espalda",
+      "ejercicio": "Remo en polea baja ",
+      "image": "https://doriangym.es/wp-content/uploads/2022/10/remo-en-polea-baja.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,6",
+      "tecnica": "Apoyamos los pies en al plataforma y con las rodillas flexionadas y la espalda bien recta tomamos el maneral con ambas manos para dar inicio al ejercicio.Los brazos en la posición inicial deben quedar extendidos, sujetados a la polea baja mediante el maneral y el torso debe permanecer erguido. Sin movilizar el torso, jalamos del maneral llevando hacia atrás los codos mientras inspiramos, hasta que el maneral queda justo frente al esternón.Después espiramos el aire mientras regresamos las manos a la posición inicial mediante la extensión lenta de los brazos. Nunca debemos curvar la espalda sino que el torso debe movilizarse lo menos posible.",
+      "id": 6
+    },
+    {
+      "categoria": "espalda",
+      "ejercicio": "Remo con barra",
+      "image": "https://ginasiovirtual.com/wp-content/uploads/2021/06/Remada-com-barra.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,6",
+      "tecnica": "Para iniciar el movimiento debemos colocarnos de pie con las rodillas ligeramente flexionadas y el tronco inclinado formando con las piernas un ángulo de 45º. Con la espalda recta y la barra tomada en pronación, con las palmas hacia abajo, separamos las manos de la anchura de los hombros, y dejamos caer los brazos frente al torso.Des de allí inspiramos y efectuamos una contracción abdominal mientras tiramos la barra hacia el pecho para luego espirar y regresar lentamente hacia la posición inicial.",
+      "id": 7
+    },
+    {
+      "categoria": "espalda",
+      "ejercicio": "Remo con mancuernas ",
+      "image": "https://mundoentrenamiento.com/wp-content/uploads/2021/08/remo-con-mancuerna.jpeg",
+      "series": "4",
+      "repeticiones": "12,10,8,6",
+      "tecnica": "Para realizar este ejercicio debemos comenzar tomando una mancuerna con una mano y apoyando la rodilla y la palma de la mano del lado opuesto sobre un banco plano.  La espalda estará fija y el brazo que posee el peso debe quedar extendido por el lateral del cuerpo. Desde esta posición inicial y conservando la espalda fija, debemos inspirar y tirar de la mancuerna para elevarla hacia la espalda mientras el brazo permanece paralelo al cuerpo, llevando el codo bien atrás para imitar el gesto de remo. Espiramos al final del movimiento mientras descendemos nuevamente el peso, de manera lenta.",
+      "id": 5
+    },
+    {
+      "categoria": "hombros",
+      "ejercicio": "Frontal con mancuernas",
+      "image": "https://eresfitness.com/wp-content/uploads/2019/09/Elevaci%C3%B3n-frontal-con-mancuernas.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,6",
+      "tecnica": "Las mancuernas deben apoyarse junto a las manos sobre los muslos, ligeramente hacia los costados. Inspiramos y comenzamos a contraer los músculos para elevar un brazo hacia adelante mientras espiramos el aire.Descendemos mientras inhalamos nuevamente y elevamos el brazo contrario. Los brazos deben elevarse hasta formar con el torso un ángulo de 90 grados o hasta la altura de los ojos, no más de allí, y siempre el codo debe estar ligeramente flexionado. Puede realizarse con ambas manos juntas o como en este caso, alternando las elevaciones.",
+      "id": 9
+    },
+    {
+      "categoria": "hombros",
+      "ejercicio": "Press militar con barra",
+      "image": "https://fisiomorfosis.net/wp-content/uploads/2020/12/barbell-military-press-2.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,6",
+      "tecnica": "Las manos deben situarse a una anchura algo superior a la de los hombros. Sacamos la barra de su soporte y la colocamos sobre la parte alta de nuestro pecho, a la altura de nuestras clavículas. Esta será la posición de inicio del movimiento. Mantenemos la espalda recta y bien apoyada en el respaldo del banco.",
+      "id": 10
+    },
+    {
+      "categoria": "hombros",
+      "ejercicio": "Posteriores con mancuernas",
+      "image": "https://eresfitness.com/wp-content/uploads/2019/09/Elevaciones-posteriores-con-mancuernas.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,6",
+      "tecnica": "Con los codos ligeramente flexionados, sube ambos brazos hasta que tus antebrazos se ubiquen paralelos al piso. En este momento, haz una breve pausa de uno o dos segundos, para, finalmente, volver a la posición inicial. Repita el movimiento de acuerdo a su rutina.",
+      "id": 12
+    },
+    {
+      "categoria": "hombros",
+      "ejercicio": "Vuelo lateral",
+      "image": "https://eresfitness.com/wp-content/uploads/2019/09/Elevaciones-laterales-con-mancuernas.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,6",
+      "tecnica": "Para comenzar el ejercicio debemos colocarnos de pie, con las piernas ligeramente flexionadas y separadas del ancho de la cadera. La espalda debe permanecer recta y en cada mano debemos sujetar una mancuerna, mientras los brazos permanecen a los lados del cuerpo o delante de los muslos, levemente flexionados.    Tomando aire elevamos las mancuernas hasta que los brazos queden alineados con los hombros y desde allí bajamos lentamente mientras exhalamos.        ",
+      "id": 8
+    },
+    {
+      "categoria": "biceps",
+      "ejercicio": "Biceps con barra",
+      "image": "https://mejorconsalud.as.com/fitness/wp-content/uploads/2021/09/postura-curl-barra-z-1024x683.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,6",
+      "tecnica": "Técnica de ejecución del curl de bíceps con barra Desde esta posición, sin movilizar el tronco y manteniendo los codos a los lados del cuerpo, debemos inspirar y flexionar los codos mientras acercamos la barra al pecho y contraemos glúteos, abdominales y espinales para no mover el tronco.",
+      "id": 13
+    },
+    {
+      "categoria": "biceps",
+      "ejercicio": "Biceps con barra",
+      "image": "https://i0.wp.com/dicasdemusculacao.org/wp-content/uploads/2021/12/rosca_banco_scott-1.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,6",
+      "tecnica": "Sentados sobre la máquina, apoyamos la totalidad de los brazos sobre el pupitre del banco scott y cogemos una barra Z o dos mancuernas con las manos, de manera que las palmas miren hacia arriba. Sin movilizar los brazos y con los mismos estirados mientras sostenemos el peso, comenzamos el ejercicio.Inspiramos y comenzamos flexionando los codos para llevar las manos hacia el pecho junto al peso, espiramos al final del movimiento y regresamos a la posición inicial lentamente, sin extender completamente los brazos.",
+      "id": 14
+    },
+    {
+      "categoria": "biceps",
+      "ejercicio": "Biceps sentado con mancuernas",
+      "image": "https://www.onlinepersonaltrainer.es/wp-content/uploads/imagenesejercicios/245_1_2.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,6",
+      "tecnica": "Contrayendo los bíceps, doble los codos totalmente supinando las manos mientras exhala. Vuelva a la posición inicial con un suave movimiento mientras inhala. CONSEJOS: Mientras hace el ejercicio, mueva solo la articulación del codo, asegúrese de no mover ninguna otra parte de su cuerpo.",
+      "id": 15
+    },
+    {
+      "categoria": "biceps",
+      "ejercicio": "Biceps martillo",
+      "image": "https://www.musculaciontotal.com/wp-content/uploads/2015/11/curl-tipo-martillo.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,6",
+      "tecnica": "Para comenzar el ejercicio nos colocaremos de pie con las rodillas levemente flexionadas y una mancuerna en cada mano, tomadas de manera tal que las palmas se miren entre ellas. Con la espalda recta e intentando no movilizar el brazo y codo sino únicamente el antebrazo, inspiramos y realizamos una flexión de codo con uno de los brazos, conservando la posición de las manos.Las palmas de las manos deben mirar hacia el cuerpo durante todo el recorrido para simular un martillo que sube y baja con la flexión del codo.",
+      "id": 17
+    },
+    {
+      "categoria": "triceps",
+      "ejercicio": "Extension de triceps en polea ",
+      "image": "https://eresfitness.com/wp-content/uploads/2019/06/Extensi%C3%B3n-de-tr%C3%ADceps-en-polea-alta-MUSCULOS-INVOLUCRADOS.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,6",
+      "tecnica": "Realizamos una extensión de los codos, llevando el mango de la polea hacia abajo, sin despegar los codos de los lados del cuerpo y únicamente movilizando el antebrazo. Espiramos al final del movimiento y regresamos lentamente a la posición inicial.",
+      "id": 18
+    },
+    {
+      "categoria": "triceps",
+      "ejercicio": "Press francés con barra",
+      "image": "https://eresfitness.com/wp-content/uploads/2019/05/Press-franc%C3%A9s.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,6",
+      "tecnica": "Para comenzar con el ejercicio debemos recostarnos con la espalda apoyada sobre un banco plano y tomar con las manos una barra, las palmas de la mano deben mirar hacia arriba mientras los brazos están flexionados y la barra queda detrás del cuerpo. Desde allí inspiramos y extendemos los brazos de manera de formar con ellos una perpendicular respecto al cuerpo, cuidando de no separar los codos del cuerpo durante el recorrido.",
+      "id": 19
+    },
+    {
+      "categoria": "triceps",
+      "ejercicio": "Frances en polea alta",
+      "image": "https://ginasiovirtual.com/wp-content/uploads/2021/06/Extensao-de-triceps-com-cabos-superior.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,6",
+      "tecnica": "Realizamos una extensión de los codos, llevando el mango de la polea hacia abajo, sin despegar los codos de los lados del cuerpo y únicamente movilizando el antebrazo. Espiramos al final del movimiento y regresamos lentamente a la posición inicial.",
+      "id": 20
+    },
+    {
+      "categoria": "triceps",
+      "ejercicio": "Frances con mancuerna",
+      "image": "https://mundoentrenamiento.com/wp-content/uploads/2021/09/extension-codo-sentado.jpg",
+      "series": "3",
+      "repeticiones": "10,10,10",
+      "tecnica": "Sujeta una mancuerna con la mano contraria y ponla detrás de la cabeza con el codo doblado en ángulo recto. Contrae el tríceps y levanta la mancuerna hasta extender completamente el brazo y regresa a la posición inicial. Repite el movimiento unas 10-12 veces en 3 series alternando cada brazo",
+      "id": 21
+    },
+    {
+      "categoria": "antebrazo",
+      "ejercicio": "Antebrazo con mancuernas",
+      "image": "https://mundoentrenamiento.com/wp-content/uploads/2021/09/extension-codo-sentado.jpg",
+      "series": "3",
+      "repeticiones": "10,10,10",
+      "tecnica": "Sujeta una mancuerna con la mano contraria y ponla detrás de la cabeza con el codo doblado en ángulo recto. Contrae el tríceps y levanta la mancuerna hasta extender completamente el brazo y regresa a la posición inicial. Repite el movimiento unas 10-12 veces en 3 series alternando cada brazo",
+      "id": 22
+    },
+    {
+      "categoria": "cuadriceps",
+      "ejercicio": "Sentadillas con  barra",
+      "image": "https://eresfitness.com/wp-content/uploads/2019/09/Sentadilla-sumo-con-barra.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,8",
+      "tecnica": "Separa los pies al ancho de los hombros, apoya la barra en tus trapecios (parte alta de la espalda) y desengancha la barra. Da un paso adelante y baja hasta que tus muslos queden paralelos al suelo, aguanta esa posición durante un segundo y vuelve a subir de forma controlada, con los talones pegados al suelo.",
+      "id": 23
+    },
+    {
+      "categoria": "cuadriceps",
+      "ejercicio": "Extension de cuadriceps",
+      "image": "https://eresfitness.com/wp-content/uploads/2019/09/Extensi%C3%B3n-de-piernas-en-m%C3%A1quina.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,8",
+      "tecnica": "Siéntate en una silla y apoya los pies en el suelo separados el ancho de las caderas. Mantén la espalda recta.Extiende la rodilla izquierda hacia delante y contrae los músculos del cuádriceps.Vuelve a la posición inicial y repite las veces indicadas.Repite el mismo proceso con la pierna derecha.",
+      "id": 24
+    },
+    {
+      "categoria": "cuadriceps",
+      "ejercicio": "Press en prensa 45°",
+      "image": "https://eresfitness.com/wp-content/uploads/2020/12/07401105-Sled-45%C2%B0-Leg-Wide-Press_Thighs_max-740x416.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,8",
+      "tecnica": "Se debe apoyar planta de los pies sobre la plataforma teniendo las piernas estiradas y separadas a altura de la cadera con los pies paralelos.Contraer abdomen, músculos pélvicos y glúteos para estabilizar zona media.Inspirar al flexionar las piernas y exhalar al extenderlas. Mantener el tronco recto.",
+      "id": 25
+    },
+    {
+      "categoria": "cuadriceps",
+      "ejercicio": "Estocadas con mancuernas",
+      "image": "https://thumbs.dreamstime.com/b/exercising-estocadas-con-pesas-de-gimnasia-43639121.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,8",
+      "tecnica": "Con una mancuerna en cada mano, de pie y con la espalda recta adelantar una pierna y descender hacia abajo apoyando la rodilla de la otra pierna. La pierna que se adelanta debe quedar en ángulo de 90 grados cuando se produce el descenso. Volver a la posición inicial y repetir con la pierna contraria.",
+      "id": 26
+    },
+    {
+      "categoria": "femorales",
+      "ejercicio": "Femoral acostado",
+      "image": "https://doriangym.es/wp-content/uploads/2022/10/curl-femoral-tumbado.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,8",
+      "tecnica": "Túmbate en la máquina y sujeta las asas con las manos para mejorar la estabilidad de la parte superior del cuerpo. Flexiona las rodillas para llevar los talones hacia los glúteos. Vuelve a bajar de forma lenta y controlada las piernas hacia la posición inicial y repite.",
+      "id": 27
+    },
+    {
+      "categoria": "femorales",
+      "ejercicio": "Peso muerto con mancuernas",
+      "image": "https://ginasiovirtual.com/wp-content/uploads/2021/04/peso-morto-com-pernas-esticadas.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,8",
+      "tecnica": "Pon la espalda recta y mira hacia adelante en todo momento. La cabeza tiene que estar completamente alineada con la espalda. Para ascender, levanta los hombros y la cadera al mismo tiempo manteniendo la espalda erguida. Una vez has llegado a la posición inicial, vuelve a repetir el movimiento.",
+      "id": 28
+    },
+    {
+      "categoria": "femorales",
+      "ejercicio": "Peso muerto con barra",
+      "image": "https://i.pinimg.com/736x/42/b3/75/42b3754c790a3da9778f484001dd5257.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,8",
+      "tecnica": "Pon la espalda recta y mira hacia adelante en todo momento. La cabeza tiene que estar completamente alineada con la espalda. Para ascender, levanta los hombros y la cadera al mismo tiempo manteniendo la espalda erguida. Una vez has llegado a la posición inicial, vuelve a repetir el movimiento.",
+      "id": 29
+    },
+    {
+      "categoria": "femorales",
+      "ejercicio": "Peso muerto con barra",
+      "image": "https://i.pinimg.com/736x/42/b3/75/42b3754c790a3da9778f484001dd5257.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,8",
+      "tecnica": "Colócate con las piernas más separadas de anchura de caderas y puntas de los pies abiertas con la mancuerna entre tus piernas. Activa la musculatura de la espalda y abdominales y comienza a bajar lentamente haciendo la sentadilla sumo a coger la mancuerna..",
+      "id": 30
+    },
+    {
+      "categoria": "gluteos",
+      "ejercicio": "sentadillas sumo con barra",
+      "image": "https://eresfitness.com/wp-content/uploads/2019/09/Sentadilla-sumo-con-barra.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,8",
+      "tecnica": "Separa los pies al ancho de los hombros, apoya la barra en tus trapecios (parte alta de la espalda) y desengancha la barra. Da un paso adelante y baja hasta que tus muslos queden paralelos al suelo, aguanta esa posición durante un segundo y vuelve a subir de forma controlada, con los talones pegados al suelo.",
+      "id": 31
+    },
+    {
+      "categoria": "gluteos",
+      "ejercicio": "sentadillas sumo con barra",
+      "image": "https://eresfitness.com/wp-content/uploads/2019/09/Hip-thrust-740x418.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,8",
+      "tecnica": "Colocaremos la barra a la altura de nuestra cadera, con las pesas a ambos lados. Para no perder estabilidad, colocaremos la manos a ambos lados de la barra. Subiremos la cadera repitiendo el movimiento inicial y activando el core para proteger los músculos de la espalda.",
+      "id": 32
+    },
+    {
+      "categoria": "gluteos",
+      "ejercicio": "Lunges con barra",
+      "image": "https://bulevip.com/blog/wp-content/uploads/2016/07/lunges.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,8",
+      "tecnica": "Lleva una pierna hacia atrás haciendo una zancada con una flexión de rodilla. Baja la parte superior del cuerpo manteniendo el equilibrio. Utilizando principalmente el talón del pie, empuje hacia arriba y regresa a la posición inicial. Repite el ejercicio con la pierna contraria",
+      "id": 33
+    },
+    {
+      "categoria": "pantorrilla",
+      "ejercicio": "Pantoriilas parado con mancuernas",
+      "image": "https://i.pinimg.com/474x/c9/08/1c/c9081c86883c9fe247f36603f696bb00--gym-leggings-leggings-fitness.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,8",
+      "tecnica": "La posición inicial es de pie y en posición bien erguida. Coloca los brazos por delante del pecho y comienza a subir sobre los dedos de los pies, poniéndote de puntillas, para  luego volver a cargar el peso sobre los talones y subir ligeramente las puntas. Las repeticiones deben ser rápidas",
+      "id": 34
+    },
+    {
+      "categoria": "pantorrilla",
+      "ejercicio": "Pantorrila sentado en maquina",
+      "image": "https://eresfitness.com/wp-content/uploads/2019/05/Elevaci%C3%B3n-de-talones-sentado-con-m%C3%A1quina.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,8",
+      "tecnica": "Levante ligeramente la palanca empujando los talones hacia arriba y suelte la barra de seguridad. Contraiga el suelo pelvico y el core mientras mantiene su pecho levantado.Empuje los talones hacia arriba tanto como pueda mientras exhala. Vuelva a la posición inicial con un movimiento suave mientras inhala, evitando que los pesos en movimiento toquen el resto de la placas.",
+      "id": 35
+    },
+    {
+      "categoria": "pantorrilla",
+      "ejercicio": "Pantorrilla parado en maquina",
+      "image": "https://eresfitness.com/wp-content/uploads/2019/09/Elevaci%C3%B3n-de-talones-de-pie-en-m%C3%A1quina.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,8",
+      "tecnica": "Coloca tus hombros en la maquina, posiciona las puntas de los pies en la base y sube los talones contrayendo el gemelo y baja lentamente repite este motodo las veces q sean necesarias.",
+      "id": 36
+    },
+    {
+      "categoria": "aduptores",
+      "ejercicio": "Aduptores en polea baja",
+      "image": "https://eresfitness.com/wp-content/uploads/2019/06/Aductores-en-polea-baja-MUSCULOS-INVOLUCRADOS-1.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,8",
+      "tecnica": "La pierna es llevada desde la máquina, hacia el centro del cuerpo y por delante de la otra pierna que se encuentra apoyada en el suelo. Posteriormente, se regresa a la posición inicial sin dejar que caiga el peso de forma brusca para evitar lesión.",
+      "id": 37
+    },
+    {
+      "categoria": "aduptores",
+      "ejercicio": "Aduptores sentado en maquina",
+      "image": "https://www.masmusculo.com/blog/wp-content/uploads/2019/05/aductores.jpg",
+      "series": "4",
+      "repeticiones": "12,10,8,8",
+      "tecnica": " nos sentamos y nos sujetamos con las manos al asiento, apoyamos la zona lumbar en el respaldo y colocamos la cara interna de las rodillas por detrás de los cojines con los cuales debemos movilizar el peso y desde allí comenzamos el movimiento. Juntamos los muslos de manera que las rodillas o los cojines que están delante de ellas se unan en el centro, delante nuestro. Sostenemos la posición unos segundos y lentamente regresamos a la posición inicial, sin movimientos bruscos y conservando durante todo el recorrido la espalda bien apoyada en la máquina.",
+      "id": 38
+    }
+  ],
+  "Usuario": [
+    {
+      "nombre": "javier",
+      "email": "javier@mail.com",
+      "password": "12345678",
+      "id": 1
+    },
+    {
+      "nombre": "sol",
+      "apellido": "andrada",
+      "email": "sol@gmail.com",
+      "password": "12345678",
+      "id": 2
+    }
+  ]
 }

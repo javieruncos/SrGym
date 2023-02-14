@@ -1,26 +1,42 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import "../../styles/Formulario.css";
+import { useNavigate } from "react-router-dom";
+import { crearUser } from "../../helper/Login";
+import "../../styles/Registro.css"
 
-const Login = () => {
+const Regristro = ({setUsuarioLogueado}) => {
   const {
     register,
     handleSubmit,
     formState: { errors },
+    reset
   } = useForm();
 
-  const submit = (data) => {
-    console.log(data);
-  };
+  const navigate = useNavigate()
+
+  const submit =(data)=>{
+     console.log(data)
+     crearUser(data).then((usuario)=>{
+        if(usuario.status ===200){
+          localStorage.setItem("usuaroGym",JSON.stringify(data))
+          setUsuarioLogueado(data)
+          reset()
+          navigate("/")
+
+        }
+     })
+     
+  }
+
 
   return (
-    <div className="container mt-5">
+    <div className="container contenedorRegistro mt-5">
       <div>
-        <h1 className="text-center text-light fw-bold display-5">LOGIN</h1>
+        <h1 className="text-center text-light fw-bold display-5">REGISTRO</h1>
       </div>
-      <div className="formulario mx-auto"></div>
-      <div className="formulario2 mx-auto">
-        <form className="px-2 py-3" onSubmit={handleSubmit(submit)}>
+      <div className="formularioRegistro mx-auto"></div>
+      <div className="formularioRegistro2 mx-auto">
+        <form className="px-2 py-4" onSubmit={handleSubmit(submit)}>
           <label>Nombre</label>
           <input
             type="text"
@@ -38,6 +54,23 @@ const Login = () => {
             })}
           />
           <p className="text-danger mt-1">{errors.nombre?.message}</p>
+          <label>Apellido</label>
+          <input
+            type="text"
+            className="form-control"
+            {...register("apellido", {
+              required: true,
+              maxLength: {
+                value: 100,
+                message: "el numero maximo de caracteres es de 100",
+              },
+              minLength: {
+                value: 2,
+                message: "el numero minimo de caracteres es de 2",
+              },
+            })}
+          />
+          <p className="text-danger mt-1">{errors.apellido?.message}</p>
           <label>Email</label>
           <input
             type="email"
@@ -77,4 +110,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Regristro;

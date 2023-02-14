@@ -29,7 +29,7 @@ const Menu = () => {
             <Button as={Link} to="/login" variant={"warning"} className=" mx-2">
               Login
             </Button>
-            <Button as={Link} variant={"warning"}>
+            <Button as={Link} to="/registro" variant={"warning"}>
               Registrarse
             </Button>
           </Navbar.Collapse>

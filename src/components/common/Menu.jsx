@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, Navbar, Container,Button } from "react-bootstrap";
+import { Nav, Navbar, Container, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const Menu = () => {
@@ -7,17 +7,31 @@ const Menu = () => {
     <div>
       <Navbar bg="dark" expand="lg" className="">
         <Container>
-          <Navbar.Brand href="/" className="text-yellow">SR GYM</Navbar.Brand>
+          <Navbar.Brand href="/" className="text-yellow">
+            SR GYM
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
-              <Link to="/gym" className="ms-4 LinkMenu">Gimnasio</Link>
-              <Link to="/cliente" className="ms-4 LinkMenu">Espacio del cliente</Link>
-              <Link to="/planes" className="ms-4 LinkMenu">Planes</Link>
-              <Link to="/" className="ms-4 LinkMenu">Sobre nosotros</Link>
+              <Link to="/" className="ms-4 LinkMenu">
+                Inicio
+              </Link>
+              <Link to="/gym" className="ms-4 LinkMenu">
+                Gimnasio
+              </Link>
+              <Link to="/cliente" className="ms-4 LinkMenu">
+               rutinas
+              </Link>
+              <Link to="/planes" className="ms-4 LinkMenu">
+                Planes
+              </Link>
             </Nav>
-            <Button as={Link} variant={"warning"} className=" mx-2">Login</Button>
-            <Button as={Link} variant={"warning"}>Registrarse</Button>
+            <Button as={Link} variant={"warning"} className=" mx-2">
+              Login
+            </Button>
+            <Button as={Link} variant={"warning"}>
+              Registrarse
+            </Button>
           </Navbar.Collapse>
         </Container>
       </Navbar>

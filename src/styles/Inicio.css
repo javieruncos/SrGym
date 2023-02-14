@@ -1,10 +1,20 @@
 .portada {
-    height: 660px;
+    height: 700px;
     width: 100%;
-    background-image: url("https://as01.epimg.net/deporteyvida/imagenes/2017/08/16/portada/1502884201_675397_1502884464_noticia_normal.jpg");
-    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/2294403/pexels-photo-2294403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
+    
+}
+
+.tituloPortada{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.226);
+    
 }
 
 .text-yellow{
@@ -192,10 +202,7 @@
     background-color: #FFFB12;
     margin-top: 30px
 }
-
-
-
-               
+       
 .divApp .appStore{
     background-color: brown;
     height: 200px;
@@ -214,7 +221,6 @@
     align-items: center;
     flex-direction: column;
 }
-
 
 
 /* medias queries */
@@ -266,6 +272,10 @@
     }
     .espacioFit div img {
       height: 100%;
+    }
+
+    .tituloPortada{
+        display: none;
     }
     
 }

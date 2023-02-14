@@ -1,20 +1,21 @@
 import React from "react";
 import "../../styles/Planes.css";
-import { Link } from "react-router-dom";
 const Planes = () => {
   return (
     <div>
       <div className="portadaPlanes d-flex justify-content-center align-items-center flex-column">
-          <h2 className=" display-2">Planes</h2>
-          <p className="fs-4 text-center">
+          <div className=" divPortadaPlanes">
+          <h2 className=" display-2 text-center ColorYellow">Planes</h2>
+          <p className="fs-3 text-center text-light">
           ¡Planes con precios accesibles y de fácil inscripción! Realizá todo on
           line
           </p>
+          </div>
       </div>
       <section className="container my-5">
-        <div className="d-flex justify-content-center gap-5 container">
+        <div className="container d-flex justify-content-center ">
           <div className="row">
-            <div className="col-12 col-md-6 col-lg-6 planSmart">
+            <div className="col-12 col-md-6 col-lg-6 planSmart container">
               <div className=" text-center mt-4">
                   <h4>PLAN SMART</h4>
                   <p>Entrena cuando quieras en tu gimnasio de elección</p>
@@ -24,7 +25,7 @@ const Planes = () => {
                          Inscripción: Varía según la sede Matrícula anual: $ 4.599*
                           Sin multa de cancelación
                        </p>
-                       <Link className="btn btn-dark w-50 mx-auto">Seleccionar</Link>
+                       <a href="/smart" className="btn btn-dark w-50 mx-auto">Seleccionar</a>
                        <span className="fw-bold mt-4">Beneficios</span>
                   </div>
               </div>  
@@ -37,7 +38,7 @@ const Planes = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-12 col-md-6 col-lg-6 Black">
+            <div className="col-12 col-md-6 col-lg-6 Black container">
               <div className="text-center mt-4">
                    <h4>PLAN BLACK</h4>
                    <p>Entrena en cualquiera de nuestros gimnasios en Tucuman</p>
@@ -47,7 +48,7 @@ const Planes = () => {
                          Inscripción: Varía según la sede Matrícula anual: $ 4.599* Con
                          multa de cancelación
                       </p>
-                      <Link className="btn btn-warning w-50 mx-auto">Seleccionar</Link>
+                      <a href="/black" className="btn btn-warning w-50 mx-auto">Seleccionar</a>
                       <span className="fw-bold text-warning mt-4">Beneficios</span>  
                    </div>   
               </div>

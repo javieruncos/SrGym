@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/Cliente.css";
 import CategoriaInferior from "../ejercicios/CategoriaInferior";
-import Categorias from "../ejercicios/Categorias"
+import Categorias from "../ejercicios/Categorias";
 
 const EspacioCliente = () => {
   return (
@@ -11,12 +11,11 @@ const EspacioCliente = () => {
           <div className=" ">
             <h1 className="display-2">Espacio Cliente</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-              quibusdam consectetur assumenda possimus earum ut qui consequatur
-              ullam officia culpa praesentium blanditiis distinctio facere alias
-              repellat sunt esse, quidem numquam corrupti! Nobis, perspiciatis.
-              Accusantium eum animi soluta, laborum quisquam ea ex placeat,
-              blanditiis aliquid expedita porro possimus dolor optio omnis.
+              En el momento en que ingrese, se
+              sentirá inspirado para esforzarse un poco más, sudar un poco más y
+              creer un poco más en usted mismo. Con cada día, te levantarás con
+              confianza y sudarás con un propósito junto a una comunidad que
+              está aquí para apoyarte, pase lo que pase.
             </p>
           </div>
         </div>
@@ -24,12 +23,14 @@ const EspacioCliente = () => {
       {/* seccion donde mostraremos las categorias de ejercicios */}
       <section className="container mt-4">
         <article>
-            <div>
-                <h2 className="text-center display-4 titulos">Rutinas</h2>
-                <p className="text-center text-light fs-4">Entrena de la mejor manera con nuestra guia completa de ejercicios</p>
-            </div>
-            <Categorias></Categorias>
-            <CategoriaInferior></CategoriaInferior>
+          <div>
+            <h2 className="text-center display-4 titulos">Rutinas</h2>
+            <p className="text-center text-light fs-4">
+              Entrena de la mejor manera con nuestra guia completa de ejercicios
+            </p>
+          </div>
+          <Categorias></Categorias>
+          <CategoriaInferior></CategoriaInferior>
         </article>
       </section>
     </div>

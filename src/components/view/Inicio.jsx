@@ -9,10 +9,13 @@ const Inicio = () => {
       <section>
         <article>
           <div>
-            <div className="portada"></div>
-            <div className="descripcion ">
-              <div className="text-center">
-                <h1 className="display-1">SR GYM</h1>
+            <div className="portada mb-5">
+              <div className="text-light tituloPortada ">
+                <div className=" fw-bold">
+                <h1 className="display-3 fw-bold ms-5">PLAN BLACK $5199</h1>
+                <p className="fs-1 ms-5">+ANUALIDAD GRATIS</p>
+                <Link to={"/planes"} className="btn btn-warning w-50 text-light ms-5">EMPEZA HOY</Link>
+                </div>
               </div>
             </div>
           </div>

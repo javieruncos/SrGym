@@ -19,6 +19,7 @@ import Footer from './components/common/Footer';
 import Gimnasio from './components/view/Gimnasio';
 import Planes from './components/view/Planes';
 import PlanSmart from './components/view/PlanSmart';
+import PlanBlack from './components/view/PlanBlack';
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
         <Route exact path='/gym' element={<Gimnasio></Gimnasio>}></Route>
         <Route exact path='/planes' element={<Planes></Planes>}></Route>
         <Route exact path='/smart' element={<PlanSmart></PlanSmart>}></Route>
+        <Route exact path='/black' element={<PlanBlack></PlanBlack>}></Route>
       </Routes>
       <Footer></Footer>
       </BrowserRouter>

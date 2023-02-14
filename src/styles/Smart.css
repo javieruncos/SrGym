@@ -1,20 +1,20 @@
 .smartDiv{
-    height: 550px;
+    height: 770px;
     background-color:#ffffff;
-    color: black;
+    color:black;
     padding: 10px 10px;
     border-radius: 10px;
 }
 
 .smartDiv .smartDiv{
-    height: 150px;
+    height: 190px;
     width: 80%;
     background-color: black;
     border-radius: 10px;
     color: white;
 }
 .smartDiv .smartDiv2{
-    height: 150px;
+    height: 190px;
     width: 80%;
     background-color: white;
     border-radius: 10px;

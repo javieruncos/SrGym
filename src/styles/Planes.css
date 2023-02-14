@@ -1,7 +1,20 @@
 .portadaPlanes{
     height: 400px;
     width: 100%;
-    background-color:#FFFF12;
+   background-image: url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltJTIwZml0bmVzc3xlbnwwfHwwfHw%3D&w=1000&q=80");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.divPortadaPlanes{
+    background-color: rgba(0, 0, 0, 0.685);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .planSmart{

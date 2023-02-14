@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../../styles/Gimnasio.css";
 const Gimnasio = () => {
   return (
@@ -23,15 +22,23 @@ const Gimnasio = () => {
                   <i className="bi bi-geo-alt text-light "></i>
                 </span>
               </div>
-              <div >
-                <img src="https://pictures.smartfit.com.br/9871/big/WhatsApp_Image_2021-09-25_at_11.47.31.jpeg?1635797572" alt="sucursal" className="w-100" />
+              <div>
+                <img
+                  src="https://pictures.smartfit.com.br/9871/big/WhatsApp_Image_2021-09-25_at_11.47.31.jpeg?1635797572"
+                  alt="sucursal"
+                  className="w-100"
+                />
                 <div className="planesCard d-flex justify-content-center gap-4">
                   <div className="d-flex  justify-content-center flex-column text-center border-end px-3 smart">
-                    <Link className="LinkCategorias">PLAN SMART</Link>
+                    <a href="/smart" className="LinkCategorias">
+                      PLAN SMART
+                    </a>
                     <span>$4599</span>
                   </div>
                   <div className="d-flex  justify-content-center flex-column text-center">
-                    <Link className="LinkCategorias">PLAN BLACK</Link>
+                    <a href="/black" className="LinkCategorias">
+                      PLAN BLACK
+                    </a>
                     <span>$5199</span>
                   </div>
                 </div>
@@ -48,15 +55,23 @@ const Gimnasio = () => {
                       <i className="bi bi-geo-alt text-light "></i>
                     </span>
                   </div>
-                  <div >
-                    <img src="https://pictures.smartfit.com.br/7185/big/1_ok.jpg?1575639464" alt="sucursal" className="w-100"/>
+                  <div>
+                    <img
+                      src="https://pictures.smartfit.com.br/7185/big/1_ok.jpg?1575639464"
+                      alt="sucursal"
+                      className="w-100"
+                    />
                     <div className="planesCard d-flex justify-content-center gap-4">
                       <div className="d-flex  justify-content-center flex-column text-center border-end px-3 smart">
-                        <Link className="LinkCategorias">PLAN SMART</Link>
+                        <a href="/smart" className="LinkCategorias">
+                          PLAN SMART
+                        </a>
                         <span>$4599</span>
                       </div>
                       <div className="d-flex  justify-content-center flex-column text-center">
-                        <Link className="LinkCategorias">PLAN BLACK</Link>
+                        <a href="/black" className="LinkCategorias">
+                          PLAN BLACK
+                        </a>
                         <span>$5199</span>
                       </div>
                     </div>
@@ -76,14 +91,22 @@ const Gimnasio = () => {
                     </span>
                   </div>
                   <div>
-                    <img src="https://pictures.smartfit.com.br/7145/big/a_2.jpg?1575651369" alt="sucursal" className="w-100" />
+                    <img
+                      src="https://pictures.smartfit.com.br/7145/big/a_2.jpg?1575651369"
+                      alt="sucursal"
+                      className="w-100"
+                    />
                     <div className="planesCard d-flex justify-content-center gap-4">
                       <div className="d-flex  justify-content-center flex-column text-center border-end px-3 smart">
-                        <Link className="LinkCategorias">PLAN SMART</Link>
+                        <a href="/smart" className="LinkCategorias">
+                          PLAN SMART
+                        </a>
                         <span>$4599</span>
                       </div>
                       <div className="d-flex  justify-content-center flex-column text-center">
-                        <Link className="LinkCategorias">PLAN BLACK</Link>
+                        <a href="/black" className="LinkCategorias">
+                          PLAN BLACK
+                        </a>
                         <span>$5199</span>
                       </div>
                     </div>
@@ -103,14 +126,22 @@ const Gimnasio = () => {
                     </span>
                   </div>
                   <div>
-                    <img src="https://pictures.smartfit.com.br/7177/big/1.jpg?1575636660" alt="sucursal" className="w-100" />
+                    <img
+                      src="https://pictures.smartfit.com.br/7177/big/1.jpg?1575636660"
+                      alt="sucursal"
+                      className="w-100"
+                    />
                     <div className="planesCard d-flex justify-content-center gap-4">
                       <div className="d-flex  justify-content-center flex-column text-center border-end px-3 smart">
-                        <Link className="LinkCategorias">PLAN SMART</Link>
+                        <a href="/smart" className="LinkCategorias">
+                          PLAN SMART
+                        </a>
                         <span>$4599</span>
                       </div>
                       <div className="d-flex  justify-content-center flex-column text-center">
-                        <Link className="LinkCategorias">PLAN BLACK</Link>
+                        <a href="/black" className="LinkCategorias">
+                          PLAN BLACK
+                        </a>
                         <span>$5199</span>
                       </div>
                     </div>
@@ -130,14 +161,22 @@ const Gimnasio = () => {
                     </span>
                   </div>
                   <div>
-                    <img src="https://pictures.smartfit.com.br/8502/big/IMG-20201111-WA0066.jpg?1605135575" alt="sucursal" className="w-100" />
+                    <img
+                      src="https://pictures.smartfit.com.br/8502/big/IMG-20201111-WA0066.jpg?1605135575"
+                      alt="sucursal"
+                      className="w-100"
+                    />
                     <div className="planesCard d-flex justify-content-center gap-4">
                       <div className="d-flex  justify-content-center flex-column text-center border-end px-3 smart">
-                        <Link className="LinkCategorias">PLAN SMART</Link>
+                        <a href="/smart" className="LinkCategorias">
+                          PLAN SMART
+                        </a>
                         <span>$4599</span>
                       </div>
                       <div className="d-flex  justify-content-center flex-column text-center">
-                        <Link className="LinkCategorias">PLAN BLACK</Link>
+                        <a href="/black" className="LinkCategorias">
+                          PLAN BLACK
+                        </a>
                         <span>$5199</span>
                       </div>
                     </div>
@@ -157,14 +196,22 @@ const Gimnasio = () => {
                     </span>
                   </div>
                   <div>
-                    <img src="https://pictures.smartfit.com.br/8500/big/WhatsApp_Image_2020-11-09_at_7.35.50_AM.jpeg?1604918322" alt="sucursal" className="w-100" />
+                    <img
+                      src="https://pictures.smartfit.com.br/8500/big/WhatsApp_Image_2020-11-09_at_7.35.50_AM.jpeg?1604918322"
+                      alt="sucursal"
+                      className="w-100"
+                    />
                     <div className="planesCard d-flex justify-content-center gap-4">
                       <div className="d-flex  justify-content-center flex-column text-center border-end px-3 smart">
-                        <Link className="LinkCategorias">PLAN SMART</Link>
+                        <a href="/smart" className="LinkCategorias">
+                          PLAN SMART
+                        </a>
                         <span>$4599</span>
                       </div>
                       <div className="d-flex  justify-content-center flex-column text-center">
-                        <Link className="LinkCategorias">PLAN BLACK</Link>
+                        <a href="/black" className="LinkCategorias">
+                          PLAN BLACK
+                        </a>
                         <span>$5199</span>
                       </div>
                     </div>
@@ -175,7 +222,7 @@ const Gimnasio = () => {
           </div>
         </div>
         <div className="text-center mt-5 text-light">
-            <h2>Visitanos en cualquiera de nuestras sucursales</h2>
+          <h2>Visitanos en cualquiera de nuestras sucursales</h2>
         </div>
       </section>
     </div>

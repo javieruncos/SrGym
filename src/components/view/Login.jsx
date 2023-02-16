@@ -1,8 +1,14 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import { useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
+import { listaUsuario } from "../../helper/Login";
 import "../../styles/Formulario.css";
 
-const Login = () => {
+const Login = ({usuarioLogueado,setUsuarioLogueado}) => {
+
+  const navigate = useNavigate()
+
   const {
     register,
     handleSubmit,
@@ -10,7 +16,19 @@ const Login = () => {
   } = useForm();
 
   const submit = (data) => {
-    console.log(data);
+    listaUsuario().then((respuesta)=>{
+      const usuarioBuscado = respuesta.find((item) => item.email === data.email)
+      if(usuarioBuscado.mail === data.mail && usuarioBuscado.password === data.password){
+        console.log("el usuario si existe")
+        Swal.fire("usuario logueado","login correcto" ,"success")
+        localStorage.setItem("usuarioGym",JSON.stringify(usuarioBuscado))
+        setUsuarioLogueado(usuarioBuscado)
+        navigate("/")
+      }else{
+        console.log("el usuario no existe")
+        Swal.fire("erro","error intentalo mas tarde","error")
+      }
+    })
   };
 
   return (

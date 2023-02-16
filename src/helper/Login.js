@@ -13,3 +13,15 @@ export const crearUser = async (usuario) => {
     return false;
   }
 };
+
+
+export const listaUsuario = async()=>{
+  try {
+    const respuesta = await fetch(urlUser)
+    const datos = await respuesta.json()
+    console.log(datos)
+    return datos
+  } catch (error) {
+    console.log(error)
+  }
+}

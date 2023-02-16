@@ -18,9 +18,9 @@ const Regristro = ({setUsuarioLogueado}) => {
   const submit =(data)=>{
      console.log(data)
      crearUser(data).then((usuario)=>{
-        if(usuario.status ===201){
+        if(usuario.status === 201){
           Swal.fire("Usuario creado","el usuario se creo correctamente","success")
-          localStorage.setItem("usuaroGym",JSON.stringify(data.email))
+          localStorage.setItem("usuarioGym",JSON.stringify(data))
           setUsuarioLogueado(data)
           reset()
           navigate("/")

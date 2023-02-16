@@ -6,7 +6,7 @@ const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
   const navigate = useNavigate();
 
   const logout = () => {
-    localStorage.removeItem("UsuarioGym");
+    localStorage.removeItem("usuarioGym");
     setUsuarioLogueado({});
     navigate("/");
   };
@@ -35,7 +35,7 @@ const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
               </Link>
               {usuarioLogueado.email ? (
                 <>
-                  <Link to="/cliente" className="ms-4 LinkMenu">
+                  <Link to="/cliente" className="ms-4 mt-2 LinkMenu">
                     Espacio del Cliente
                   </Link>
                   <Button variant={"warning"} className="ms-5" onClick={logout}>

@@ -53,7 +53,7 @@ function App() {
         <Route exact path='/planes' element={<Planes></Planes>}></Route>
         <Route exact path='/smart' element={<PlanSmart></PlanSmart>}></Route>
         <Route exact path='/black' element={<PlanBlack></PlanBlack>}></Route>
-        <Route exact path='/login' element={<Login></Login>}></Route>
+        <Route exact path='/login' element={<Login usuarioLogueado={usuarioLogueado} setUsuarioLogueado={setUsuarioLogueado}></Login>}></Route>
         <Route exact path='/registro' element={<Regristro setUsuarioLogueado={setUsuarioLogueado}></Regristro>}></Route>
       </Routes>
       <Footer></Footer>

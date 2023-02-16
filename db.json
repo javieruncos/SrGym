@@ -345,41 +345,7 @@
       "email": "sol@gmail.com",
       "password": "123456756",
       "id": 3
-    },
-    {
-      "nombre": "hernan",
-      "apellido": "andrada",
-      "email": "sol@gmail.com",
-      "password": "123456756",
-      "id": 4
-    },
-    {
-      "nombre": "hernan",
-      "apellido": "andrada",
-      "email": "sol@gmail.com",
-      "password": "123456756",
-      "id": 5
-    },
-    {
-      "nombre": "hernan",
-      "apellido": "andrada",
-      "email": "sol@gmail.com",
-      "password": "asdsfdfdgdfsdfsd",
-      "id": 6
-    },
-    {
-      "nombre": "sol",
-      "apellido": "sdsdas",
-      "email": "sol@gmail.com",
-      "password": "asasfsfa",
-      "id": 7
-    },
-    {
-      "nombre": "sol",
-      "apellido": "andrada",
-      "email": "sol@gmail.com",
-      "password": "dasdsadasdasdas",
-      "id": 8
     }
+    
   ]
 }

@@ -215,11 +215,11 @@ const Inicio = () => {
             <span className="fw-bold text-light">Elegí tu sede</span>
           </div>
           <div className="col-12 col-md-4 col-lg-3 registro">
-            <i class="bi bi-card-list text-light display-1"></i>
+            <i className="bi bi-card-list text-light display-1"></i>
             <span className="fw-bold text-light">Escogé un plan</span>
           </div>
           <div className="col-12 col-md-4 col-lg-3 registro">
-            <i class="bi bi-person-check-fill text-light display-1"></i>
+            <i className="bi bi-person-check-fill text-light display-1"></i>
             <span className="fw-bold text-light">Registrate y ¡Listo!</span>
           </div>
         </div>

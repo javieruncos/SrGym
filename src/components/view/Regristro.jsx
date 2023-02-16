@@ -1,6 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 import { crearUser } from "../../helper/Login";
 import "../../styles/Registro.css"
 
@@ -17,18 +18,20 @@ const Regristro = ({setUsuarioLogueado}) => {
   const submit =(data)=>{
      console.log(data)
      crearUser(data).then((usuario)=>{
-        if(usuario.status ===200){
-          localStorage.setItem("usuaroGym",JSON.stringify(data))
+        if(usuario.status ===201){
+          Swal.fire("Usuario creado","el usuario se creo correctamente","success")
+          localStorage.setItem("usuaroGym",JSON.stringify(data.email))
           setUsuarioLogueado(data)
           reset()
           navigate("/")
 
+        }else{
+          Swal.fire("Error","intente esto mas tarde","error")
         }
      })
      
   }
-
-
+  
   return (
     <div className="container contenedorRegistro mt-5">
       <div>
@@ -102,7 +105,7 @@ const Regristro = ({setUsuarioLogueado}) => {
           />
           <p className="text-danger mt-1">{errors.password?.message}</p>
           <div className="mt-3">
-            <button className="btn btn-warning ">crear</button>
+            <button type="submit" className="btn btn-warning ">crear</button>
           </div>
         </form>
       </div>

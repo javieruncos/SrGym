@@ -14,30 +14,13 @@ const Login = () => {
   };
 
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 contenedorLogin">
       <div>
         <h1 className="text-center text-light fw-bold display-5">LOGIN</h1>
       </div>
       <div className="formulario mx-auto"></div>
       <div className="formulario2 mx-auto">
-        <form className="px-2 py-3" onSubmit={handleSubmit(submit)}>
-          <label>Nombre</label>
-          <input
-            type="text"
-            className="form-control"
-            {...register("nombre", {
-              required: true,
-              maxLength: {
-                value: 100,
-                message: "el numero maximo de caracteres es de 100",
-              },
-              minLength: {
-                value: 2,
-                message: "el numero minimo de caracteres es de 2",
-              },
-            })}
-          />
-          <p className="text-danger mt-1">{errors.nombre?.message}</p>
+        <form className="px-2 py-3" onSubmit={handleSubmit(submit)}>         
           <label>Email</label>
           <input
             type="email"

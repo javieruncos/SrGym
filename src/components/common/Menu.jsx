@@ -1,6 +1,7 @@
 import React from "react";
 import { Nav, Navbar, Container, Button } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
+import "../../styles/Menu.css"
 
 const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
   const navigate = useNavigate();
@@ -15,7 +16,7 @@ const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
     <div>
       <Navbar bg="dark" expand="lg" className="">
         <Container>
-          <Navbar.Brand href="/" className="text-yellow">
+          <Navbar.Brand href="/" className="text-yellow SrGym">
             SR GYM
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -38,13 +39,13 @@ const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
                   <Link to="/cliente" className="ms-4 mt-2 LinkMenu">
                     Espacio del Cliente
                   </Link>
-                  <Button variant={"warning"} className="ms-5" onClick={logout}>
+                  <Button variant={"warning"} className="ms-5 btnLogout" onClick={logout}>
                     Logout
                   </Button>
                 </>
               ) : (
                 <>
-                <div className=" w-75 d-flex justify-content-end">
+                <div className="divLogin">
                   <Button
                     as={Link}
                     to="/login"

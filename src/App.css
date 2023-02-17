@@ -68,3 +68,12 @@ color: #FFFB12;
 .LinksFooter:hover {
   color: #FFFB12;
 }
+
+.error{
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  
+}
+

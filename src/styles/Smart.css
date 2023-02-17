@@ -7,7 +7,7 @@
 }
 
 .smartDiv .smartDiv{
-    height: 190px;
+    height: 141px;
     width: 80%;
     background-color: black;
     border-radius: 10px;
@@ -22,3 +22,31 @@
     color: black;
 }
 
+
+
+@media screen and (max-width:767px){
+    .smartDiv .smartDiv {
+        height: 308px;
+        width: 80%;
+        background-color: black;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .smartDiv{
+        height: 1170px;
+        background-color:#ffffff;
+        color:black;
+        padding: 10px 10px;
+        border-radius: 10px;
+    }
+
+    .smartDiv .smartDiv2 {
+        height: 445px;
+        width: 80%;
+        background-color: white;
+        border-radius: 10px;
+        border: 2px solid black;
+        color: black;
+    }
+}

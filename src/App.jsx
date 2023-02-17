@@ -23,6 +23,7 @@ import PlanSmart from "./components/view/PlanSmart";
 import PlanBlack from "./components/view/PlanBlack";
 import Login from "./components/view/Login";
 import Regristro from "./components/view/Regristro";
+import Error404 from "./components/view/Error404";
 
 function App() {
   const usuario = JSON.parse(localStorage.getItem("usuarioGym")) || {};
@@ -31,64 +32,27 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Menu
-          usuarioLogueado={usuarioLogueado}
-          setUsuarioLogueado={setUsuarioLogueado}
-        ></Menu>
+        <Menu usuarioLogueado={usuarioLogueado}setUsuarioLogueado={setUsuarioLogueado}></Menu>
         <Routes>
           <Route exact path="/" element={<Inicio></Inicio>}></Route>
-          <Route
-            exact
-            path="/cliente"
-            element={<EspacioCliente></EspacioCliente>}
-          ></Route>
-          <Route
-            exact
-            path="/pectorales"
-            element={<Pectorales></Pectorales>}
-          ></Route>
+          <Route exact path="/cliente" element={<EspacioCliente></EspacioCliente>}></Route>
+          <Route exact path="/pectorales" element={<Pectorales></Pectorales>}></Route>
           <Route exact path="/espalda" element={<Espalda></Espalda>}></Route>
           <Route exact path="/hombros" element={<Hombros></Hombros>}></Route>
           <Route exact path="/biceps" element={<Biceps></Biceps>}></Route>
           <Route exact path="/triceps" element={<Triceps></Triceps>}></Route>
-          <Route
-            exact
-            path="/cuadriceps"
-            element={<Cuadriceps></Cuadriceps>}
-          ></Route>
+          <Route exact path="/cuadriceps" element={<Cuadriceps></Cuadriceps>}></Route>
           <Route exact path="/femoral" element={<Femoral></Femoral>}></Route>
           <Route exact path="/gluteos" element={<Gluteos></Gluteos>}></Route>
-          <Route
-            exact
-            path="/pantorrillas"
-            element={<Pantorrillas></Pantorrillas>}
-          ></Route>
-          <Route
-            exact
-            path="/aduptores"
-            element={<Aduptores></Aduptores>}
-          ></Route>
+          <Route exact path="/pantorrillas" element={<Pantorrillas></Pantorrillas>}></Route>
+          <Route exact path="/aduptores" element={<Aduptores></Aduptores>}></Route>
           <Route exact path="/gym" element={<Gimnasio></Gimnasio>}></Route>
           <Route exact path="/planes" element={<Planes></Planes>}></Route>
           <Route exact path="/smart" element={<PlanSmart></PlanSmart>}></Route>
           <Route exact path="/black" element={<PlanBlack></PlanBlack>}></Route>
-          <Route
-            exact
-            path="/login"
-            element={
-              <Login
-                usuarioLogueado={usuarioLogueado}
-                setUsuarioLogueado={setUsuarioLogueado}
-              ></Login>
-            }
-          ></Route>
-          <Route
-            exact
-            path="/registro"
-            element={
-              <Regristro setUsuarioLogueado={setUsuarioLogueado}></Regristro>
-            }
-          ></Route>
+          <Route exact path="/login" element={ <Login usuarioLogueado={usuarioLogueado} setUsuarioLogueado={setUsuarioLogueado}></Login>}></Route>
+          <Route exact path="/registro" element={ <Regristro setUsuarioLogueado={setUsuarioLogueado}></Regristro> }></Route>
+          <Route exact path="/error" element={ <Error404></Error404>}></Route>
         </Routes>
         <Footer></Footer>
       </BrowserRouter>

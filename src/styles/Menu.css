@@ -1,0 +1,22 @@
+
+.divLogin{
+ display: flex;
+ justify-content: flex-end;
+ width: 100%;
+}
+
+@media screen and (max-width:767px){
+
+    .btnLogout{
+        width: 100px;
+        margin-top: 20px;
+        position: relative;
+        right: 25px;
+    }
+
+    .SrGym{
+        margin-left: 20px;
+    }
+
+   
+}

@@ -20,13 +20,12 @@ const Login = ({usuarioLogueado,setUsuarioLogueado}) => {
       const usuarioBuscado = respuesta.find((item) => item.email === data.email)
       if(usuarioBuscado.mail === data.mail && usuarioBuscado.password === data.password){
         console.log("el usuario si existe")
-        Swal.fire("usuario logueado","login correcto" ,"success")
         localStorage.setItem("usuarioGym",JSON.stringify(usuarioBuscado))
         setUsuarioLogueado(usuarioBuscado)
         navigate("/")
       }else{
         console.log("el usuario no existe")
-        Swal.fire("erro","error intentalo mas tarde","error")
+        Swal.fire("error","error intentalo mas tarde","error")
       }
     })
   };

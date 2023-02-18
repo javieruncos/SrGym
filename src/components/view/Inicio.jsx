@@ -22,7 +22,7 @@ const Inicio = () => {
         </article>
       </section>
       <section className="container">
-        <article className="container">
+        <article className="">
           <div className="text-light">
             <h3 className="text-light display-3 text-center">
               ELIGE <span className="text-warning"> TU PLAN</span>
@@ -38,7 +38,9 @@ const Inicio = () => {
           </div>
           <div>
             {/* seccion planes de entrenamiento */}
-            <div className="divPlanes container mt-5">
+            <div className="divPlanes row  mt-5">
+
+              <div className="col-12 col-md-6 col-lg-6">
               <div className="planes">
                 <div className="descripcionPlan">
                   <div className="planBlack">
@@ -67,7 +69,9 @@ const Inicio = () => {
                   </div>
                 </div>
               </div>
-              <div className="planes">
+              </div>
+              <div className="col-12 col-md-6 col-lg-6">
+              <div className="planes ">
                 <div className="descripcionPlan">
                   <div className="planBlack bg-Plan">
                     <span className="text-light">PLAN</span>
@@ -95,6 +99,7 @@ const Inicio = () => {
                   </div>
                 </div>
               </div>
+              </div>
             </div>
           </div>
         </article>
@@ -115,8 +120,8 @@ const Inicio = () => {
                 tu rutina de entrenamiento! Exclusivo para clientes.
               </p>
             </div>
-            <div className=" d-flex justify-content-center gap-5 my-4">
-              <div>
+            <div className=" d-flex justify-content-center  my-4">
+              <div className="me-2">
                 <img
                   src="https://assets.smartfit.com.br/production/newHome/google-play-badge-es.png"
                   alt=""

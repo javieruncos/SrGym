@@ -2,7 +2,7 @@
 .divLogin{
  display: flex;
  justify-content: flex-end;
- width: 100%;
+ width: 25%;
 }
 
 @media screen and (max-width:767px){

@@ -77,3 +77,12 @@ color: #FFFB12;
   
 }
 
+@media screen and (max-width:767px){
+  .LinksFooter{
+    margin: 15px 0px 15px 0px;
+    font-size: 20px;
+    
+  }
+
+  
+}

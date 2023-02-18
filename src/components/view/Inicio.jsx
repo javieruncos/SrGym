@@ -124,7 +124,7 @@ const Inicio = () => {
               </div>
               <div>
                 <img
-                  src="https://assets.smartfit.com.br/production/newHome/google-play-badge-es.png"
+                  src="https://assets.smartfit.com.br/production/newHome/apple-badge-es.png"
                   alt=""
                 />
               </div>

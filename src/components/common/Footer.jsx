@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="row   container mt-5 pb-5">
           <div className="col-12 col-md-4 col-lg-4">
             <div className="text-light text-center">
-              <h5>SR GYM </h5>
+              <h5 className="ColorYellow">SR GYM </h5>
               <div className="d-flex flex-column">
               <Link className="LinksFooter">¿Quines somos ?</Link>
               <Link className="LinksFooter">Contactanos</Link>
@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
           <div className="col-12 col-md-4 col-lg-4">
             <div className="text-light text-center">
-              <h5>Planes</h5>
+              <h5 className="ColorYellow">Planes</h5>
               <div className="d-flex flex-column">
               <Link className="LinksFooter">Smart | Black</Link>
               <Link className="LinksFooter">mas ofertas</Link>
@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
           <div className="col-12 col-md-4 col-lg-4">
             <div className="text-light text-center">
-              <h5>Siguenos</h5>
+              <h5 className="ColorYellow">Siguenos</h5>
               <div className="d-flex flex-column">
               <Link className="LinksFooter">Facebook</Link>
               <Link className="LinksFooter">Instagram</Link>

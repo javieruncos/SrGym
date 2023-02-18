@@ -67,7 +67,7 @@ const Inicio = () => {
                   </div>
                 </div>
               </div>
-              <div className="planes container">
+              <div className="planes">
                 <div className="descripcionPlan">
                   <div className="planBlack bg-Plan">
                     <span className="text-light">PLAN</span>
@@ -159,7 +159,7 @@ const Inicio = () => {
               <img
                 src={require("../../img/salon.jpg")}
                 alt="salon"
-                // className="w-100"
+                className="w-100"
               />
             </div>
             <div>
@@ -173,7 +173,7 @@ const Inicio = () => {
               <img
                 src={require("../../img/salon3.webp")}
                 alt="salon"
-                // className="w-100"
+                className="w-100"
               />
             </div>
             <div>
@@ -187,14 +187,14 @@ const Inicio = () => {
               <img
                 src="https://cdn.smartfit.com.br/nossa-smart/img_cover_academia_fitness-app-cl.jpg"
                 alt="salon"
-                // className="w-100"
+                className="w-100"
               />
             </div>
             <div>
               <img
                 src="https://cdn.smartfit.com.br/nossa-smart/img_cover_academia_fitness-remote-cl.jpg"
                 alt="salon"
-                // className="w-100"
+                className="w-100"
               />
             </div>
           </div>

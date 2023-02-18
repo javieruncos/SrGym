@@ -224,12 +224,11 @@
 
 
 /* medias queries */
-@media screen and  (max-width:340px) {
-    .descripcionPlan {
-        height: 100%;
-        width: 100%;
-        background-color: #fcfcfb;
-        border-radius: 10px;
+@media all and  (max-width:280px) {
+    .espacioFit div {
+        width: 257px;
+        height: 400px;
+        margin-top: 30px;
     }
 }
 
@@ -278,12 +277,13 @@
     }
 
     .espacioFit div {
-        width: 368px;
+        width: 388px;
         height: 400px;
         margin-top: 30px;
     }
     .espacioFit div img {
       height: 100%;
+      width: 100%;
     }
 
     .tituloPortada{

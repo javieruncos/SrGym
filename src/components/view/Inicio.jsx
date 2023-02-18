@@ -143,7 +143,7 @@ const Inicio = () => {
       </div>
       {/* seccion de espacio fitness */}
       <section className="container my-5">
-        <article className="text-light">
+        <article className="text-light container">
           <div className="text-center">
             <h4 className="display-4">
               Todo lo que <span className="text-yellow">necesitas</span>
@@ -154,7 +154,9 @@ const Inicio = () => {
               entrenar.
             </p>
           </div>
-          <div className="espacioFit">
+          <div className="espacioFit row ">
+
+            <div className="col-12 col-md-4 col-lg-4">
             <div>
               <img
                 src={require("../../img/salon.jpg")}
@@ -162,6 +164,8 @@ const Inicio = () => {
                 className="w-100"
               />
             </div>
+            </div>
+            <div className="col-12 col-md-4 col-lg-4">
             <div>
               <img
                 src={require("../../img/salon2.jpg")}
@@ -169,6 +173,8 @@ const Inicio = () => {
                 className="w-100"
               />
             </div>
+            </div>
+            <div className="col-12 col-md-4 col-lg-4">
             <div>
               <img
                 src={require("../../img/salon3.webp")}
@@ -176,6 +182,8 @@ const Inicio = () => {
                 className="w-100"
               />
             </div>
+            </div>
+            <div className="col-12 col-md-4 col-lg-4">
             <div>
               <img
                 src="https://cdn.smartfit.com.br/nossa-smart/img_cover_academia_cardio.jpg"
@@ -183,6 +191,8 @@ const Inicio = () => {
                 className="w-100"
               />
             </div>
+            </div>
+            <div className="col-12 col-md-4 col-lg-4">
             <div>
               <img
                 src="https://cdn.smartfit.com.br/nossa-smart/img_cover_academia_fitness-app-cl.jpg"
@@ -190,12 +200,15 @@ const Inicio = () => {
                 className="w-100"
               />
             </div>
+            </div>
+            <div className="col-12 col-md-4 col-lg-4">
             <div>
               <img
                 src="https://cdn.smartfit.com.br/nossa-smart/img_cover_academia_fitness-remote-cl.jpg"
                 alt="salon"
                 className="w-100"
               />
+            </div>
             </div>
           </div>
         </article>

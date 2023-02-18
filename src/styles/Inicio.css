@@ -192,15 +192,11 @@
 
 /*ESPACIO FIT SECCIOM 3  */
 .espacioFit{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  
 }
 
 .espacioFit div{
-    width: 300px;
-    height: 300px;
-    background-color: #FFFB12;
-    margin-top: 30px
+   margin-top: 10px;
 }
        
 .divApp .appStore{
@@ -222,20 +218,18 @@
     flex-direction: column;
 }
 
-
-/* medias queries */
-@media all and  (max-width:280px) {
-    .espacioFit div {
-        width: 257px;
-        height: 400px;
-        margin-top: 30px;
-    }
+.espacioFit div img {
+    height: 100%;
+    width: 100%;
 }
 
 
+/* medias queries */
 
 
-@media screen and  (max-width:767px) {
+
+
+@media screen and (max-width:767px) {
 
     .portada{
         height: 300px;
@@ -275,11 +269,19 @@
         margin-top: 83px;
         margin-bottom: 103px;
     }
+    
+    .espacioFit{
+        display: flex;
+        justify-content: center;
+
+    }
+    
 
     .espacioFit div {
-        width: 388px;
-        height: 400px;
-        margin-top: 30px;
+        width: 100%;
+        height: 305px;
+        margin-top: 20px;
+      
     }
     .espacioFit div img {
       height: 100%;

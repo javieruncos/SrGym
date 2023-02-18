@@ -22,7 +22,7 @@ const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="d-flex justify-content-center w-100">
-              <div className="w-100  d-flex justify-content-center">
+              <div className="w-100  d-flex justify-content-center menuLinks">
                 <Link to="/" className="ms-4 mt-2 LinkMenu">
                   Inicio
                 </Link>

@@ -8,15 +8,15 @@
 
     .divLogin {
         display: flex;
-        justify-content: flex-end;
-        width: 50%;
+        justify-content: flex-start;
+        width: 70%;
         margin-top: 20px;
-        margin-left: 15px;
+        margin-left: 7px;
     }
 
     .btnLogout{
         position: relative;
-        right: 110px;
+        right: 32px;
     }
 
     .SrGym {

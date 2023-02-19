@@ -6,10 +6,12 @@ const Planes = () => {
       <div className="portadaPlanes d-flex justify-content-center align-items-center flex-column">
           <div className=" divPortadaPlanes">
           <h2 className=" display-2 text-center ColorYellow">Planes</h2>
+          <div className="container">
           <p className="fs-3 text-center text-light">
           ¡Planes con precios accesibles y de fácil inscripción! Realizá todo on
           line
           </p>
+          </div>
           </div>
       </div>
       <section className="container my-5">

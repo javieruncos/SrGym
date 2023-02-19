@@ -103,12 +103,11 @@
     border-radius: 10px;
 }
 
-
-
+.divPlanes{
+    display: flex;
+    justify-content: center;
+}
 /* estilos del plan de entrenamiento */
-
-
-
 
 .planes{
     height: 600px;
@@ -128,7 +127,6 @@
    
 }
 
-
 .planBlack{
     height: 150px;
     width: 100%;
@@ -140,9 +138,6 @@
     flex-direction: column;
     font-size: 30px;
 }
-
-
-
 
 .precio{
     height: 100px;
@@ -219,9 +214,6 @@
 
 
 /* medias queries */
-
-
-
 
 @media screen  and (max-width:767px) {
 
@@ -301,6 +293,12 @@
        
     }
 
+    .promoBlack{
+        width: 53%;
+        height:50% ;
+        font-weight: 20px;
+    }
+
     .divApp {
         margin-top: 96px;
         margin-bottom: 73px;
@@ -337,11 +335,8 @@
     }
 
     .espacioFit div {
-        width: 325px;
+        width: 327px;
         height: 300px;
-        background-color: #FFFB12;
-        margin-top: 31px;
-    
     }
 
     .espacioFit{

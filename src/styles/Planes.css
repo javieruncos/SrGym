@@ -33,3 +33,11 @@
 .lista{
     list-style: none;
 }
+
+@media screen and (min-width:767px) and (max-width:991px){
+    .planSmart {
+        height: 540px;
+        width: 346px;
+        
+    }
+}

@@ -4,6 +4,15 @@
   flex-direction: column;
   min-height: 100vh;
   font-family:sans-serif;
+  margin-top: 55px;
+}
+
+.Menu{
+  position: fixed;
+  background-color: #FFFB12;
+  width: 100%;
+  top: 0;
+  z-index: 1;
 }
 
 .mainSection{
@@ -78,6 +87,14 @@ color: #FFFB12;
 }
 
 @media screen and (max-width:767px){
+
+  .Menu{
+    
+    width: 100%;
+    
+  }
+
+
   .LinksFooter{
     margin: 15px 0px 15px 0px;
     font-size: 20px;

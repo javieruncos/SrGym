@@ -11,7 +11,7 @@ const Inicio = () => {
           <div>
             <div className="portada mb-5">
               <div className="text-light tituloPortada ">
-                <div className=" fw-bold">
+                <div className=" fw-bold promoBlack">
                 <h1 className="display-3 fw-bold ms-5">PLAN BLACK $5199</h1>
                 <p className="fs-1 ms-5">+ANUALIDAD GRATIS</p>
                 <Link to={"/planes"} className="btn btn-warning w-50 text-light ms-5">EMPEZA HOY</Link>
@@ -38,10 +38,9 @@ const Inicio = () => {
           </div>
           <div>
             {/* seccion planes de entrenamiento */}
-            <div className="divPlanes row  mt-5">
-
+            <div className="divPlanes row  mt-5 ">
               <div className="col-12 col-md-6 col-lg-6">
-              <div className="planes">
+              <div className="planes container">
                 <div className="descripcionPlan">
                   <div className="planBlack">
                     <span className="text-light">PLAN</span>
@@ -227,7 +226,7 @@ const Inicio = () => {
           </p>
           <hr />
         </div>
-        <div className="row gap-2 d-flex justify-content-center mt-3">
+        <div className="row d-flex justify-content-center mt-3">
           <div className="col-12 col-md-4 col-lg-3 registro">
             <i className="bi bi-geo-alt text-light display-1 "></i>
             <span className="fw-bold text-light">Elegí tu sede</span>

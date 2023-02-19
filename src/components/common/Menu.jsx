@@ -13,8 +13,8 @@ const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
   };
 
   return (
-    <div>
-      <Navbar bg="dark" expand="lg" className="">
+    <div className="Menu">
+      <Navbar bg="dark" expand="lg" >
         <Container>
           <Navbar.Brand href="/" className="text-yellow SrGym">
             SR GYM

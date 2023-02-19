@@ -70,7 +70,7 @@ const Inicio = () => {
               </div>
               </div>
               <div className="col-12 col-md-6 col-lg-6">
-              <div className="planes ">
+              <div className="planes container">
                 <div className="descripcionPlan">
                   <div className="planBlack bg-Plan">
                     <span className="text-light">PLAN</span>

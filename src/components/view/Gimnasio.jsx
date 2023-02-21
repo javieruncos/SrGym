@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/Gimnasio.css";
+import { Link } from "react-router-dom";
 const Gimnasio = () => {
   return (
     <div>
@@ -30,15 +31,15 @@ const Gimnasio = () => {
                 />
                 <div className="planesCard d-flex justify-content-center gap-4">
                   <div className="d-flex  justify-content-center flex-column text-center border-end px-3 smart">
-                    <a href="/smart" className="LinkCategorias">
+                    <Link href="/smart" className="LinkCategorias">
                       PLAN SMART
-                    </a>
+                    </Link>
                     <span>$4599</span>
                   </div>
                   <div className="d-flex  justify-content-center flex-column text-center">
-                    <a href="/black" className="LinkCategorias">
+                    <Link href="/black" className="LinkCategorias">
                       PLAN BLACK
-                    </a>
+                    </Link>
                     <span>$5199</span>
                   </div>
                 </div>
@@ -63,15 +64,15 @@ const Gimnasio = () => {
                     />
                     <div className="planesCard d-flex justify-content-center gap-4">
                       <div className="d-flex  justify-content-center flex-column text-center border-end px-3 smart">
-                        <a href="/smart" className="LinkCategorias">
+                        <Link href="/smart" className="LinkCategorias">
                           PLAN SMART
-                        </a>
+                        </Link>
                         <span>$4599</span>
                       </div>
                       <div className="d-flex  justify-content-center flex-column text-center">
-                        <a href="/black" className="LinkCategorias">
+                        <Link href="/black" className="LinkCategorias">
                           PLAN BLACK
-                        </a>
+                        </Link>
                         <span>$5199</span>
                       </div>
                     </div>
@@ -98,15 +99,15 @@ const Gimnasio = () => {
                     />
                     <div className="planesCard d-flex justify-content-center gap-4">
                       <div className="d-flex  justify-content-center flex-column text-center border-end px-3 smart">
-                        <a href="/smart" className="LinkCategorias">
+                        <Link href="/smart" className="LinkCategorias">
                           PLAN SMART
-                        </a>
+                        </Link>
                         <span>$4599</span>
                       </div>
                       <div className="d-flex  justify-content-center flex-column text-center">
-                        <a href="/black" className="LinkCategorias">
+                        <Link href="/black" className="LinkCategorias">
                           PLAN BLACK
-                        </a>
+                        </Link>
                         <span>$5199</span>
                       </div>
                     </div>
@@ -133,15 +134,15 @@ const Gimnasio = () => {
                     />
                     <div className="planesCard d-flex justify-content-center gap-4">
                       <div className="d-flex  justify-content-center flex-column text-center border-end px-3 smart">
-                        <a href="/smart" className="LinkCategorias">
+                        <Link href="/smart" className="LinkCategorias">
                           PLAN SMART
-                        </a>
+                        </Link>
                         <span>$4599</span>
                       </div>
                       <div className="d-flex  justify-content-center flex-column text-center">
-                        <a href="/black" className="LinkCategorias">
+                        <Link href="/black" className="LinkCategorias">
                           PLAN BLACK
-                        </a>
+                        </Link>
                         <span>$5199</span>
                       </div>
                     </div>
@@ -168,15 +169,15 @@ const Gimnasio = () => {
                     />
                     <div className="planesCard d-flex justify-content-center gap-4">
                       <div className="d-flex  justify-content-center flex-column text-center border-end px-3 smart">
-                        <a href="/smart" className="LinkCategorias">
+                        <Link href="/smart" className="LinkCategorias">
                           PLAN SMART
-                        </a>
+                        </Link>
                         <span>$4599</span>
                       </div>
                       <div className="d-flex  justify-content-center flex-column text-center">
-                        <a href="/black" className="LinkCategorias">
+                        <Link href="/black" className="LinkCategorias">
                           PLAN BLACK
-                        </a>
+                        </Link>
                         <span>$5199</span>
                       </div>
                     </div>
@@ -203,15 +204,15 @@ const Gimnasio = () => {
                     />
                     <div className="planesCard d-flex justify-content-center gap-4">
                       <div className="d-flex  justify-content-center flex-column text-center border-end px-3 smart">
-                        <a href="/smart" className="LinkCategorias">
+                        <Link href="/smart" className="LinkCategorias">
                           PLAN SMART
-                        </a>
+                        </Link>
                         <span>$4599</span>
                       </div>
                       <div className="d-flex  justify-content-center flex-column text-center">
-                        <a href="/black" className="LinkCategorias">
+                        <Link href="/black" className="LinkCategorias">
                           PLAN BLACK
-                        </a>
+                        </Link>
                         <span>$5199</span>
                       </div>
                     </div>

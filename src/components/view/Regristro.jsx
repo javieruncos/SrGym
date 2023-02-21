@@ -5,6 +5,7 @@ import Swal from "sweetalert2";
 import { crearUser } from "../../helper/Login";
 import "../../styles/Registro.css"
 
+
 const Regristro = ({setUsuarioLogueado}) => {
   const {
     register,
@@ -81,7 +82,7 @@ const Regristro = ({setUsuarioLogueado}) => {
             {...register("email", {
               required: true,
               pattern: {
-                value: /^[^@]+@[^@]+\.[a-zA-Z]{2,}$/,
+                value: /^[^@]+@[^@]+\.[Link-zA-Z]{2,}$/,
                 message: "introduzca un email valido",
               },
             })}

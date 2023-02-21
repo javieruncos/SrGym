@@ -5,6 +5,7 @@ import Swal from "sweetalert2";
 import { listaUsuario } from "../../helper/Login";
 import "../../styles/Formulario.css";
 
+
 const Login = ({usuarioLogueado,setUsuarioLogueado}) => {
 
   const navigate = useNavigate()
@@ -43,7 +44,7 @@ const Login = ({usuarioLogueado,setUsuarioLogueado}) => {
             {...register("email", {
               required: true,
               pattern: {
-                value: /^[^@]+@[^@]+\.[a-zA-Z]{2,}$/,
+                value: /^[^@]+@[^@]+\.[Link-zA-Z]{2,}$/,
                 message: "introduzca un email valido",
               },
             })}

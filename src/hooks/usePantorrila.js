@@ -7,7 +7,7 @@ export const usePantorrilla = ()=>{
 
     useEffect(()=>{
       listaEjercicio().then((respuesta) =>{
-          const filtro = respuesta.filter((item) => item.categoria === "pantorrilla");
+          const filtro = respuesta[0].filter((item) => item.categoria === "pantorrilla");
           const resultadoFiltro = filtro;
           setEjercicioPantorrilla(resultadoFiltro)
       })

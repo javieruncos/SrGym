@@ -8,7 +8,7 @@ export const useHombros = () => {
 
   useEffect(() => {
     listaEjercicio().then((respuesta) => {
-        const filtro = respuesta.filter((item)=> item.categoria === "hombros")
+        const filtro = respuesta[0].filter((item)=> item.categoria === "hombros")
         const resultadoFiltro = filtro
       console.log(respuesta);
       setListaHmbros(resultadoFiltro)

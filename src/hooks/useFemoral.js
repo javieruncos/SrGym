@@ -7,7 +7,7 @@ export const useFemoral = () => {
 
   useEffect(() => {
     listaEjercicio().then((respuesta) => {
-      const filtro = respuesta.filter((item) => item.categoria === "femorales");
+      const filtro = respuesta[0].filter((item) => item.categoria === "femorales");
       const resultadoFiltro = filtro;
       setEjerciciosFemoral(resultadoFiltro);
     });

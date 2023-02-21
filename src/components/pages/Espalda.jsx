@@ -14,7 +14,7 @@ const Espalda = () => {
       </div>
       <div className="row">
         {ejerciciosEspalda.map((item) => (
-          <CardEjercicio ejercicios={item} key={item.id}></CardEjercicio>
+          <CardEjercicio ejercicios={item} key={item._id}></CardEjercicio>
         ))}
       </div>
     </div>

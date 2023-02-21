@@ -61,7 +61,7 @@
       "series": "4",
       "repeticiones": "12,10,8,6",
       "tecnica": "Para realizar este ejercicio debemos comenzar tomando una mancuerna con una mano y apoyando la rodilla y la palma de la mano del lado opuesto sobre un banco plano.  La espalda estará fija y el brazo que posee el peso debe quedar extendido por el lateral del cuerpo. Desde esta posición inicial y conservando la espalda fija, debemos inspirar y tirar de la mancuerna para elevarla hacia la espalda mientras el brazo permanece paralelo al cuerpo, llevando el codo bien atrás para imitar el gesto de remo. Espiramos al final del movimiento mientras descendemos nuevamente el peso, de manera lenta.",
-      "id": 5
+      "id": 8
     },
     {
       "categoria": "hombros",
@@ -110,7 +110,7 @@
     },
     {
       "categoria": "biceps",
-      "ejercicio": "Biceps con barra",
+      "ejercicio": "Biceps con scott",
       "image": "https://i0.wp.com/dicasdemusculacao.org/wp-content/uploads/2021/12/rosca_banco_scott-1.jpg",
       "series": "4",
       "repeticiones": "12,10,8,6",
@@ -240,17 +240,8 @@
       "image": "https://i.pinimg.com/736x/42/b3/75/42b3754c790a3da9778f484001dd5257.jpg",
       "series": "4",
       "repeticiones": "12,10,8,8",
-      "tecnica": "Pon la espalda recta y mira hacia adelante en todo momento. La cabeza tiene que estar completamente alineada con la espalda. Para ascender, levanta los hombros y la cadera al mismo tiempo manteniendo la espalda erguida. Una vez has llegado a la posición inicial, vuelve a repetir el movimiento.",
-      "id": 29
-    },
-    {
-      "categoria": "femorales",
-      "ejercicio": "Peso muerto con barra",
-      "image": "https://i.pinimg.com/736x/42/b3/75/42b3754c790a3da9778f484001dd5257.jpg",
-      "series": "4",
-      "repeticiones": "12,10,8,8",
       "tecnica": "Colócate con las piernas más separadas de anchura de caderas y puntas de los pies abiertas con la mancuerna entre tus piernas. Activa la musculatura de la espalda y abdominales y comienza a bajar lentamente haciendo la sentadilla sumo a coger la mancuerna..",
-      "id": 30
+      "id": 29
     },
     {
       "categoria": "gluteos",
@@ -345,7 +336,13 @@
       "email": "sol@gmail.com",
       "password": "123456756",
       "id": 3
+    },
+    {
+      "nombre": "hernan",
+      "apellido": "andrada",
+      "email": "hernan@mail.com",
+      "password": "hernan12345",
+      "id": 4
     }
-    
   ]
 }

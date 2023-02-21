@@ -6,7 +6,7 @@ export const useTriceps = () => {
 
   useEffect(() => {
     listaEjercicio().then((respuesta) => {
-      const filtro = respuesta.filter((item) => item.categoria === "triceps");
+      const filtro = respuesta[0].filter((item) => item.categoria === "triceps");
       const resultadoFiltro = filtro;
       setEjerciciosTriceps(resultadoFiltro);
     });

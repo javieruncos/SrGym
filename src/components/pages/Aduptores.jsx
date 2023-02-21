@@ -12,7 +12,7 @@ const Aduptores = () => {
       </div>
       <div className="row">
         {ejerciciosAduptores.map((item) => (
-          <CardEjercicio ejercicios={item} key={item.id}></CardEjercicio>
+          <CardEjercicio ejercicios={item} key={item._id}></CardEjercicio>
         ))}
       </div>
     </div>

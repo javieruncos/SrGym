@@ -7,7 +7,7 @@ export const useCuadriceps = ()=>{
 
     useEffect(()=>{
        listaEjercicio().then((respuesta)=>{
-         const filtro = respuesta.filter((item)=> item.categoria === "cuadriceps")
+         const filtro = respuesta[0].filter((item)=> item.categoria === "cuadriceps")
          const resultado= filtro;
          setEjerciciosCuadriceps(resultado)
        })

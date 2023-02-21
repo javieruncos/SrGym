@@ -15,7 +15,7 @@ const Triceps = () => {
       </div>
       <div className="row">
         {ejerciciosTriceps.map((item) => (
-          <CardEjercicio ejercicios={item} key={item.id}></CardEjercicio>
+          <CardEjercicio ejercicios={item} key={item._id}></CardEjercicio>
         ))}
       </div>
     </div>

@@ -6,7 +6,7 @@ export const useBiceps = () => {
 
   useEffect(() => {
     listaEjercicio().then((respuesta) => {
-      const filtro = respuesta.filter((item) => item.categoria === "biceps");
+      const filtro = respuesta[0].filter((item) => item.categoria === "biceps");
       const resultadoFiltro = filtro;
       setEjercicioBiceps(resultadoFiltro);
     });

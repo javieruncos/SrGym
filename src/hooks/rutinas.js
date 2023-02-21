@@ -7,7 +7,7 @@ import { listaEjercicio } from "../helper/queriesEjercicio";
    
     useEffect(()=>{
       listaEjercicio().then((respuesta)=>{
-            const filtro = respuesta.filter(item => item.categoria === "espalda"  )
+            const filtro = respuesta[0].filter(item => item.categoria === "espalda"  )
            const resultado = filtro
             setEjerciciosEspalda(resultado)
       })

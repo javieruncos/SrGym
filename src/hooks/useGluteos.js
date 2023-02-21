@@ -7,7 +7,7 @@ export const useGluteos = ()=>{
 
     useEffect(()=>{
        listaEjercicio().then((respuesta)=>{
-        const filtro = respuesta.filter((item)=> item.categoria === "gluteos");
+        const filtro = respuesta[0].filter((item)=> item.categoria === "gluteos");
         const resultadoFiltro = filtro
          setEjerciciosGluteos(resultadoFiltro)
        })

@@ -19,8 +19,27 @@ export const listaUsuario = async()=>{
   try {
     const respuesta = await fetch(urlUser)
     const datos = await respuesta.json()
-    console.log(datos)
-    return datos
+    return datos.usuarios
+  } catch (error) {
+    console.log(error)
+  }
+}
+
+export const login = async(usuario)=>{
+  try {
+   const respuesta = await fetch(urlUser);
+   const listaUsuario = await respuesta.json()
+   const usuarioBuscado = listaUsuario.usuarios.find((itemUsuario)=> itemUsuario.email === usuario.email)
+   if(usuarioBuscado){
+    console.log("el usuario si existe")
+      if(usuarioBuscado.password === usuario.password){
+        return usuarioBuscado
+      }
+   }else{
+    console.log("el usuario no existe")
+    return
+   }
+    
   } catch (error) {
     console.log(error)
   }

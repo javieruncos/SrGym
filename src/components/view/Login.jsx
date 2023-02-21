@@ -2,7 +2,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
-import { listaUsuario } from "../../helper/Login";
+import { listaUsuario, login } from "../../helper/Login";
 import "../../styles/Formulario.css";
 
 
@@ -16,18 +16,11 @@ const Login = ({usuarioLogueado,setUsuarioLogueado}) => {
     formState: { errors },
   } = useForm();
 
-  const submit = (data) => {
-    listaUsuario().then((respuesta)=>{
-      const usuarioBuscado = respuesta.find((item) => item.email === data.email)
-      if(usuarioBuscado.mail === data.mail && usuarioBuscado.password === data.password){
-        localStorage.setItem("usuarioGym",JSON.stringify(usuarioBuscado))
-        setUsuarioLogueado(usuarioBuscado)
-        navigate("/")
-      }else{
-        Swal.fire("error","usuario o contraseña incorrrectos","error")
-      }
+  const submit = (data) =>{
+    login(data).then((respuesta)=>{
+      console.log(respuesta)
     })
-  };
+  }
 
   return (
     <div className="container mt-5 contenedorLogin">
@@ -44,7 +37,7 @@ const Login = ({usuarioLogueado,setUsuarioLogueado}) => {
             {...register("email", {
               required: true,
               pattern: {
-                value: /^[^@]+@[^@]+\.[Link-zA-Z]{2,}$/,
+                value: /[^@]+@[^@]+\.[a-zA-Z]{2,}$/,
                 message: "introduzca un email valido",
               },
             })}

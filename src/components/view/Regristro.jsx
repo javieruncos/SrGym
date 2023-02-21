@@ -21,7 +21,10 @@ const Regristro = ({setUsuarioLogueado}) => {
      crearUser(data).then((usuario)=>{
         if(usuario.status === 201){
           Swal.fire("Usuario creado","el usuario se creo correctamente","success")
-          localStorage.setItem("usuarioGym",JSON.stringify(data))
+          const usuarioIniciado ={
+            email:data.email
+          }
+          localStorage.setItem("usuarioGym",JSON.stringify(usuarioIniciado))
           setUsuarioLogueado(data)
           reset()
           navigate("/")
@@ -82,7 +85,7 @@ const Regristro = ({setUsuarioLogueado}) => {
             {...register("email", {
               required: true,
               pattern: {
-                value: /^[^@]+@[^@]+\.[Link-zA-Z]{2,}$/,
+                value: /[^@]+@[^@]+\.[a-zA-Z]{2,}$/,
                 message: "introduzca un email valido",
               },
             })}

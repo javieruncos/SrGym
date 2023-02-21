@@ -37,7 +37,7 @@ export const login = async(usuario)=>{
       }
    }else{
     console.log("el usuario no existe")
-    return
+   
    }
     
   } catch (error) {

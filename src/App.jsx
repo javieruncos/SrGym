@@ -24,6 +24,8 @@ import PlanBlack from "./components/view/PlanBlack";
 import Login from "./components/view/Login";
 import Regristro from "./components/view/Regristro";
 import Error404 from "./components/view/Error404";
+import RutasProtegidas from "./components/routes/RutasProtegidas";
+import RutasAdmin from "./components/routes/RutasAdmin";
 
 function App() {
   const usuario = JSON.parse(localStorage.getItem("usuarioGym")) || {};
@@ -35,7 +37,6 @@ function App() {
         <Menu usuarioLogueado={usuarioLogueado}setUsuarioLogueado={setUsuarioLogueado}></Menu>
         <Routes>
           <Route exact path="/" element={<Inicio></Inicio>}></Route>
-          <Route exact path="/cliente" element={<EspacioCliente></EspacioCliente>}></Route>
           <Route exact path="/pectorales" element={<Pectorales></Pectorales>}></Route>
           <Route exact path="/espalda" element={<Espalda></Espalda>}></Route>
           <Route exact path="/hombros" element={<Hombros></Hombros>}></Route>
@@ -51,7 +52,13 @@ function App() {
           <Route exact path="/smart" element={<PlanSmart></PlanSmart>}></Route>
           <Route exact path="/black" element={<PlanBlack></PlanBlack>}></Route>
           <Route exact path="/login" element={ <Login usuarioLogueado={usuarioLogueado} setUsuarioLogueado={setUsuarioLogueado}></Login>}></Route>
-          <Route exact path="/registro" element={ <Regristro setUsuarioLogueado={setUsuarioLogueado}></Regristro> }></Route>
+          <Route path="/usuario/*" element={
+            <RutasProtegidas>
+              <RutasAdmin setUsuarioLogueado={setUsuarioLogueado}></RutasAdmin>
+            </RutasProtegidas>
+          }>
+             
+          </Route>
           <Route exact path="/error" element={ <Error404></Error404>}></Route>
         </Routes>
         <Footer></Footer>

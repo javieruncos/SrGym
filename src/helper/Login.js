@@ -19,6 +19,7 @@ export const listaUsuario = async()=>{
   try {
     const respuesta = await fetch(urlUser)
     const datos = await respuesta.json()
+    console.log(datos)
     return datos.usuarios
   } catch (error) {
     console.log(error)
@@ -40,6 +41,6 @@ export const login = async(usuario)=>{
    }
     
   } catch (error) {
-    console.log(error)
+    console.log("error")
   }
 }

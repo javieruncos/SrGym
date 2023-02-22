@@ -28,12 +28,12 @@ const Planes = () => {
                          Inscripción: Varía según la sede Matrícula anual: $ 4.599*
                           Sin multa de cancelación
                        </p>
-                       <Link href="/smart" className="btn btn-dark w-50 mx-auto">Seleccionar</Link>
+                       <Link to={"/smart"} className="btn btn-dark w-50 mx-auto">Seleccionar</Link>
                        <span className="fw-bold mt-4">Beneficios</span>
                   </div>
               </div>  
               <ul className="lista">
-                <li> ✅Acceso Link todas las áreas del gimnasio</li>
+                <li> ✅Acceso a todas las áreas del gimnasio</li>
                 <li> ✅Sin cargo de cancelación</li>
                 <li> ✅Smart Fit Go</li>
                 <li>
@@ -51,18 +51,18 @@ const Planes = () => {
                          Inscripción: Varía según la sede Matrícula anual: $ 4.599* Con
                          multa de cancelación
                       </p>
-                      <Link href="/black" className="btn btn-warning w-50 mx-auto">Seleccionar</Link>
+                      <Link to={"/black"} className="btn btn-warning w-50 mx-auto">Seleccionar</Link>
                       <span className="fw-bold text-warning mt-4">Beneficios</span>  
                    </div>   
               </div>
               <ul className="lista">
-                  <li>✅ Acceso Link todas las áreas del gimnasio</li>
+                  <li>✅ Acceso a todas las áreas del gimnasio</li>
                   <li>✅ Smart Fit Go</li>
                   <li>
                     ✅ Área de peso libre, peso integrado, cardio y clases
                     grupales
                   </li>
-                  <li>✅Acceso Link otras sedes de la cadena</li>
+                  <li>✅Acceso a otras sedes de la cadena</li>
                   <li>✅Invita un amigo</li>
                 </ul>
             </div>
@@ -70,7 +70,7 @@ const Planes = () => {
         </div>
       </section>
       <div className="text-center text-light mb-5 container">
-        <h3 className="display-4">Elegí tu plan y empezá Link entrenar.</h3>
+        <h3 className="display-4">Elegí tu plan y empezá a entrenar.</h3>
       </div>
     </div>
   );

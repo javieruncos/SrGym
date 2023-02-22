@@ -46,7 +46,7 @@ const PlanBlack = () => {
           <p className="mt-1">Con el plan Smart podés entrenar en la sede seleccionada sin restricción de horario. En este plan no tienes multa por cancelación.</p>
         </div>
         <div className="mt-5">
-         <Link href='/error' className="btn btn-dark">Continuar</Link>
+         <Link to={'/error'} className="btn btn-dark">Continuar</Link>
         </div>
       </div>
     </div>

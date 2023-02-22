@@ -31,13 +31,13 @@ const Gimnasio = () => {
                 />
                 <div className="planesCard d-flex justify-content-center gap-4">
                   <div className="d-flex  justify-content-center flex-column text-center border-end px-3 smart">
-                    <Link href="/smart" className="LinkCategorias">
+                    <Link to={"/smart"} className="LinkCategorias">
                       PLAN SMART
                     </Link>
                     <span>$4599</span>
                   </div>
                   <div className="d-flex  justify-content-center flex-column text-center">
-                    <Link href="/black" className="LinkCategorias">
+                    <Link to={"/black"} className="LinkCategorias">
                       PLAN BLACK
                     </Link>
                     <span>$5199</span>
@@ -64,13 +64,13 @@ const Gimnasio = () => {
                     />
                     <div className="planesCard d-flex justify-content-center gap-4">
                       <div className="d-flex  justify-content-center flex-column text-center border-end px-3 smart">
-                        <Link href="/smart" className="LinkCategorias">
+                        <Link to={"/smart"} className="LinkCategorias">
                           PLAN SMART
                         </Link>
                         <span>$4599</span>
                       </div>
                       <div className="d-flex  justify-content-center flex-column text-center">
-                        <Link href="/black" className="LinkCategorias">
+                        <Link to={"/black"} className="LinkCategorias">
                           PLAN BLACK
                         </Link>
                         <span>$5199</span>
@@ -99,13 +99,13 @@ const Gimnasio = () => {
                     />
                     <div className="planesCard d-flex justify-content-center gap-4">
                       <div className="d-flex  justify-content-center flex-column text-center border-end px-3 smart">
-                        <Link href="/smart" className="LinkCategorias">
+                        <Link to={"/smart"} className="LinkCategorias">
                           PLAN SMART
                         </Link>
                         <span>$4599</span>
                       </div>
                       <div className="d-flex  justify-content-center flex-column text-center">
-                        <Link href="/black" className="LinkCategorias">
+                        <Link to={"/black"} className="LinkCategorias">
                           PLAN BLACK
                         </Link>
                         <span>$5199</span>
@@ -134,13 +134,13 @@ const Gimnasio = () => {
                     />
                     <div className="planesCard d-flex justify-content-center gap-4">
                       <div className="d-flex  justify-content-center flex-column text-center border-end px-3 smart">
-                        <Link href="/smart" className="LinkCategorias">
+                        <Link to={"/smart"} className="LinkCategorias">
                           PLAN SMART
                         </Link>
                         <span>$4599</span>
                       </div>
                       <div className="d-flex  justify-content-center flex-column text-center">
-                        <Link href="/black" className="LinkCategorias">
+                        <Link to={"/black"} className="LinkCategorias">
                           PLAN BLACK
                         </Link>
                         <span>$5199</span>
@@ -169,13 +169,13 @@ const Gimnasio = () => {
                     />
                     <div className="planesCard d-flex justify-content-center gap-4">
                       <div className="d-flex  justify-content-center flex-column text-center border-end px-3 smart">
-                        <Link href="/smart" className="LinkCategorias">
+                        <Link to={"/smart"} className="LinkCategorias">
                           PLAN SMART
                         </Link>
                         <span>$4599</span>
                       </div>
                       <div className="d-flex  justify-content-center flex-column text-center">
-                        <Link href="/black" className="LinkCategorias">
+                        <Link to={"/black"} className="LinkCategorias">
                           PLAN BLACK
                         </Link>
                         <span>$5199</span>
@@ -204,13 +204,13 @@ const Gimnasio = () => {
                     />
                     <div className="planesCard d-flex justify-content-center gap-4">
                       <div className="d-flex  justify-content-center flex-column text-center border-end px-3 smart">
-                        <Link href="/smart" className="LinkCategorias">
+                        <Link to={"/smart"} className="LinkCategorias">
                           PLAN SMART
                         </Link>
                         <span>$4599</span>
                       </div>
                       <div className="d-flex  justify-content-center flex-column text-center">
-                        <Link href="/black" className="LinkCategorias">
+                        <Link to={"/black"} className="LinkCategorias">
                           PLAN BLACK
                         </Link>
                         <span>$5199</span>

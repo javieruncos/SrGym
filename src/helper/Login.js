@@ -19,6 +19,7 @@ export const listaUsuario = async()=>{
   try {
     const respuesta = await fetch(urlUser)
     const datos = await respuesta.json()
+    console.log(datos)
     return datos.usuarios
   } catch (error) {
     console.log(error)

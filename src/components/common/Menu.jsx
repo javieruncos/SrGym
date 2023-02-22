@@ -34,7 +34,7 @@ const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
                 </Link>
                 {usuarioLogueado.email ? (
                   <>
-                    <Link to="/cliente" className="ms-4 mt-2 LinkMenu">
+                    <Link to="/usuario/cliente" className="ms-4 mt-2 LinkMenu">
                       Espacio del Cliente
                     </Link>
                   </>
@@ -63,7 +63,7 @@ const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
                     >
                       Login
                     </Button>
-                    <Button as={Link} to="/registro" variant={"warning"}>
+                    <Button as={Link} to="/usuario/registro" variant={"warning"}>
                       Registrarse
                     </Button>
                   </>

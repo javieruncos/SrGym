@@ -54,10 +54,9 @@ function App() {
           <Route exact path="/login" element={ <Login usuarioLogueado={usuarioLogueado} setUsuarioLogueado={setUsuarioLogueado}></Login>}></Route>
           <Route path="/usuario/*" element={
             <RutasProtegidas>
-              <RutasAdmin setUsuarioLogueado={setUsuarioLogueado}></RutasAdmin>
+              <RutasAdmin setUsuarioLogueado={setUsuarioLogueado} usuarioLogueado={usuarioLogueado}></RutasAdmin>
             </RutasProtegidas>
           }>
-             
           </Route>
           <Route exact path="/error" element={ <Error404></Error404>}></Route>
         </Routes>

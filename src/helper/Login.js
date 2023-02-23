@@ -1,5 +1,5 @@
-const urlUser = process.env.REACT_APP_API_USUARIO
-const urlLogin = process.env.REACT_APP_API_USUARIOLOGIN;
+const urlUser = process.env.REACT_APP_API_USUARIO;
+
 
 export const crearUser = async (usuario) => {
   try {
@@ -29,7 +29,7 @@ export const listaUsuario = async()=>{
 
 export const login = async(usuario)=>{
   try {
-   const respuesta = await fetch(urlLogin);
+   const respuesta = await fetch(urlUser);
    const listaUsuario = await respuesta.json()
    const usuarioBuscado = listaUsuario.usuarios.find((itemUsuario)=> itemUsuario.email === usuario.email)
    if(usuarioBuscado){

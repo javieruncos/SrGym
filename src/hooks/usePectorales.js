@@ -6,6 +6,7 @@ export const usePectorales = () => {
 
   useEffect(() => {
     listaEjercicio().then((respuesta) => {
+      console.log(respuesta)
       const filtro = respuesta[0].filter((item) => item.categoria === "pectorales");
       const resultado = filtro;
       setPectorales(resultado);

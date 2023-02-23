@@ -21,17 +21,17 @@ const Login = ({usuarioLogueado,setUsuarioLogueado}) => {
     login(data).then((respuesta)=>{
       console.log(respuesta)
       
-      // if(respuesta){
-      //   const usuarioIniciado ={
-      //     email:respuesta.email
-      //   }
-      //   localStorage.setItem("usuarioGym",JSON.stringify(usuarioIniciado))
-      //   setUsuarioLogueado(usuarioIniciado)
-      //   reset()
-      //   navigate("/")
-      // }else{
-      //   Swal.fire("Error","Usuario o contraseña incorrectos","error")
-      // }
+      if(respuesta){
+        const usuarioIniciado ={
+          email:respuesta.email
+        }
+        localStorage.setItem("usuarioGym",JSON.stringify(usuarioIniciado))
+        setUsuarioLogueado(usuarioIniciado)
+        reset()
+        navigate("/")
+      }else{
+        Swal.fire("Error","Usuario o contraseña incorrectos","error")
+      }
     })
   }
 

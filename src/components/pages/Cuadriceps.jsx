@@ -11,7 +11,7 @@ const Cuadriceps = () => {
   return (
     <div className="container">
       <div className=" mt-5 text-light">
-        <h2 className="text-center">Ejercicios para Espalda</h2>
+        <h2 className="text-center">Ejercicios para Cuadriceps</h2>
       </div>
       <div className="row">
         {ejerciciosCuadriceps.map((item) => (

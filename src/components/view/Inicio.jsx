@@ -27,8 +27,8 @@ const Inicio = () => {
             <h3 className="text-light display-3 text-center">
               ELIGE <span className="text-warning"> TU PLAN</span>
             </h3>
-            <div>
-              <p className="text-center w-75 mx-auto fs-4">
+            <div className="mt-4 container">
+              <p className=" mx-auto fs-4">
                 Entrena con nosotros eligiendo un plan.Todos incluyen las areas
                 de cardio , peso integrado , peso libre, funcional , profesores
                 de piso para evaluaciones y creacion de rutinas , vestuarios y
@@ -55,7 +55,7 @@ const Inicio = () => {
                       Entrena en cualquiera de nuestras sedes en América Latina
                     </p>
                     <span className="fw-bold">BENEFICIOS</span>
-                    <p>Acceso Link todas las áreas del gimnasio</p>
+                    <p>Acceso a todas las áreas del gimnasio</p>
                     <hr />
                     <span className="fw-bold">SMART GO</span>
                     <p>Invitar un amigo Link entrenar</p>
@@ -63,7 +63,7 @@ const Inicio = () => {
                       Área de peso libre, peso integrado, cardio y clases
                       grupales
                     </p>
-                    <p>Acceso Link otras sedes de la cadena</p>
+                    <p>Acceso a otras sedes de la cadena</p>
                     <Link to="/smart" className="btn btn-dark">INSCRIBITE YA</Link>
                   </div>
                 </div>
@@ -85,7 +85,7 @@ const Inicio = () => {
                       Entrena en cualquiera de nuestras sedes en América Latina
                     </p>
                     <span className="fw-bold">BENEFICIOS</span>
-                    <p>Acceso Link todas las áreas del gimnasio</p>
+                    <p>Acceso a todas las áreas del gimnasio</p>
                     <hr />
                     <span className="fw-bold">SMART GO</span>
                     <p>Sin cargo de cancelación</p>
@@ -93,7 +93,7 @@ const Inicio = () => {
                       Área de peso libre, peso integrado, cardio y clases
                       grupales
                     </p>
-                    <p>Acceso Link una sede de la cadena</p>
+                    <p>Acceso a una sede de la cadena</p>
                     <Link to="/smart" className="btn btn-dark">INSCRIBITE YA</Link>
                   </div>
                 </div>
@@ -107,14 +107,14 @@ const Inicio = () => {
       <div className="container">
         <div className="divApp container">
           <div className="container">
-            <div className="mt-5">
+            <div className="mt-2">
               <h2 className="display-6">
                 Proximamente Smart fit App una experiencia de entrenamiento
                 completa dentro y fuera del gimnasio
               </h2>
               <p>
                 No importa si ya tienes experiencia o si recién estás comenzando
-                Link practicar actividad física, una cosa es segura: ¡al descargar
+                a practicar actividad física, una cosa es segura: ¡al descargar
                 gratis la aplicación Smart Fit , obtienes el mejor aliado para
                 tu rutina de entrenamiento! Exclusivo para clientes.
               </p>
@@ -154,7 +154,7 @@ const Inicio = () => {
             </h4>
             <p className="fs-4">
               {" "}
-              Un ecosistema de fitness que ofrece más libertad Link la hora de
+              Un ecosistema de fitness que ofrece más libertad a la hora de
               entrenar.
             </p>
           </div>
@@ -241,7 +241,7 @@ const Inicio = () => {
           </div>
         </div>
         <div className="text-center">
-          <Link href="/planes" className="btn btn-outline-secondary">INSCRIBIRME AHORA</Link>
+          <Link to={"/planes"} className="btn btn-outline-secondary">INSCRIBIRME AHORA</Link>
         </div>
       </section>
     </div>

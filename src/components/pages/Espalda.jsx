@@ -1,6 +1,7 @@
 import React from "react";
 import CardEjercicio from "../ejercicios/CardEjercicio";
 import {useEspaldaHook} from "../../hooks/rutinas"
+import PaginationSuperior from "../ejercicios/PaginationSuperior";
 
 
 const Espalda = () => {
@@ -17,6 +18,7 @@ const Espalda = () => {
           <CardEjercicio ejercicios={item} key={item._id}></CardEjercicio>
         ))}
       </div>
+      <PaginationSuperior></PaginationSuperior>
     </div>
   );
 };

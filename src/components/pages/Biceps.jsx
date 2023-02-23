@@ -1,6 +1,7 @@
 import React from 'react';
 import { useBiceps } from '../../hooks/useBiceps';
 import CardEjercicio from '../ejercicios/CardEjercicio';
+import PaginationSuperior from '../ejercicios/PaginationSuperior';
 const Biceps = () => {
      const {ejercicioBiceps} = useBiceps()
 
@@ -16,6 +17,7 @@ const Biceps = () => {
             <CardEjercicio ejercicios={item} key={item._id}></CardEjercicio>
           ))}
         </div>
+        <PaginationSuperior></PaginationSuperior>
       </div>
     );
 };

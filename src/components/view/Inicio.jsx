@@ -55,7 +55,7 @@ const Inicio = () => {
                       Entrena en cualquiera de nuestras sedes en América Latina
                     </p>
                     <span className="fw-bold">BENEFICIOS</span>
-                    <p>Acceso Link todas las áreas del gimnasio</p>
+                    <p>Acceso a todas las áreas del gimnasio</p>
                     <hr />
                     <span className="fw-bold">SMART GO</span>
                     <p>Invitar un amigo Link entrenar</p>
@@ -63,7 +63,7 @@ const Inicio = () => {
                       Área de peso libre, peso integrado, cardio y clases
                       grupales
                     </p>
-                    <p>Acceso Link otras sedes de la cadena</p>
+                    <p>Acceso a otras sedes de la cadena</p>
                     <Link to="/smart" className="btn btn-dark">INSCRIBITE YA</Link>
                   </div>
                 </div>
@@ -85,7 +85,7 @@ const Inicio = () => {
                       Entrena en cualquiera de nuestras sedes en América Latina
                     </p>
                     <span className="fw-bold">BENEFICIOS</span>
-                    <p>Acceso Link todas las áreas del gimnasio</p>
+                    <p>Acceso a todas las áreas del gimnasio</p>
                     <hr />
                     <span className="fw-bold">SMART GO</span>
                     <p>Sin cargo de cancelación</p>
@@ -93,7 +93,7 @@ const Inicio = () => {
                       Área de peso libre, peso integrado, cardio y clases
                       grupales
                     </p>
-                    <p>Acceso Link una sede de la cadena</p>
+                    <p>Acceso a una sede de la cadena</p>
                     <Link to="/smart" className="btn btn-dark">INSCRIBITE YA</Link>
                   </div>
                 </div>
@@ -114,7 +114,7 @@ const Inicio = () => {
               </h2>
               <p>
                 No importa si ya tienes experiencia o si recién estás comenzando
-                Link practicar actividad física, una cosa es segura: ¡al descargar
+                a practicar actividad física, una cosa es segura: ¡al descargar
                 gratis la aplicación Smart Fit , obtienes el mejor aliado para
                 tu rutina de entrenamiento! Exclusivo para clientes.
               </p>
@@ -154,7 +154,7 @@ const Inicio = () => {
             </h4>
             <p className="fs-4">
               {" "}
-              Un ecosistema de fitness que ofrece más libertad Link la hora de
+              Un ecosistema de fitness que ofrece más libertad a la hora de
               entrenar.
             </p>
           </div>

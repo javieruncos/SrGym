@@ -1,6 +1,7 @@
 import React from "react";
 import { useHombros } from "../../hooks/useHombros";
 import CardEjercicio from "../ejercicios/CardEjercicio";
+import PaginationSuperior from "../ejercicios/PaginationSuperior";
 
 const Hombros = () => {
   const { listaHombros } = useHombros();
@@ -15,6 +16,7 @@ const Hombros = () => {
           <CardEjercicio ejercicios={item} key={item._id}></CardEjercicio>
         ))}
       </div>
+      <PaginationSuperior></PaginationSuperior>
     </div>
   );
 };

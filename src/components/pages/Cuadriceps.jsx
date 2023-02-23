@@ -1,12 +1,10 @@
 import React from "react";
 import { useCuadriceps } from "../../hooks/useCuadriceps";
 import CardEjercicio from "../ejercicios/CardEjercicio";
+import PaginationInferior from "../ejercicios/PaginationInferior";
 
 const Cuadriceps = () => {
-
-   const {ejerciciosCuadriceps} = useCuadriceps()
-
-
+  const { ejerciciosCuadriceps } = useCuadriceps();
 
   return (
     <div className="container">
@@ -18,6 +16,7 @@ const Cuadriceps = () => {
           <CardEjercicio ejercicios={item} key={item._id}></CardEjercicio>
         ))}
       </div>
+      <PaginationInferior></PaginationInferior>
     </div>
   );
 };

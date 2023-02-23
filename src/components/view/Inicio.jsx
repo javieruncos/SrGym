@@ -27,8 +27,8 @@ const Inicio = () => {
             <h3 className="text-light display-3 text-center">
               ELIGE <span className="text-warning"> TU PLAN</span>
             </h3>
-            <div>
-              <p className="text-center w-75 mx-auto fs-4">
+            <div className="mt-4 container">
+              <p className=" mx-auto fs-4">
                 Entrena con nosotros eligiendo un plan.Todos incluyen las areas
                 de cardio , peso integrado , peso libre, funcional , profesores
                 de piso para evaluaciones y creacion de rutinas , vestuarios y
@@ -107,7 +107,7 @@ const Inicio = () => {
       <div className="container">
         <div className="divApp container">
           <div className="container">
-            <div className="mt-5">
+            <div className="mt-2">
               <h2 className="display-6">
                 Proximamente Smart fit App una experiencia de entrenamiento
                 completa dentro y fuera del gimnasio
@@ -241,7 +241,7 @@ const Inicio = () => {
           </div>
         </div>
         <div className="text-center">
-          <Link href="/planes" className="btn btn-outline-secondary">INSCRIBIRME AHORA</Link>
+          <Link to={"/planes"} className="btn btn-outline-secondary">INSCRIBIRME AHORA</Link>
         </div>
       </section>
     </div>

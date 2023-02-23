@@ -38,17 +38,17 @@ export const login = async(usuario)=>{
     body:JSON.stringify(usuario)
    });
 
-    const datos = await respuesta.json();
-    return {
-      status: respuesta.status,
-      mensaje: datos.mensaje,
-      usuario: datos.usuario,
-      token: datos.token,
-      uid: datos.uid,
-    }
+   if(respuesta.status !==200){
+    return false
+   }
+
+   const usuarioEncontrado = {
+    dato:await respuesta.json(),
+    status: respuesta.status,
+   }
+   return usuarioEncontrado
     
   } catch (error) {
     console.log(error)
-    return false
   }
 }

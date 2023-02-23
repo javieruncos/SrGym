@@ -21,7 +21,7 @@ const Login = ({usuarioLogueado,setUsuarioLogueado}) => {
     login(data).then((respuesta)=>{
       console.log(respuesta)
       
-      if(respuesta){
+      if(respuesta.status === 200){
         const usuarioIniciado ={
           email:respuesta.email
         }

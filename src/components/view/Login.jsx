@@ -23,7 +23,7 @@ const Login = ({usuarioLogueado,setUsuarioLogueado}) => {
       
       if(respuesta.status === 200){
         const usuarioIniciado ={
-          email:respuesta.dato.dato
+          email:data.email
         }
         localStorage.setItem("usuarioGym",JSON.stringify(usuarioIniciado))
         setUsuarioLogueado(usuarioIniciado)

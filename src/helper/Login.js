@@ -41,6 +41,6 @@ export const login = async(usuario)=>{
    }
     
   } catch (error) {
-    console.log("error")
+    console.log(error)
   }
 }

@@ -8,7 +8,6 @@ const RutasAdmin = ({setUsuarioLogueado}) => {
        <>
           <Routes>
           <Route exact path="/cliente" element={<EspacioCliente></EspacioCliente>}></Route>
-          <Route exact path="/usuario/registro" element={ <Regristro setUsuarioLogueado={setUsuarioLogueado}></Regristro> }></Route>
           </Routes>
        </>
     );

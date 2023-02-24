@@ -63,7 +63,7 @@ const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
                     >
                       Login
                     </Button>
-                    <Button as={Link} to="/usuario/registro" variant={"warning"}>
+                    <Button as={Link} to="/registro" variant={"warning"}>
                       Registrarse
                     </Button>
                   </>

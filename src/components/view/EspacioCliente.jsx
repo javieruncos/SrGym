@@ -4,6 +4,8 @@ import CategoriaInferior from "../ejercicios/CategoriaInferior";
 import Categorias from "../ejercicios/Categorias";
 
 const EspacioCliente = () => {
+
+
   return (
     <div>
       <div className="portadaCliente">

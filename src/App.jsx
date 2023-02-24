@@ -5,17 +5,6 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import { useState } from "react";
 import Menu from "./components/common/Menu";
 import Inicio from "./components/view/Inicio";
-import EspacioCliente from "./components/view/EspacioCliente";
-import Pectorales from "./components/pages/Pectorales";
-import Espalda from "./components/pages/Espalda";
-import Hombros from "./components/pages/Hombros";
-import Biceps from "./components/pages/Biceps";
-import Triceps from "./components/pages/Triceps";
-import Cuadriceps from "./components/pages/Cuadriceps";
-import Femoral from "./components/pages/Femoral";
-import Gluteos from "./components/pages/Gluteos";
-import Pantorrillas from "./components/pages/Pantorrila";
-import Aduptores from "./components/pages/Aduptores";
 import Footer from "./components/common/Footer";
 import Gimnasio from "./components/view/Gimnasio";
 import Planes from "./components/view/Planes";
@@ -26,6 +15,7 @@ import Regristro from "./components/view/Regristro";
 import Error404 from "./components/view/Error404";
 import RutasProtegidas from "./components/routes/RutasProtegidas";
 import RutasAdmin from "./components/routes/RutasAdmin";
+import Detalle from "./components/view/Detalle";
 
 function App() {
   const usuario = JSON.parse(localStorage.getItem("usuarioGym")) || {};
@@ -37,16 +27,7 @@ function App() {
         <Menu usuarioLogueado={usuarioLogueado}setUsuarioLogueado={setUsuarioLogueado}></Menu>
         <Routes>
           <Route exact path="/" element={<Inicio></Inicio>}></Route>
-          <Route exact path="/pectorales" element={<Pectorales></Pectorales>}></Route>
-          <Route exact path="/espalda" element={<Espalda></Espalda>}></Route>
-          <Route exact path="/hombros" element={<Hombros></Hombros>}></Route>
-          <Route exact path="/biceps" element={<Biceps></Biceps>}></Route>
-          <Route exact path="/triceps" element={<Triceps></Triceps>}></Route>
-          <Route exact path="/cuadriceps" element={<Cuadriceps></Cuadriceps>}></Route>
-          <Route exact path="/femoral" element={<Femoral></Femoral>}></Route>
-          <Route exact path="/gluteos" element={<Gluteos></Gluteos>}></Route>
-          <Route exact path="/pantorrillas" element={<Pantorrillas></Pantorrillas>}></Route>
-          <Route exact path="/aduptores" element={<Aduptores></Aduptores>}></Route>
+          <Route exact path="/detalle/:categoria" element={<Detalle></Detalle>}></Route>
           <Route exact path="/gym" element={<Gimnasio></Gimnasio>}></Route>
           <Route exact path="/planes" element={<Planes></Planes>}></Route>
           <Route exact path="/smart" element={<PlanSmart></PlanSmart>}></Route>

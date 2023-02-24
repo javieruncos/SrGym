@@ -10,3 +10,17 @@ export const listaEjercicio = async()=>{
     console.log(error)
    }
 }
+
+export const obtenerCategoria = async(categoria)=>{
+   try {
+      const respuesta = await fetch(urlEjercicio+"/"+categoria);
+      const categoriaEjercicio = {
+         dato: await respuesta.json(),
+         status: respuesta.status
+      }
+      return categoriaEjercicio
+   } catch (error) {
+      console.log(error)
+      return false
+   }
+}

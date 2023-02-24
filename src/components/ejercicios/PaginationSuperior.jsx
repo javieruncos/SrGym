@@ -6,7 +6,7 @@ const PaginationSuperior = () => {
     return (
         <div className="d-flex justify-content-center mt-5 ">
         <ul className="text-light pagination pagination-md ">
-          <link className="page-item bg-dark"><Link to={"/usuario/cliente"} className="page-link bg-warning  text-dark">atras</Link></link>
+          <li className="page-item bg-dark"><Link to={"/usuario/cliente"} className="page-link bg-warning  text-dark">atras</Link></li>
           <li className="page-item "><Link to={"/pectorales"} className="page-link bg-warning  text-dark">1</Link></li>
           <li className="page-item"><Link to={"/espalda"} className="page-link bg-warning text-dark">2</Link></li>
           <li className="page-item"><Link to={"/hombros"} className="page-link bg-warning text-dark">3</Link></li>

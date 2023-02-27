@@ -16,10 +16,10 @@ const Detalle = () => {
         listaEjercicio().then((respuesta) => {
           console.log(respuesta)
           /* cambiar la respuesta*/    
-          const filtro = respuesta.filter((item) => item.categoria === categoria);
+          const filtro = respuesta[0].filter((item) => item.categoria === `${categoria}`);
           const resultado = filtro;
-          setPectorales(resultado);
           console.log(resultado)
+          setPectorales(resultado);
         });
       },[]);
 
@@ -30,7 +30,7 @@ const Detalle = () => {
         </div>
         <div className="row">
           {pectorales.map((item) => (
-            <CardEjercicio ejercicios={item} key={item.id}></CardEjercicio>
+            <CardEjercicio ejercicios={item} key={item._id}></CardEjercicio>
           ))}
         </div>
         <PaginationSuperior></PaginationSuperior>

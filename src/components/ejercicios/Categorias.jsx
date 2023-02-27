@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Categorias = () => {
+
+
+
     return (
         <section className="container text-light mt-5">
         <article>
@@ -15,35 +18,35 @@ const Categorias = () => {
           <div className=" cards text-light mt-5">
              <div className="card">
                <div className="divCategorias1">
-                <Link to="/pectorales" className="tituloCategorias LinkCategorias">
+                <Link to="/detalle/pectorales" className="tituloCategorias LinkCategorias">
                 <h3>PECTORALES</h3>
                 </Link>
                </div>
              </div>
              <div className="card">
               <div className="divCategorias2 ">
-                <Link to="/espalda" className="tituloCategorias LinkCategorias">
+                <Link to="/detalle/espalda" className="tituloCategorias LinkCategorias">
                  <h3>ESPALDA</h3>
                 </Link>
               </div>
              </div>
              <div className="card">
               <div className="divCategorias3">
-                <Link to="/hombros" className="tituloCategorias LinkCategorias">
+                <Link to="/detalle/hombros" className="tituloCategorias LinkCategorias">
                 <h3>HOMBROS</h3>
                 </Link>
               </div>
              </div>
              <div className="card">
               <div className="divCategorias4">
-                <Link to="/biceps" className="tituloCategorias LinkCategorias">
+                <Link to="/detalle/biceps" className="tituloCategorias LinkCategorias">
                 <h3>BICEPS</h3>
                 </Link>
               </div>
              </div>
              <div className="card">
               <div className="divCategorias5">
-                <Link  to="/triceps" className="tituloCategorias LinkCategorias">
+                <Link  to="/detalle/triceps" className="tituloCategorias LinkCategorias">
                 <h3>TRICEPS</h3>
                 </Link>
               </div>

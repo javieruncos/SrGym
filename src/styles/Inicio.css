@@ -75,7 +75,6 @@
     border-radius: 10px;
 }
 
-
 .divCategorias4 {
     height: 300px;
     width: 100%;
@@ -110,8 +109,8 @@
 /* estilos del plan de entrenamiento */
 
 .planes{
-    height: 600px;
-    width: 500px;
+    height: 572px;
+    width: 579px;
     gap: 20px;
     display: flex;
     justify-content: center;
@@ -156,8 +155,6 @@
     background-color: #FFFB12;
 }
 
-
-
 .bg-Plan2{
     background-color: #121212;
 }
@@ -172,9 +169,6 @@
     gap: 20px;
     margin-top: 100px;
 }
-
-
-
 
 .colImg{
     height: 100%;
@@ -236,14 +230,23 @@
         align-items: center;
     }
     /* plan */
+
+    .descripcionPlan {
+        height: 90%;
+        width: 100%;
+        background-color: #fcfcfb;
+        border-radius: 10px;
+
+    }
+
     .planes{
         height: 650px;
         width: 100%;
-       margin-top: 20px;
+      
     }
     
     .precio{
-        height: 100px;
+        height:76px;
         width: 75%;
         position: relative;
         left: 40px;
@@ -251,8 +254,19 @@
         margin-left: 0px;
     }
 
+    .planBlack {
+        height: 126px;
+        width: 100%;
+        background-color: #121212;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 30px;
+    }
     .divApp {
-        margin-top: 83px;
+        margin-top: 0px;
         margin-bottom: 103px;
     }
     
@@ -262,7 +276,6 @@
 
     }
     
-
     .espacioFit div {
         width: 100%;
         height: 305px;
@@ -281,6 +294,15 @@
     .registro{
         height: 132px;
 
+    }
+
+    .smartTitle{
+        color: white;
+    }
+
+    .bg-Plan{
+        background-color: #FFFB12;
+       
     }
 }
 

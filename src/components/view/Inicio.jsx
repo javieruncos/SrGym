@@ -74,11 +74,11 @@ const Inicio = () => {
                 <div className="descripcionPlan">
                   <div className="planBlack bg-Plan">
                     <span className="text-light">PLAN</span>
-                    <h3 className=" display-6">SMART</h3>
+                    <h3 className=" display-6 smartTitle">SMART</h3>
                   </div>
                   <div className="precio bg-Plan2">
                     <span className="text-light">DESDE</span>
-                    <h3 className="fs-1 fw-bold textoPlan">$ 4499</h3>
+                    <h3 className="fs-1 fw-bold text-light">$ 4499</h3>
                   </div>
                   <div className="text-center">
                     <p>

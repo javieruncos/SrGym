@@ -21,7 +21,7 @@ const Detalle = () => {
           setPectorales(resultado);
           console.log(resultado)
         });
-      }, [pectorales]);
+      },[]);
 
     return (
         <div className="container">

@@ -10,6 +10,7 @@ const Inicio = () => {
         <article>
           <div>
             <div className="portada mb-5">
+              <img src="https://images.pexels.com/photos/2294403/pexels-photo-2294403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className="w-100"/>
               <div className="text-light tituloPortada ">
                 <div className=" fw-bold promoBlack">
                 <h1 className="display-3 fw-bold ms-5">PLAN BLACK $5199</h1>

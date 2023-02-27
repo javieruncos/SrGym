@@ -1,11 +1,12 @@
 .portada {
-    height: 700px;
-    width: 100%;
-    background-image: url("https://images.pexels.com/photos/2294403/pexels-photo-2294403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
+    height: 600px;
+    width: 100%; 
+    background-color: aqua;   
+
+}
+
+.portada img{
+    height: 100%;
 }
 
 .tituloPortada{
@@ -14,6 +15,8 @@
     display: flex;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.226);
+    position: absolute;
+    top: 36px;
     
 }
 
@@ -317,7 +320,7 @@
 
     .promoBlack{
         width: 53%;
-        height:50% ;
+        height:23% ;
         font-weight: 20px;
     }
 
@@ -364,5 +367,15 @@
     .espacioFit{
         gap: 35px;
         height: 110%;
+    }
+
+    .tituloPortada{
+        width: 100%;
+        height: 39%;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 36px;
+        
     }
 }
